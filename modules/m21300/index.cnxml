@@ -1,0 +1,462 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>ГРФИЧКО ПРЕТСТАВУВАЊЕ НА ФУНКЦИИ ОД ДВЕ ПРОМЕНЛИВИ</title>
+  <metadata>
+  <md:content-id>m21300</md:content-id><md:title>ГРФИЧКО ПРЕТСТАВУВАЊЕ НА ФУНКЦИИ ОД ДВЕ ПРОМЕНЛИВИ</md:title>
+  <md:abstract>Графички се прикажуваат елементарните функции од две променливи.</md:abstract>
+  <md:uuid>b85ba842-7bce-4ec2-97ab-74f972e19990</md:uuid>
+</metadata>
+
+<content>
+    
+    <para id="id5310232">Бидејќи функција со две промеливи претставува површина во простор, таа може графички да се претстави во тродимензионален простор. Листот хартија на кој се претставува површина е дводимензионален, што тоа значи дека при графичкото претставување на функции со две променливи се намалува димензијата на просторот за еден, односно вршиме проекција на тродимензионалниот во дводимензионален простор. Пресметувањето на вредностите на функцијата за дадена точка не ни помага во графичкото претставување на функцијата, бидејки во просторот се добиваат бесконечно многу точки кои е тешко да се поврзат и од нив да се воочи обликот на површината. Затоа од помош се ниво-линиите кои го даваат обликот на кривата која се добива како пресек на површината 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>F</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>,</m:mi><m:mi>y</m:mi><m:mi>,</m:mi><m:mi>z</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F \( x,y,z \) =0} {}</m:annotation></m:semantics></m:math> со рамнини паралелни со координатните рамнини, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mi>C</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=C} {}</m:annotation></m:semantics></m:math>  или  
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mi>C</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=C} {}</m:annotation></m:semantics></m:math>  или  
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>z</m:mi><m:mo stretchy="false">=</m:mo><m:mi>C</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{z=C} {}</m:annotation></m:semantics></m:math>. </para>
+    <para id="id12645212">Графички ќе ги прикажеме стандардните (елементарни) функции од две променливи. Тие се квадратните функции и од облик</para>
+    <para id="id4593749"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi fontstyle="italic">Ax</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:msup><m:mi fontstyle="italic">By</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mo stretchy="false">+</m:mo><m:msup><m:mi fontstyle="italic">Cz</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mo stretchy="false">+</m:mo><m:mi>D</m:mi></m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xy</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">+</m:mo><m:mi>E</m:mi></m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xz</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">+</m:mo><m:mi>F</m:mi></m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>yz</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">+</m:mo><m:mi fontstyle="italic">Gx</m:mi></m:mrow><m:mo stretchy="false">+</m:mo><m:mi fontstyle="italic">Hy</m:mi></m:mrow><m:mo stretchy="false">+</m:mo><m:mi fontstyle="italic">Iz</m:mi></m:mrow><m:mo stretchy="false">+</m:mo><m:mi>J</m:mi></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Ax rSup { size 8{2} } +By rSup { size 8{2} } +Cz rSup { size 8{2} } +D ital "xy"+E ital "xz"+F ital "yz"+Gx+Hy+Iz+J=0} {}</m:annotation></m:semantics></m:math>.</para>
+    <para id="id5462366">Стандардните квадратни функции чии равенки се добиваат од наведената квадратна равенка се: сфера, елипсоид, параболоид, хиперболоид со едно или две крила, конус, хиперболичен параболоид, цилиндрични површини и рамнини. Рамнина се добива за 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>A</m:mi><m:mo stretchy="false">=</m:mo><m:mi>B</m:mi></m:mrow><m:mo stretchy="false">=</m:mo><m:mi>C</m:mi></m:mrow><m:mo stretchy="false">=</m:mo><m:mi>D</m:mi></m:mrow><m:mo stretchy="false">=</m:mo><m:mi>E</m:mi></m:mrow><m:mo stretchy="false">=</m:mo><m:mi>F</m:mi></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A=B=C=D=E=F=0} {}</m:annotation></m:semantics></m:math>,  а рамнините беа подетално изучени во делот за Аналитичка геометрија во простор.</para>
+    <section id="id11541434">
+      <title>СФЕРА </title>
+      <para id="id11118557">Сферата уште се нарекува и топка. Равенката на сфера со центар во точката </para>
+      <para id="id14418388"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:msub><m:mi>z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( x rSub { size 8{0} } ,y rSub { size 8{0} } ,z rSub { size 8{0} }  \) } {}</m:annotation></m:semantics></m:math>  и радиус 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>R</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math>  е</para>
+      <para id="id3335417"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">−</m:mo><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:mi>z</m:mi><m:mo stretchy="false">−</m:mo><m:msub><m:mi>z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">=</m:mo><m:msup><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( x - x rSub { size 8{0} }  \)  rSup { size 8{2} } + \( y - y rSub { size 8{0} }  \)  rSup { size 8{2} } + \( z - z rSub { size 8{0} }  \)  rSup { size 8{2} } =R rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>.</para>
+      <para id="id10563588">Специјално, сферата (Сл. 1) кога нејзиниот центар е во координатниот почеток 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>O</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0,0,0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{O \( 0,0,0 \) } {}</m:annotation></m:semantics></m:math>  е прикажана на Сл.1 и таа е со равенка </para>
+      <para id="id3476840"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:msup><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mo stretchy="false">+</m:mo><m:msup><m:mi>z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mo stretchy="false">=</m:mo><m:msup><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rSup { size 8{2} } +y rSup { size 8{2} } +z rSup { size 8{2} } =R rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>.</para>
+      <para id="id3343213"/>
+      <table id="id11135240" summary="">
+        <tgroup cols="1">
+          <colspec colnum="1" colname="c1"/>
+          <tbody>
+            <row>
+              <entry>
+                <media id="id16221847" alt="">
+                  <image mime-type="image/jpg" src="../../media/graphics1-28aa.jpg"/>
+                </media>
+              </entry>
+            </row>
+            <row>
+              <entry>Слика 1. Сфера со центар во координатниот почеток</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="id3573775">Кај сферата, сите пресеци со координатните рамнини се централни кружници со радиус 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>R</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math>, а пресеците со рамнини паралелни со координатните рамнини и на растојание помало од радиусот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>R</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math> исто така се кружници.</para>
+    </section>
+    <section id="id13756261">
+      <title>ЕЛИПСОИД</title>
+      <para id="id12733261">Општата равенка на елипсоид со центар во точката 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:msub><m:mi>z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( x rSub { size 8{0} } ,y rSub { size 8{0} } ,z rSub { size 8{0} }  \) } {}</m:annotation></m:semantics></m:math>  и оски 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>a</m:mi><m:mi>,</m:mi><m:mi>b</m:mi><m:mi>,</m:mi><m:mi>c</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a,b,c} {}</m:annotation></m:semantics></m:math> е</para>
+      <para id="id7273782"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:msup><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mfrac><m:mo stretchy="false">+</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">−</m:mo><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:msup><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mfrac></m:mrow><m:mo stretchy="false">+</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>z</m:mi><m:mo stretchy="false">−</m:mo><m:msub><m:mi>z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:msup><m:mi>c</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { \( x - x rSub { size 8{0} }  \)  rSup { size 8{2} } }  over  {a rSup { size 8{2} } } } + {  { \( y - y rSub { size 8{0} }  \)  rSup { size 8{2} } }  over  {b rSup { size 8{2} } } } + {  { \( z - z rSub { size 8{0} }  \)  rSup { size 8{2} } }  over  {c rSup { size 8{2} } } } =1} {}</m:annotation></m:semantics></m:math>.</para>
+      <para id="id7741320">Специјален елипсоид (Сл. 2) е кога центарот е во координатниот почеток 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>O</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0,0,0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{O \( 0,0,0 \) } {}</m:annotation></m:semantics></m:math>  и има равенка </para>
+      <para id="id7737058"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mfrac><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:msup><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mfrac><m:mo stretchy="false">+</m:mo><m:mfrac><m:msup><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:msup><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mfrac></m:mrow><m:mo stretchy="false">+</m:mo><m:mfrac><m:msup><m:mi>z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:msup><m:mi>c</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {x rSup { size 8{2} } }  over  {a rSup { size 8{2} } } } + {  {y rSup { size 8{2} } }  over  {b rSup { size 8{2} } } } + {  {z rSup { size 8{2} } }  over  {c rSup { size 8{2} } } } =1} {}</m:annotation></m:semantics></m:math>.</para>
+      <table id="id13481188" summary="">
+        <tgroup cols="1">
+          <colspec colnum="1" colname="c1"/>
+          <tbody>
+            <row>
+              <entry>
+                <media id="id10549306" alt="">
+                  <image mime-type="image/jpg" src="../../media/graphics2-549c.jpg"/>
+                </media>
+              </entry>
+            </row>
+            <row>
+              <entry>Слика 2. Елипсоид со центар во координатниот почеток</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="id14603857">Кај елипсоидот, сите пресеци со координатните рамнини или рамнини паралелни со нив (на растојание помало од оските) се елипси.</para>
+    </section>
+    <section id="id5472015">
+      <title>КОНУС</title>
+      <para id="id7017211">Површината </para>
+      <para id="id11406162">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>z</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mi>x</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:msup>
+                        <m:mi>y</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{z rSup { size 8{2} } =x rSup { size 8{2} } +y rSup { size 8{2} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id14944805">е конусната површина или накусо конус (Сл. 3) со теме во координатниот почеток, издолжувањето е по 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>z</m:mi><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{z - {}} {}</m:annotation></m:semantics></m:math>оската, а пресеците со рамнини паралелни со 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xOy</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "xOy"} {}</m:annotation></m:semantics></m:math>  рамнината се кружници. Пресеците со рамнини паралелни со координатните рамнини 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>yOz</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "yOz"} {}</m:annotation></m:semantics></m:math><emphasis effect="italics"/> и  
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xOz</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "xOz"} {}</m:annotation></m:semantics></m:math><emphasis effect="italics"/> се хиперболи. </para>
+      <table id="id12812571" summary="">
+        <tgroup cols="1">
+          <colspec colnum="1" colname="c1"/>
+          <tbody>
+            <row>
+              <entry>
+                <media id="id14244195" alt="">
+                  <image mime-type="image/jpg" src="../../media/graphics3-7766.jpg"/>
+                </media>
+              </entry>
+            </row>
+            <row>
+              <entry>Слика 3. Конус</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="id12829918">Поопшта равенка на конусна површина е елипсовидниот конус кај кого пресеците со рамнини паралелни со 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xOy</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "xOy"} {}</m:annotation></m:semantics></m:math>  рамнината се елипси. Таквиот конус има равенка</para>
+      <para id="id11361562"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msup><m:mi>z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">=</m:mo><m:mrow><m:mfrac><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:msup><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mfrac><m:mo stretchy="false">+</m:mo><m:mfrac><m:msup><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:msup><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mfrac></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{z rSup { size 8{2} } = {  {x rSup { size 8{2} } }  over  {a rSup { size 8{2} } } } + {  {y rSup { size 8{2} } }  over  {b rSup { size 8{2} } } } } {}</m:annotation></m:semantics></m:math>.</para>
+      <para id="id15000701">Уште поопшта равенка на конусна површина е кога темето е во точката 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:msub><m:mi>z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( x rSub { size 8{0} } ,y rSub { size 8{0} } ,z rSub { size 8{0} }  \) } {}</m:annotation></m:semantics></m:math> и тогаш конусот е со равенка</para>
+      <para id="id7687088"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>z</m:mi><m:mo stretchy="false">−</m:mo><m:msub><m:mi>z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">=</m:mo><m:mrow><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:msup><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mfrac><m:mo stretchy="false">+</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">−</m:mo><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:msup><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mfrac></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( z - z rSub { size 8{0} }  \)  rSup { size 8{2} } = {  { \( x - x rSub { size 8{0} }  \)  rSup { size 8{2} } }  over  {a rSup { size 8{2} } } } + {  { \( y - y rSub { size 8{0} }  \)  rSup { size 8{2} } }  over  {b rSup { size 8{2} } } } } {}</m:annotation></m:semantics></m:math>.</para>
+    </section>
+    <section id="id4946473">
+      <title>ЕДНОКРИЛЕН ХИПЕРБОЛОИД</title>
+      <para id="id7017052">Еднокрилниот хиперболоид има равенка</para>
+      <para id="id16538624"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:msup><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mo stretchy="false">−</m:mo><m:msup><m:mi>z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mo stretchy="false">=</m:mo><m:msup><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rSup { size 8{2} } +y rSup { size 8{2} }  - z rSup { size 8{2} } =R rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>,</para>
+      <para id="id4129023">и тоа е површина која е издолжена по 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>z</m:mi><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{z - {}} {}</m:annotation></m:semantics></m:math>оската (Сл. 4). Пресеците со рамнини паралелни со 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xOy</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "xOy"} {}</m:annotation></m:semantics></m:math>  рамнината се кружници чии радиуси се поголеми од 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>R</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math>, а пресеците со рамнини паралелни со координатните рамнини 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>yOz</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "yOz"} {}</m:annotation></m:semantics></m:math> и 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xOz</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "xOz"} {}</m:annotation></m:semantics></m:math> се хиперболи.</para>
+      <table id="id9062654" summary="">
+        <tgroup cols="1">
+          <colspec colnum="1" colname="c1"/>
+          <tbody>
+            <row>
+              <entry>
+                <media id="id7700438" alt="">
+                  <image mime-type="image/jpg" src="../../media/graphics4-fd0a.jpg"/>
+                </media>
+              </entry>
+            </row>
+            <row>
+              <entry>Слика 4. Еднокрилен хиперболоид</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="id7875078">Кај елипсовидниот еднокрилен хиперболоид пресеците со рамнини паралелни со 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xOy</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "xOy"} {}</m:annotation></m:semantics></m:math><emphasis effect="italics"/>рамнината се елипси и тој има равенка</para>
+      <para id="id16551796"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mfrac><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:msup><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mfrac><m:mo stretchy="false">+</m:mo><m:mfrac><m:msup><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:msup><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mfrac></m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:msup><m:mi>z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:msup><m:mi>c</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {x rSup { size 8{2} } }  over  {a rSup { size 8{2} } } } + {  {y rSup { size 8{2} } }  over  {b rSup { size 8{2} } } }  -  {  {z rSup { size 8{2} } }  over  {c rSup { size 8{2} } } } =1} {}</m:annotation></m:semantics></m:math>.</para>
+    </section>
+    <section id="id7213728">
+      <title>ДВОКРИЛЕН ХИПЕРБОЛОИД</title>
+      <para id="id10523658">Површината со равенка </para>
+      <para id="id10523662">
+        <m:math>
+          <m:semantics>
+            <m:mrow/>
+            <m:annotation encoding="StarMath 5.0">{}</m:annotation>
+          </m:semantics>
+        </m:math>
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msup>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:msup>
+                          <m:mi>y</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msup>
+                      </m:mrow>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:msup>
+                        <m:mi>z</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:msup>
+                        <m:mi>R</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{x rSup { size 8{2} } +y rSup { size 8{2} }  - z rSup { size 8{2} } = - R rSup { size 8{2} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id5198004">се нарекува двокрилен хиперболоид. </para>
+      <table id="id4679841" summary="">
+        <tgroup cols="1">
+          <colspec colnum="1" colname="c1"/>
+          <tbody>
+            <row>
+              <entry>
+                <media id="id14216065" alt="">
+                  <image mime-type="image/jpg" src="../../media/graphics5-d7f3.jpg"/>
+                </media>
+              </entry>
+            </row>
+            <row>
+              <entry>Слика 5. Двокрилен хиперболоид</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="id4079027">Двете крила на хиперболоидот се распространети вдолж 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>z</m:mi><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{z - {}} {}</m:annotation></m:semantics></m:math>оската и има темиња во 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>z</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">±</m:mo><m:mi>R</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{z= +- R} {}</m:annotation></m:semantics></m:math>. Пресеците со рамнини паралелни со 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xOy</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "xOy"} {}</m:annotation></m:semantics></m:math> рамнината се кружници, а пресеците со рамнини паралелни со координатните рамнини 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>yOz</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "yOz"} {}</m:annotation></m:semantics></m:math> и 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xOz</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "xOz"} {}</m:annotation></m:semantics></m:math> се хиперболи (Сл. 5). Двокрилниот хиперболоид исто така може да биде и елипсовиден и тој е со равенка</para>
+      <para id="id14638928"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mfrac><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:msup><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mfrac><m:mo stretchy="false">+</m:mo><m:mfrac><m:msup><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:msup><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mfrac></m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:msup><m:mi>z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:msup><m:mi>c</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {x rSup { size 8{2} } }  over  {a rSup { size 8{2} } } } + {  {y rSup { size 8{2} } }  over  {b rSup { size 8{2} } } }  -  {  {z rSup { size 8{2} } }  over  {c rSup { size 8{2} } } } = - 1} {}</m:annotation></m:semantics></m:math>.</para>
+    </section>
+    <section id="id7172689">
+      <title>ПАРАБОЛОИД</title>
+      <para id="id7172694">Параболоидот е површина која е зададена со равенката</para>
+      <para id="id14271675">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>cz</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msup>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:msup>
+                          <m:mi>y</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msup>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mi>,</m:mi>
+                    <m:mi/>
+                    <m:mrow>
+                      <m:mi>c</m:mi>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>const</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:mrow>
+                    <m:mtext>.</m:mtext>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ ital "cz"=x rSup { size 8{2} } +y rSup { size 8{2} } ,`~c -  ital "const" "." } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id13947319">Неговата равенка е квадратана функција по две променливи а по третата е линерна. За 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>c</m:mi><m:mo stretchy="false">&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{c&gt;0} {}</m:annotation></m:semantics></m:math>  параболоидот е површина за која 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>z</m:mi><m:mo stretchy="false">≥</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{z &gt;= 0} {}</m:annotation></m:semantics></m:math> и се наоѓа во првите четири октанти. Темето е во координатниот почеток, пресеците со рамнини паралелни со 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xOy</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "xOy"} {}</m:annotation></m:semantics></m:math> рамнината се кружници, а пресеците со рамнини паралелни со координатните 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>yOz</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "yOz"} {}</m:annotation></m:semantics></m:math>  и  
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xOz</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "xOz"} {}</m:annotation></m:semantics></m:math> рамнини се параболи (Сл.6). </para>
+      <table id="id10596391" summary="">
+        <tgroup cols="1">
+          <colspec colnum="1" colname="c1"/>
+          <tbody>
+            <row>
+              <entry>
+                <media id="id3577537" alt="">
+                  <image mime-type="image/jpg" src="../../media/graphics6.jpg"/>
+                </media>
+              </entry>
+            </row>
+            <row>
+              <entry>Слика 6. Параболоид</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="id14187860">За 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>c</m:mi><m:mo stretchy="false">&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{c&lt;0} {}</m:annotation></m:semantics></m:math> параболоидот со отворот е свртен надолу. Поошт вид е елипсовидниот параболоид чии пресеци со рамнини паралелни со 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xOy</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "xOy"} {}</m:annotation></m:semantics></m:math><emphasis effect="italics"/>рамнината се елипси и има равенка</para>
+      <para id="id7035536"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>cz</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mrow><m:mfrac><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:msup><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mfrac><m:mo stretchy="false">+</m:mo><m:mfrac><m:msup><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:msup><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mfrac></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "cz"= {  {x rSup { size 8{2} } }  over  {a rSup { size 8{2} } } } + {  {y rSup { size 8{2} } }  over  {b rSup { size 8{2} } } } } {}</m:annotation></m:semantics></m:math>.</para>
+    </section>
+    <section id="id13722688">
+      <title>ХИПЕРБОЛИЧЕН ПАРАБОЛОИД</title>
+      <para id="id13279597">Хиперболичниот параболоид има равенка</para>
+      <para id="id13279602"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>z</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">−</m:mo><m:msup><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{z=x rSup { size 8{2} }  - y rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>.</para>
+      <table id="id10477173" summary="">
+        <tgroup cols="1">
+          <colspec colnum="1" colname="c1"/>
+          <tbody>
+            <row>
+              <entry>
+                <media id="id12668870" alt="">
+                  <image mime-type="image/jpg" src="../../media/graphics7.jpg"/>
+                </media>
+              </entry>
+            </row>
+            <row>
+              <entry>Слика 7. Хиперболичен параболоид</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="id5188375">Тоа е површина чии пресеци со рамнини паралелни со 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xOy</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "xOy"} {}</m:annotation></m:semantics></m:math> рамнината се хиперболи, а пресеците со рамнини паралелни со координатните 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>yOz</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "yOz"} {}</m:annotation></m:semantics></m:math> и 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xOz</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "xOz"} {}</m:annotation></m:semantics></m:math> рамнини се параболи (Сл. 7). Поопшт облик на хиперболичен параболоид се задава со равенката</para>
+      <para id="id4664616"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>z</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mfrac><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:msup><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mfrac><m:mo stretchy="false">−</m:mo><m:mfrac><m:msup><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:msup><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mfrac></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{z= {  {x rSup { size 8{2} } }  over  {a rSup { size 8{2} } } }  -  {  {y rSup { size 8{2} } }  over  {b rSup { size 8{2} } } } } {}</m:annotation></m:semantics></m:math>.</para>
+    </section>
+    <section id="id12834827">
+      <title>ЦИЛИНДРИЧНИ ПОВРШИНИ</title>
+      <para id="id12834832">Површини во простор во чија равенка се јавуваат само две променливи се нарекува цилиндрична површина. Најкарактеристична цилиндрична површина е цилиндерот. </para>
+      <para id="id7034356">Равенката</para>
+      <para id="id7285410">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mi>x</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:msup>
+                        <m:mi>y</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:msup>
+                      <m:mi>R</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{x rSup { size 8{2} } +y rSup { size 8{2} } =R rSup { size 8{2} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id14337246">претставува цилиндер во простор чија основа е централна кружница во 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xOy</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "xOy"} {}</m:annotation></m:semantics></m:math> рамнината и изводниците од секоја точка од кружницата се паралелни со 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>z</m:mi><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{z - {}} {}</m:annotation></m:semantics></m:math>оската (Сл. 8).</para>
+      <table id="id10592348" summary="">
+        <tgroup cols="1">
+          <colspec colnum="1" colname="c1"/>
+          <tbody>
+            <row>
+              <entry>
+                <media id="id7811608" alt="">
+                  <image mime-type="image/jpg" src="../../media/graphics8.jpg"/>
+                </media>
+              </entry>
+            </row>
+            <row>
+              <entry>Слика 8. Цилиндер</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </content>
+</document>

@@ -1,0 +1,2277 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Некои типови диференцијални равенки од втор ред</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m43539</md:content-id>
+  <md:title>Некои типови диференцијални равенки од втор ред</md:title>
+  <md:abstract>Се прикажува постапка за решавање на три типа диференцијални равенки од втор ред.</md:abstract>
+  <md:uuid>552d4a06-96e7-40b5-8a66-600ce533c081</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1170505950873">
+      <title>Некои типови диференцијални равенки од втор ред</title>
+      <para id="import-auto-id1170510753925">Секоја равенка од обликот </para>
+      <para id="import-auto-id7340665">
+        <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>f</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mi>,</m:mi>
+                  <m:mi>y</m:mi>
+                  <m:mi>,</m:mi>
+                  <m:msup>
+                    <m:mi>y</m:mi>
+                    <m:mi>'</m:mi>
+                  </m:msup>
+                  <m:mi>,</m:mi>
+                  <m:msup>
+                    <m:mi>y</m:mi>
+                    <m:mrow>
+                      <m:mi>'</m:mi>
+                      <m:mi>'</m:mi>
+                    </m:mrow>
+                  </m:msup>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{f \( x,y, { {y}} sup { ' }, { {y}} sup { '' } \) =0} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="import-auto-id1170488254424">се нарекува диференцијална равенка од втор ред.  Општото решение на диференцијалната равенка од втор ред ќе содржи две произволни интегрални константи, бидејќи тоа се добива преку две квадратури, бидејќи при секое решавање на неопределен интеграл се додава една произволна интегрална константа. Затоа општото решение, ако може да се запише во експлицитен облик е</para>
+      <para id="import-auto-id1170517484589"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mi>ϕ</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>,</m:mi><m:msub><m:mi>C</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mi>,</m:mi><m:msub><m:mi>C</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=ϕ \( x,C rSub { size 8{1} } ,C rSub { size 8{2} }  \) } {}</m:annotation></m:semantics></m:math>,</para>
+      <para id="import-auto-id1170506661477">или поопшто, во имплицитен облик е </para>
+      <para id="import-auto-id1170504503273"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>Φ</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>,</m:mi><m:mi>y</m:mi><m:mi>,</m:mi><m:msub><m:mi>C</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mi>,</m:mi><m:msub><m:mi>C</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Φ \( x,y,C rSub { size 8{1} } ,C rSub { size 8{2} }  \) =0} {}</m:annotation></m:semantics></m:math>.</para>
+      <para id="import-auto-id1170506657476">Секое партикуларно решение на  диференцијална равенка од втор ред се добива од општото решение со задавање на се два почетни услова од кои ќе се определат двете интегрални константи од општото решение. Тоа се условите:</para>
+      <para id="import-auto-id1170507462488">
+        <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mtable>
+                  <m:mtr>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>y</m:mi>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:msub>
+                            <m:mi>x</m:mi>
+                            <m:mrow>
+                              <m:mn>0</m:mn>
+                            </m:mrow>
+                          </m:msub>
+                          <m:mrow>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:msub>
+                              <m:mi>y</m:mi>
+                              <m:mrow>
+                                <m:mn>0</m:mn>
+                              </m:mrow>
+                            </m:msub>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mrow/>
+                    </m:mrow>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mi>y</m:mi>
+                        <m:mi>'</m:mi>
+                      </m:msup>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:msub>
+                        <m:mi>x</m:mi>
+                        <m:mrow>
+                          <m:mn>0</m:mn>
+                        </m:mrow>
+                      </m:msub>
+                      <m:mrow>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:msubsup>
+                          <m:mi>y</m:mi>
+                          <m:mrow>
+                            <m:mn>0</m:mn>
+                          </m:mrow>
+                          <m:mi>'</m:mi>
+                        </m:msubsup>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                      <m:mrow/>
+                    </m:mrow>
+                  </m:mtr>
+                </m:mtable>
+                <m:mrow/>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{y \( x rSub { size 8{0} }  \) =y rSub { size 8{0} } }  {} # 
+ { {y}} sup { ' } \( x rSub { size 8{0} }  \) = { {y}} sup { ' } rSub { size 8{0} }  "."  {} 
+} } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="import-auto-id1170501528134">Во овој дел ќе се прикаже постапката за решавање на три типови диференцијални равенки од втор ред, т.н. непотполни диференцијални равенки од втор ред.</para>
+      <para id="import-auto-id1170513890722">
+        <emphasis effect="bold">1. Диференцијална равенка од од обликот <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mi>f</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { '' }=f \( x \)  "." } {}</m:annotation></m:semantics></m:math></emphasis>
+      </para>
+      <para id="import-auto-id1170504761622">Ова е наједноставниот тип на диференцијална равенка од втор ред кога во равенката не се јавува функцијата <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>y</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math> и нејзиниот прв извод <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }} {}</m:annotation></m:semantics></m:math>. Оваа равенка се решава преку две последователни интегрирања. Најпрво, со интегрирање на диференцијалната равенка</para>
+      <para id="import-auto-id1170513342279">
+        <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>y</m:mi>
+                      <m:mrow>
+                        <m:mi>'</m:mi>
+                        <m:mi>'</m:mi>
+                      </m:mrow>
+                    </m:msup>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mi>f</m:mi>
+                  </m:mrow>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { '' }=f \( x \) } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="import-auto-id1170507471594">се намалува редот на диференцијалната равенка </para>
+      <para id="import-auto-id1170497797294"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">∫</m:mo><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dx</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">+</m:mo><m:msub><m:mi>C</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }= Int {f \( x \)  ital "dx"+C rSub { size 8{1} } } } {}</m:annotation></m:semantics></m:math>,</para>
+      <para id="import-auto-id1170497835806">а со уште едно интегрирање се добива</para>
+      <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1170508558930"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>y</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:mo stretchy="false">∫</m:mo>
+                    <m:mrow>
+                      <m:mfenced open="(" close=")">
+                        <m:mrow>
+                          <m:mo stretchy="false">∫</m:mo>
+                          <m:mrow>
+                            <m:mi>f</m:mi>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mi>x</m:mi>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>dx</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:msub>
+                                <m:mi>C</m:mi>
+                                <m:mrow>
+                                  <m:mn>1</m:mn>
+                                </m:mrow>
+                              </m:msub>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mfenced>
+                      <m:mrow>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>dx</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:msub>
+                          <m:mi>C</m:mi>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msub>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{y= Int { left ( Int {f \( x \)  ital "dx"+C rSub { size 8{1} } }  right ) ital "dx"+C rSub { size 8{2} } } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="import-auto-id1170510501126"> или</para>
+      <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1170503548868"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">∫</m:mo><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mo stretchy="false">∫</m:mo><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dx</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mfenced><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dx</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">+</m:mo><m:msub><m:mi>C</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:msub><m:mi>C</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= Int { left ( Int {f \( x \)  ital "dx"}  right ) ital "dx"+C rSub { size 8{1} } x+C rSub { size 8{2} } } } {}</m:annotation></m:semantics></m:math>,</para><para id="import-auto-id1170504842610">што претставува нејзино општо решение кое содржи две произволни интегрални константи.</para>
+      <example xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-772"><para id="eip-308"><emphasis effect="bold">Пример 1.</emphasis></para><para id="eip-55">Да се реши диференцијалната равенка <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">−</m:mo><m:mn>2x</m:mn></m:mrow><m:mo stretchy="false">+</m:mo><m:mtext>sin</m:mtext></m:mrow></m:mrow><m:mi>x</m:mi><m:mtext/></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { '' }=x rSup { size 8{2} }  - 2x+"sin"x  } {}</m:annotation></m:semantics></m:math>.</para><para id="eip-522"><emphasis effect="bold">Решение.</emphasis></para><para id="eip-637">Од</para><para id="eip-997"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>y</m:mi>
+                      <m:mrow>
+                        <m:mi>'</m:mi>
+                        <m:mi>'</m:mi>
+                      </m:mrow>
+                    </m:msup>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mn>2x</m:mn>
+                      </m:mrow>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mtext>sin</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mi>x</m:mi>
+                  <m:mtext/>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { '' }=x rSup { size 8{2} }  - 2x+"sin"x "" } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-723">преку интегрирање се добива</para><para id="eip-249"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>y</m:mi>
+                      <m:mi>'</m:mi>
+                    </m:msup>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mo stretchy="false">∫</m:mo>
+                      <m:mo stretchy="false">(</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mi>x</m:mi>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mn>2x</m:mn>
+                    </m:mrow>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mtext>sin</m:mtext>
+                  </m:mrow>
+                  <m:mi>x</m:mi>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mrow>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>dx</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:msub>
+                      <m:mi>C</m:mi>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }= Int { \( } x rSup { size 8{2} }  - 2x+"sin"x \)  ital "dx"+C rSub { size 8{1} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-869">или</para><para id="eip-815"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mfrac><m:msup><m:mi>x</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mn>3</m:mn></m:mfrac><m:mo stretchy="false">−</m:mo><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>cos</m:mtext></m:mrow></m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:msub><m:mi>C</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }= {  {x rSup { size 8{3} } }  over  {3} }  - x rSup { size 8{2} }  - "cos"x+C rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math>,</para><para id="eip-60">а после уште едно интегрирање</para><para id="eip-376"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>y</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:mo stretchy="false">∫</m:mo>
+                    <m:mrow>
+                      <m:mfenced open="(" close=")">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mfrac>
+                                <m:msup>
+                                  <m:mi>x</m:mi>
+                                  <m:mrow>
+                                    <m:mn>3</m:mn>
+                                  </m:mrow>
+                                </m:msup>
+                                <m:mn>3</m:mn>
+                              </m:mfrac>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:msup>
+                                <m:mi>x</m:mi>
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:msup>
+                            </m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mtext>cos</m:mtext>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mi>x</m:mi>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:msub>
+                              <m:mi>C</m:mi>
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                              </m:mrow>
+                            </m:msub>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mfenced>
+                      <m:mrow>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>dx</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:msub>
+                          <m:mi>C</m:mi>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msub>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{y= Int { left ( {  {x rSup { size 8{3} } }  over  {3} }  - x rSup { size 8{2} }  - "cos"x+C rSub { size 8{1} }  right ) ital "dx"+C rSub { size 8{2} } } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-237">и решавање на интегралот, се добива општото решение на диференцијалната равенка</para><para id="eip-176"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mfrac><m:msup><m:mi>x</m:mi><m:mrow><m:mn>4</m:mn></m:mrow></m:msup><m:mtext>12</m:mtext></m:mfrac><m:mo stretchy="false">−</m:mo><m:mfrac><m:msup><m:mi>x</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mn>3</m:mn></m:mfrac></m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>sin</m:mtext></m:mrow></m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:msub><m:mi>C</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:msub><m:mi>C</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= {  {x rSup { size 8{4} } }  over  {"12"} }  -  {  {x rSup { size 8{3} } }  over  {3} }  - "sin"x+C rSub { size 8{1} } x+C rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math>.</para></example><para id="import-auto-id1170494691866">
+        <emphasis effect="bold">2. Диференцијална равенка од обликот <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mi>f</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>,</m:mi><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { '' }=f \( x, { {y}} sup { ' } \) } {}</m:annotation></m:semantics></m:math>.</emphasis>
+      </para>
+      <para id="import-auto-id1170514262152">Овој тип на диференцијална равенка од втор ред е равенка во која не се појавува функцијата <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>y</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math>. Со воведување на смената</para>
+      <para id="import-auto-id1170494005811">
+        <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mtable>
+                  <m:mtr>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>y</m:mi>
+                            <m:mi>'</m:mi>
+                          </m:msup>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mi>p</m:mi>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mrow/>
+                    </m:mrow>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>y</m:mi>
+                            <m:mrow>
+                              <m:mi>'</m:mi>
+                              <m:mi>'</m:mi>
+                            </m:mrow>
+                          </m:msup>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:msup>
+                            <m:mi>p</m:mi>
+                            <m:mi>'</m:mi>
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mrow/>
+                    </m:mrow>
+                  </m:mtr>
+                </m:mtable>
+                <m:mrow/>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{ { {y}} sup { ' }=p}  {} # 
+ size 12{ { {y}} sup { '' }= { {p}} sup { ' }}  {} 
+} } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="import-auto-id1170493913667">таа се сведува на диференцијална равенка од прв ред по новата функција <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>p</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{p} {}</m:annotation></m:semantics></m:math> и е од облик</para>
+      <para id="import-auto-id1170493890583"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>p</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">=</m:mo><m:mi>f</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>,</m:mi><m:mi>p</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {p}} sup { ' }=f \( x,p \) } {}</m:annotation></m:semantics></m:math>.</para>
+      <para id="import-auto-id1170494564772">Со нејзино решавање се добива општо решение кое најопшто запишано е од обликот</para>
+      <para id="import-auto-id1170494611675">
+        <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>p</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mi>ϕ</m:mi>
+                  </m:mrow>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mi>,</m:mi>
+                  <m:msub>
+                    <m:mi>C</m:mi>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{p=ϕ \( x,C rSub { size 8{1} }  \) } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="import-auto-id1170511291975">или враќајки се на старата функција</para>
+      <para id="import-auto-id1170494692098">
+        <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>y</m:mi>
+                      <m:mi>'</m:mi>
+                    </m:msup>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mi>ϕ</m:mi>
+                  </m:mrow>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mi>,</m:mi>
+                  <m:msub>
+                    <m:mi>C</m:mi>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }=ϕ \( x,C rSub { size 8{1} }  \) } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="import-auto-id1170494854299">повторно се добива некоја диференцијална равенка од прв ред. Значи сега имаме уште едно решавање на диференцијална равенка од прв ред, во чие решение ќе се појави уште една интегрална константа <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{C rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math>. </para>
+      <example xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-429"><para id="eip-58">
+  <emphasis effect="bold">Пример 2.</emphasis>
+      
+</para><para id="eip-833">Да се реши диференцијалната равенка <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mn>2x</m:mn></m:mrow><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { '' } \( x rSup { size 8{2} } +1 \) =2x { {y}} sup { ' }} {}</m:annotation></m:semantics></m:math>.</para><para id="eip-794"><emphasis effect="bold">Решение.</emphasis>
+      </para><para id="eip-474">Во диференцијалната равенка не се јавува функцијата <m:math><m:semantics><m:mrow><m:mrow><m:mi>y</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math> и затоа ќе се користи смената</para><para id="eip-849"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mtable>
+                  <m:mtr>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>y</m:mi>
+                            <m:mi>'</m:mi>
+                          </m:msup>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mi>p</m:mi>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mrow/>
+                    </m:mrow>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>y</m:mi>
+                            <m:mrow>
+                              <m:mi>'</m:mi>
+                              <m:mi>'</m:mi>
+                            </m:mrow>
+                          </m:msup>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:msup>
+                            <m:mi>p</m:mi>
+                            <m:mi>'</m:mi>
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mrow/>
+                    </m:mrow>
+                  </m:mtr>
+                </m:mtable>
+                <m:mrow/>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{ { {y}} sup { ' }=p}  {} # 
+ size 12{ { {y}} sup { '' }= { {p}} sup { ' }}  {} 
+} } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-329">со која равенката се сведува на диференцијална равенка од прв ред по функцијата <m:math><m:semantics><m:mrow><m:mrow><m:mi>p</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{p} {}</m:annotation></m:semantics></m:math>, односно</para><para id="eip-630"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:msup>
+                    <m:mi>p</m:mi>
+                    <m:mi>'</m:mi>
+                  </m:msup>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                  <m:mstyle fontstyle="italic">
+                    <m:mrow>
+                      <m:mtext>xp</m:mtext>
+                    </m:mrow>
+                  </m:mstyle>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ { {p}} sup { ' } \( x rSup { size 8{2} } +1 \) =2 ital "xp"} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-83">или</para><para id="eip-529"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>p</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xp</m:mtext></m:mrow></m:mstyle></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {p}} sup { ' }= {  {2 ital "xp"}  over  {x rSup { size 8{2} } +1} } } {}</m:annotation></m:semantics></m:math>.</para><para id="eip-421">Бидејќи <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>p</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">=</m:mo><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dp</m:mtext></m:mrow></m:mstyle><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dx</m:mtext></m:mrow></m:mstyle></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {p}} sup { ' }= {  { ital "dp"}  over  { ital "dx"} } } {}</m:annotation></m:semantics></m:math>, диференцијалната равенка е</para><para id="eip-351"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>dp</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>dx</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:mfrac>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>xp</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mi>x</m:mi>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ {  { ital "dp"}  over  { ital "dx"} } = {  {2 ital "xp"}  over  {x rSup { size 8{2} } +1} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-115">во која променливите може да се раздвојат</para><para id="eip-618"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>dp</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mi>p</m:mi>
+                    </m:mfrac>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mn>2x</m:mn>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mstyle fontstyle="italic">
+                    <m:mrow>
+                      <m:mtext>dx</m:mtext>
+                    </m:mrow>
+                  </m:mstyle>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ {  { ital "dp"}  over  {p} } = {  {2x}  over  {x rSup { size 8{2} } +1} }  ital "dx"} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-556">и после интегрирање</para><para id="eip-66"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">∫</m:mo>
+                    <m:mfrac>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>dp</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mi>p</m:mi>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">∫</m:mo>
+                      <m:mrow>
+                        <m:mfrac>
+                          <m:mn>2x</m:mn>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mi>x</m:mi>
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:msup>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:mfrac>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>dx</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:msub>
+                      <m:mi>C</m:mi>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ Int { {  { ital "dp"}  over  {p} } } = Int { {  {2x}  over  {x rSup { size 8{2} } +1} }  ital "dx"} +C rSub { size 8{1} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-210">се добива</para><para id="eip-974"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mtext>ln</m:mtext>
+                  <m:mo stretchy="false">∣</m:mo>
+                  <m:mi>p</m:mi>
+                  <m:mrow>
+                    <m:mo stretchy="false">∣</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mtext>ln</m:mtext>
+                  </m:mrow>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mtext>ln</m:mtext>
+                  </m:mrow>
+                  <m:mo stretchy="false">∣</m:mo>
+                  <m:msub>
+                    <m:mi>C</m:mi>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo stretchy="false">∣</m:mo>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{"ln" \lline p \lline ="ln" \( x rSup { size 8{2} } +1 \) +"ln" \lline C rSub { size 8{1} }  \lline } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-371">(константата <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{C rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> ја запишуваме како логаритам) и затоа</para><para id="eip-616"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>ln</m:mtext><m:mo stretchy="false">∣</m:mo><m:mi>p</m:mi><m:mrow><m:mo stretchy="false">∣</m:mo><m:mo stretchy="false">=</m:mo><m:mtext>ln</m:mtext></m:mrow><m:mo stretchy="false">∣</m:mo><m:msub><m:mi>C</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">∣</m:mo><m:mo stretchy="false">(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"ln" \lline p \lline ="ln" \lline C rSub { size 8{1} }  \lline  \( x rSup { size 8{2} } +1 \) } {}</m:annotation></m:semantics></m:math>,</para><para id="eip-191">или</para><para id="eip-129"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mi>C</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{p=C rSub { size 8{1} }  \( x rSup { size 8{2} } +1 \) } {}</m:annotation></m:semantics></m:math>.</para><para id="eip-684">Од користената смена смената <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{p= { {y}} sup { ' }} {}</m:annotation></m:semantics></m:math> повторно се добива диференцијална равенка од прв ред</para><para id="eip-964"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>y</m:mi>
+                      <m:mi>'</m:mi>
+                    </m:msup>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:msub>
+                      <m:mi>C</m:mi>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                  </m:mrow>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mstyle fontstyle="italic">
+                    <m:mrow>
+                      <m:mtext>dx</m:mtext>
+                    </m:mrow>
+                  </m:mstyle>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }=C rSub { size 8{1} }  \( x rSup { size 8{2} } +1 \)  ital "dx"} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-133">во која променливите се раздвојуваат и по интегрирање</para><para id="eip-65"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>y</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">∫</m:mo>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>C</m:mi>
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:msub>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>x</m:mi>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>dx</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:msub>
+                      <m:mi>C</m:mi>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{y= Int {C rSub { size 8{1} }  \( x rSup { size 8{2} } +1 \)  ital "dx"} +C rSub { size 8{2} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-131">и општото решение ќе гласи</para><para id="eip-482"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mi>C</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mfrac><m:msup><m:mi>x</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mn>3</m:mn></m:mfrac><m:mo stretchy="false">+</m:mo><m:mi>x</m:mi></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">+</m:mo><m:msub><m:mi>C</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=C rSub { size 8{1} }  \(  {  {x rSup { size 8{3} } }  over  {3} } +x \) +C rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math>.</para></example><example xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-275"><para id="eip-768">
+  <emphasis effect="bold">Пример 3.</emphasis>
+</para><para id="eip-851">Да се реши диференцијалната равенка <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow><m:mtext>ctg</m:mtext><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">⋅</m:mo><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup></m:mrow><m:mo stretchy="false">=</m:mo><m:msup><m:mtext>sin</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow><m:mi>x</m:mi><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { '' } - 2"ctg"x cdot  { {y}} sup { ' }="sin" rSup { size 8{3} } x "." } {}</m:annotation></m:semantics></m:math></para><para id="eip-543"><emphasis effect="bold">Решение.</emphasis>
+      </para><para id="eip-560">Со смената
+      </para><para id="eip-326"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mtable>
+                  <m:mtr>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>y</m:mi>
+                            <m:mi>'</m:mi>
+                          </m:msup>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mi>p</m:mi>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mrow/>
+                    </m:mrow>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>y</m:mi>
+                            <m:mrow>
+                              <m:mi>'</m:mi>
+                              <m:mi>'</m:mi>
+                            </m:mrow>
+                          </m:msup>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:msup>
+                            <m:mi>p</m:mi>
+                            <m:mi>'</m:mi>
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mrow/>
+                    </m:mrow>
+                  </m:mtr>
+                </m:mtable>
+                <m:mrow/>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{ { {y}} sup { ' }=p}  {} # 
+ size 12{ { {y}} sup { '' }= { {p}} sup { ' }}  {} 
+} } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-610">зададената диференцијална равенка се сведува на диференцијална равенка од прв ред</para><para id="eip-592"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>p</m:mi>
+                      <m:mi>'</m:mi>
+                    </m:msup>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                  <m:mtext>ctg</m:mtext>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:mo stretchy="false">⋅</m:mo>
+                      <m:mi>p</m:mi>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:msup>
+                      <m:mtext>sin</m:mtext>
+                      <m:mrow>
+                        <m:mn>3</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ { {p}} sup { ' } - 2"ctg"x cdot p="sin" rSup { size 8{3} } x} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-780">која е линеарна равенка по <m:math><m:semantics><m:mrow><m:mrow><m:mi>p</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{p} {}</m:annotation></m:semantics></m:math> со општо решение </para><para id="eip-172"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mrow><m:mo stretchy="false">∫</m:mo><m:mrow><m:mn>2</m:mn><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ctgxdx</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow></m:msup></m:mrow><m:mfenced open="(" close=")"><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:mrow><m:mo stretchy="false">∫</m:mo><m:mrow><m:msup><m:mtext>sin</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mstyle fontstyle="italic"><m:mrow><m:msup><m:mtext>xe</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow><m:mo stretchy="false">∫</m:mo><m:mrow><m:mn>2</m:mn><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ctgxdx</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow></m:mrow></m:msup></m:mrow></m:mstyle><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dx</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow></m:mfenced></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{p=e rSup { size 8{ Int {2 ital "ctgxdx"} } }  left (C rSub { size 8{1} } + Int {"sin" rSup { size 8{3} }  ital "xe" rSup { size 8{ -  Int {2 ital "ctgxdx"} } }  ital "dx"}  right )} {}</m:annotation></m:semantics></m:math>.</para><para id="eip-841">По решавање на интегралите, општото решение е</para><para id="eip-636"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>p</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:msup>
+                      <m:mi>e</m:mi>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                          <m:mtext>ln</m:mtext>
+                          <m:mo stretchy="false">∣</m:mo>
+                          <m:mtext>sin</m:mtext>
+                          <m:mi>x</m:mi>
+                          <m:mo stretchy="false">∣</m:mo>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                  <m:mfenced open="(" close=")">
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>C</m:mi>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                      </m:msub>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mrow>
+                        <m:mo stretchy="false">∫</m:mo>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mtext>sin</m:mtext>
+                            <m:mrow>
+                              <m:mn>3</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:msup>
+                                <m:mtext>xe</m:mtext>
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mrow>
+                                      <m:mo stretchy="false">−</m:mo>
+                                      <m:mn>2</m:mn>
+                                    </m:mrow>
+                                    <m:mtext>ln</m:mtext>
+                                    <m:mo stretchy="false">∣</m:mo>
+                                    <m:mtext>sin</m:mtext>
+                                    <m:mi>x</m:mi>
+                                    <m:mo stretchy="false">∣</m:mo>
+                                  </m:mrow>
+                                </m:mrow>
+                              </m:msup>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>dx</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mfenced>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{p=e rSup { size 8{2"ln" \lline "sin"x \lline } }  left (C rSub { size 8{1} } + Int {"sin" rSup { size 8{3} }  ital "xe" rSup { size 8{ - 2"ln" \lline "sin"x \lline } }  ital "dx"}  right )} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-541">или</para><para id="eip-155"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mrow><m:msup><m:mtext>lnsin</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mi>x</m:mi></m:mrow></m:mrow></m:msup></m:mrow><m:mfenced open="(" close=")"><m:mrow><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mrow><m:mo stretchy="false">∫</m:mo><m:mrow><m:mfrac><m:mrow><m:msup><m:mtext>sin</m:mtext><m:mn>3</m:mn></m:msup><m:mrow><m:mi>x</m:mi></m:mrow></m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:msup><m:mtext>lnsin</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mi>x</m:mi></m:mrow></m:msup></m:mfrac><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dx</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow></m:mrow></m:mrow></m:mrow></m:mfenced></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{p=e rSup { size 8{"lnsin" rSup { size 6{2} } x} }  left (C rSub {1}  size 12{+ Int { {  {"sin" rSup {3}  size 12{x}}  over  {e rSup {"lnsin" rSup { size 6{2} } x} } }  size 12{ ital "dx"}} } right )} {}</m:annotation></m:semantics></m:math>,</para><para id="eip-565">а по средување</para><para id="eip-117"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>p</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:msup>
+                      <m:mtext>sin</m:mtext>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                  <m:mi>x</m:mi>
+                  <m:mfenced open="(" close=")">
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>C</m:mi>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                      </m:msub>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mrow>
+                        <m:mo stretchy="false">∫</m:mo>
+                        <m:mrow>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:msup>
+                                <m:mtext>sin</m:mtext>
+                                <m:mrow>
+                                  <m:mn>3</m:mn>
+                                </m:mrow>
+                              </m:msup>
+                              <m:mi>x</m:mi>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:msup>
+                                <m:mtext>sin</m:mtext>
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:msup>
+                              <m:mi>x</m:mi>
+                            </m:mrow>
+                          </m:mfrac>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>dx</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mfenced>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{p="sin" rSup { size 8{2} } x left (C rSub { size 8{1} } + Int { {  {"sin" rSup { size 8{3} } x}  over  {"sin" rSup { size 8{2} } x} }  ital "dx"}  right )} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-198">и по решавање на интегралот се добива</para><para id="eip-103"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mtext>sin</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mi>x</m:mi><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:mtext>cos</m:mtext></m:mrow><m:mi>x</m:mi></m:mrow></m:mfenced></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{p="sin" rSup { size 8{2} } x left (C rSub { size 8{1} }  - "cos"x right )} {}</m:annotation></m:semantics></m:math>.</para><para id="eip-73">Последната равенка е</para><para id="eip-178"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>p</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:msub>
+                      <m:mi>C</m:mi>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                  </m:mrow>
+                  <m:msup>
+                    <m:mtext>sin</m:mtext>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msup>
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mtext>cos</m:mtext>
+                  </m:mrow>
+                  <m:mi>x</m:mi>
+                  <m:msup>
+                    <m:mtext>sin</m:mtext>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msup>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{p=C rSub { size 8{1} } "sin" rSup { size 8{2} } x - "cos"x"sin" rSup { size 8{2} } x} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-290">и тоа е пак диференцијална равенка од прв ред (променливите се раздвојуваат) со враќање на старата променлива од смената <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{p= { {y}} sup { ' }} {}</m:annotation></m:semantics></m:math></para><para id="eip-584"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>y</m:mi>
+                      <m:mi>'</m:mi>
+                    </m:msup>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:msub>
+                      <m:mi>C</m:mi>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                  </m:mrow>
+                  <m:msup>
+                    <m:mtext>sin</m:mtext>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msup>
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mtext>cos</m:mtext>
+                  </m:mrow>
+                  <m:mi>x</m:mi>
+                  <m:msup>
+                    <m:mtext>sin</m:mtext>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msup>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }=C rSub { size 8{1} } "sin" rSup { size 8{2} } x - "cos"x"sin" rSup { size 8{2} } x} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-2">чие што општо решение е</para><para id="eip-283"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>y</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:msub>
+                      <m:mi>C</m:mi>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">∫</m:mo>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mtext>cos</m:mtext>
+                        </m:mrow>
+                        <m:mn>2x</m:mn>
+                      </m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>dx</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mrow>
+                      <m:mo stretchy="false">∫</m:mo>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>sin</m:mtext>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                        <m:mi>x</m:mi>
+                        <m:mtext>cos</m:mtext>
+                        <m:mrow>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>xdx</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:msub>
+                            <m:mi>C</m:mi>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:msub>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{y=C rSub { size 8{1} }  Int { {  {1 - "cos"2x}  over  {2} } }  ital "dx" -  Int {"sin" rSup { size 8{2} } x"cos" ital "xdx"+C rSub { size 8{2} } } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-372">и по решавање на интегралите се добива општото решение</para><para id="eip-746"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mi>C</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mfrac><m:mi>x</m:mi><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">−</m:mo><m:mfrac><m:mrow><m:mtext>sin</m:mtext><m:mn>2x</m:mn></m:mrow><m:mn>4</m:mn></m:mfrac></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow><m:mtext>sin</m:mtext><m:mmultiscripts><m:mtext/><m:mprescripts/><m:none/><m:mrow><m:mn>3</m:mn></m:mrow></m:mmultiscripts><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:msub><m:mi>C</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=C rSub { size 8{1} }  \(  {  {x}  over  {2} }  -  {  {"sin"2x}  over  {4} }  \)  -  {  {1}  over  {3} } "sin""" lSup { size 8{3} } x+C rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math>.</para></example><para id="import-auto-id1170498110849">
+        <emphasis effect="bold">3. Диференцијална равенка од обликот <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mi>f</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>y</m:mi><m:mi>,</m:mi><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { '' }=f \( y, { {y}} sup { ' } \) } {}</m:annotation></m:semantics></m:math>.</emphasis>
+      </para>
+      <para id="import-auto-id1170498548163">Во овој тип диференцијална равнка од втор ред не се појавува независната променлива <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>. За нејзино решавање се користи смената</para>
+      <para id="import-auto-id1170502733469"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">=</m:mo><m:mi>p</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }=p} {}</m:annotation></m:semantics></m:math>,</para>
+      <para id="import-auto-id1170497934422">а во вториот извод диференцирањето наместо по променливата <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> ќе се врши по <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>y</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math> и затоа</para>
+      <para id="import-auto-id1170498152097"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dp</m:mtext></m:mrow></m:mstyle><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dx</m:mtext></m:mrow></m:mstyle></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dp</m:mtext></m:mrow></m:mstyle><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dy</m:mtext></m:mrow></m:mstyle></m:mfrac><m:mo stretchy="false">⋅</m:mo><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dy</m:mtext></m:mrow></m:mstyle><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dx</m:mtext></m:mrow></m:mstyle></m:mfrac></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dp</m:mtext></m:mrow></m:mstyle><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dy</m:mtext></m:mrow></m:mstyle></m:mfrac></m:mrow><m:mi>p</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { '' }= {  { ital "dp"}  over  { ital "dx"} } = {  { ital "dp"}  over  { ital "dy"} }  cdot  {  { ital "dy"}  over  { ital "dx"} } = {  { ital "dp"}  over  { ital "dy"} } p} {}</m:annotation></m:semantics></m:math>,</para>
+      <para id="import-auto-id1170499565036">што значи дека за овој тип диференцијална равенка со смената</para>
+      <para id="import-auto-id1170497993354">
+        <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mtable>
+                  <m:mtr>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>y</m:mi>
+                            <m:mi>'</m:mi>
+                          </m:msup>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mi>p</m:mi>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mrow/>
+                    </m:mrow>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mi>y</m:mi>
+                              <m:mrow>
+                                <m:mi>'</m:mi>
+                                <m:mi>'</m:mi>
+                              </m:mrow>
+                            </m:msup>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mi>p</m:mi>
+                          </m:mrow>
+                          <m:mfrac>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>dp</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>dy</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mrow/>
+                    </m:mrow>
+                  </m:mtr>
+                </m:mtable>
+                <m:mrow/>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{ { {y}} sup { ' }=p}  {} # 
+ size 12{ { {y}} sup { '' }=p {  { ital "dp"}  over  { ital "dy"} } }  {} 
+} } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="import-auto-id1170497993122">зададената  равенка ја сведуваме на диференцијална равенка од прв ред по <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>p</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{p} {}</m:annotation></m:semantics></m:math> и <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>y</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math>. Откога ќе се реши таквата диференцијална равенка, се враќаме на старите променливи <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{p= { {y}} sup { ' }} {}</m:annotation></m:semantics></m:math> и <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>, со што треба уште еднаш да се реши диференцијална равенка од прв ред.</para>
+      <example xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-43"><para id="eip-742">
+  <emphasis effect="bold">Пример 4.</emphasis>
+</para><para id="eip-175">Да се реши диференцијалната равенка <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2y</m:mn><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">(</m:mo></m:mrow></m:mrow><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2y { {y}} sup { '' }=1+ \(  { {y}} sup { ' } \)  rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>.</para><para id="eip-920"><emphasis effect="bold">Решение.</emphasis></para><para id="eip-579">Со смената</para><para id="eip-161"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mtable>
+                  <m:mtr>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>y</m:mi>
+                            <m:mi>'</m:mi>
+                          </m:msup>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mi>p</m:mi>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mrow/>
+                    </m:mrow>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mi>y</m:mi>
+                              <m:mrow>
+                                <m:mi>'</m:mi>
+                                <m:mi>'</m:mi>
+                              </m:mrow>
+                            </m:msup>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mi>p</m:mi>
+                          </m:mrow>
+                          <m:mfrac>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>dp</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>dy</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mrow/>
+                    </m:mrow>
+                  </m:mtr>
+                </m:mtable>
+                <m:mrow/>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{ { {y}} sup { ' }=p}  {} # 
+ size 12{ { {y}} sup { '' }=p {  { ital "dp"}  over  { ital "dy"} } }  {} 
+} } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-39">зададената равенка се сведува на равенка од прв ред</para><para id="eip-364"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:mstyle fontstyle="italic">
+                    <m:mrow>
+                      <m:mtext>yp</m:mtext>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>dp</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>dy</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:mfrac>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:msup>
+                        <m:mi>p</m:mi>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{2 ital "yp" {  { ital "dp"}  over  { ital "dy"} } =1+p rSup { size 8{2} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-20">која по делење со <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mstyle fontstyle="italic"><m:mrow><m:mtext>yp</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 ital "yp"} {}</m:annotation></m:semantics></m:math> се запишува во обликот</para><para id="eip-947"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dp</m:mtext></m:mrow></m:mstyle><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dy</m:mtext></m:mrow></m:mstyle></m:mfrac><m:mo stretchy="false">=</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2</m:mn><m:mstyle fontstyle="italic"><m:mrow><m:mtext>yp</m:mtext></m:mrow></m:mstyle></m:mrow></m:mfrac><m:mo stretchy="false">+</m:mo><m:mfrac><m:msup><m:mi>p</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mrow><m:mn>2</m:mn><m:mstyle fontstyle="italic"><m:mrow><m:mtext>yp</m:mtext></m:mrow></m:mstyle></m:mrow></m:mfrac></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { ital "dp"}  over  { ital "dy"} } = {  {1}  over  {2 ital "yp"} } + {  {p rSup { size 8{2} } }  over  {2 ital "yp"} } } {}</m:annotation></m:semantics></m:math>, </para><para id="eip-726">односно се добива Бернулиева диференцијална равенка по функцијата <m:math><m:semantics><m:mrow><m:mrow><m:mi>p</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{p} {}</m:annotation></m:semantics></m:math></para><para id="eip-694"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>p</m:mi>
+                      <m:mi>'</m:mi>
+                    </m:msup>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2y</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi>p</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>yp</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ { {p}} sup { ' } -  {  {1}  over  {2y} } p= {  {1}  over  {2 ital "yp"} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-843">во која степенот на <m:math><m:semantics><m:mrow><m:mrow><m:mi>p</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{p} {}</m:annotation></m:semantics></m:math> е <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n= - 1} {}</m:annotation></m:semantics></m:math>. Со делење на равенката со <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mi>p</m:mi><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{p rSup { size 8{ - 1} } } {}</m:annotation></m:semantics></m:math> се добива</para><para id="eip-929"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>p</m:mi>
+                      <m:mi>'</m:mi>
+                    </m:msup>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2y</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi>p</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>yp</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mtext>/:</m:mtext>
+                  <m:msup>
+                    <m:mi>p</m:mi>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:msup>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ { {p}} sup { ' } -  {  {1}  over  {2y} } p= {  {1}  over  {2 ital "yp"} } "/:"p rSup { size 8{ - 1} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-644">или</para><para id="eip-362"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:msup>
+                        <m:mi>p</m:mi>
+                        <m:mi>'</m:mi>
+                      </m:msup>
+                      <m:msup>
+                        <m:mi>p</m:mi>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:msup>
+                    </m:mfrac>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2y</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mi>p</m:mi>
+                      <m:msup>
+                        <m:mi>p</m:mi>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:msup>
+                    </m:mfrac>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2y</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ {  { { {p}} sup { ' }}  over  {p rSup { size 8{ - 1} } } }  -  {  {1}  over  {2y} }  {  {p}  over  {p rSup { size 8{ - 1} } } } = {  {1}  over  {2y} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-403">и по средување се добива равенката</para><para id="eip-494"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>p</m:mi><m:mrow><m:msup><m:mi>p</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2y</m:mn></m:mfrac></m:mrow><m:mrow><m:msup><m:mi>p</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2y</m:mn></m:mfrac></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{p { {p}} sup { ' } -  {  {1}  over  {2y} } p rSup { size 8{2} } = {  {1}  over  {2y} } } {}</m:annotation></m:semantics></m:math>.</para><para id="eip-727">Оваа равенка со смената</para><para id="eip-693"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>t</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:msup>
+                      <m:mi>p</m:mi>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                  <m:mo stretchy="false">⇒</m:mo>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>t</m:mi>
+                      <m:mi>'</m:mi>
+                    </m:msup>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>2p</m:mn>
+                  </m:mrow>
+                  <m:msup>
+                    <m:mi>p</m:mi>
+                    <m:mi>'</m:mi>
+                  </m:msup>
+                  <m:mo stretchy="false">⇒</m:mo>
+                  <m:mi>p</m:mi>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>p</m:mi>
+                      <m:mi>'</m:mi>
+                    </m:msup>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:msup>
+                        <m:mi>t</m:mi>
+                        <m:mi>'</m:mi>
+                      </m:msup>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{t=p rSup { size 8{2} }  drarrow  { {t}} sup { ' }=2p { {p}} sup { ' } drarrow p { {p}} sup { ' }= {  { { {t}} sup { ' }}  over  {2} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-325">се сведува на </para><para id="eip-862"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:msup>
+                        <m:mi>t</m:mi>
+                        <m:mi>'</m:mi>
+                      </m:msup>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2y</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi>t</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2y</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ {  { { {t}} sup { ' }}  over  {2} }  -  {  {1}  over  {2y} } t= {  {1}  over  {2y} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-676">односно се добива линеарна диференцијална равенка од прв ред</para><para id="eip-130"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>t</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">−</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>y</m:mi></m:mfrac></m:mrow><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>y</m:mi></m:mfrac></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {t}} sup { ' } -  {  {1}  over  {y} } t= {  {1}  over  {y} } } {}</m:annotation></m:semantics></m:math>.</para><para id="eip-107">Решението на оваа равенка е</para><para id="eip-99"><sub><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mrow><m:mo stretchy="false">∫</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>y</m:mi></m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dy</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow></m:msup></m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:mrow><m:mo stretchy="false">∫</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>y</m:mi></m:mfrac></m:mrow></m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow><m:mo stretchy="false">∫</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>y</m:mi></m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dy</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow></m:mrow></m:msup><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dy</m:mtext></m:mrow></m:mstyle></m:mrow></m:mfenced></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t=e rSup { size 8{ Int { {  {1}  over  {y} }  ital "dy"} } }  left (C rSub { size 8{1} } + Int { {  {1}  over  {y} } } e rSup { size 8{ -  Int { {  {1}  over  {y} }  ital "dy"} } }  ital "dy" right )} {}</m:annotation></m:semantics></m:math>,</sub>
+      </para><para id="eip-567"><sub><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mrow><m:mtext>ln</m:mtext><m:mo stretchy="false">∣</m:mo><m:mi>y</m:mi><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:msup></m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:mrow><m:mo stretchy="false">∫</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>y</m:mi></m:mfrac></m:mrow></m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>ln</m:mtext></m:mrow><m:mo stretchy="false">∣</m:mo><m:mi>y</m:mi><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:msup><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dy</m:mtext></m:mrow></m:mstyle></m:mrow></m:mfenced></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t=e rSup { size 8{"ln" \lline y \lline } }  left (C rSub { size 8{1} } + Int { {  {1}  over  {y} } } e rSup { size 8{ - "ln" \lline y \lline } }  ital "dy" right )} {}</m:annotation></m:semantics></m:math>,</sub>
+      </para><para id="eip-912"><sub><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">=</m:mo><m:mi>y</m:mi></m:mrow><m:mfenced open="(" close=")"><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:mrow><m:mo stretchy="false">∫</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:msup><m:mi>y</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dy</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow></m:mfenced></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t=y left (C rSub { size 8{1} } + Int { {  {1}  over  {y rSup { size 8{2} } } }  ital "dy"}  right )} {}</m:annotation></m:semantics></m:math>,</sub></para><para id="eip-353"><sub><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">=</m:mo><m:mi>y</m:mi></m:mrow><m:mfenced open="(" close=")"><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>y</m:mi></m:mfrac></m:mrow></m:mfenced></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t=y left (C rSub { size 8{1} }  -  {  {1}  over  {y} }  right )} {}</m:annotation></m:semantics></m:math>,</sub></para><para id="eip-241">и конечно</para><para id="eip-829"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mi>C</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t=C rSub { size 8{1} } y - 1} {}</m:annotation></m:semantics></m:math>.</para><para id="eip-446">Заменувајќи за <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mi>p</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t=p rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> се добива</para><para id="eip-761"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>p</m:mi>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:msub>
+                      <m:mi>C</m:mi>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi>y</m:mi>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                  <m:mo stretchy="false">⇒</m:mo>
+                  <m:mrow>
+                    <m:mi>p</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:msqrt>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>C</m:mi>
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:msub>
+                        <m:mrow>
+                          <m:mi>y</m:mi>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:msqrt>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{p rSup { size 8{2} } =C rSub { size 8{1} } y - 1 drarrow p= sqrt {C rSub { size 8{1} } y - 1} } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-276">и пак од замената <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{p= { {y}} sup { ' }} {}</m:annotation></m:semantics></m:math> се добива уште една диференцијална равенка од прв ред</para><para id="eip-168"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>y</m:mi>
+                      <m:mi>'</m:mi>
+                    </m:msup>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:msqrt>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>C</m:mi>
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:msub>
+                        <m:mrow>
+                          <m:mi>y</m:mi>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:msqrt>
+                  </m:mrow>
+                  <m:mo stretchy="false">⇒</m:mo>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>dy</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>dx</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:mfrac>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:msqrt>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>C</m:mi>
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:msub>
+                        <m:mrow>
+                          <m:mi>y</m:mi>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:msqrt>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }= sqrt {C rSub { size 8{1} } y - 1}  drarrow  {  { ital "dy"}  over  { ital "dx"} } = sqrt {C rSub { size 8{1} } y - 1} } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-9">во која променливите се раздвојуваат</para><para id="eip-552"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">∫</m:mo>
+                    <m:mfrac>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>dy</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:msqrt>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>C</m:mi>
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                            </m:mrow>
+                          </m:msub>
+                          <m:mrow>
+                            <m:mi>y</m:mi>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:msqrt>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">∫</m:mo>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>dx</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:mrow>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:msub>
+                      <m:mi>C</m:mi>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ Int { {  { ital "dy"}  over  { sqrt {C rSub { size 8{1} } y - 1} } } } = Int { ital "dx"} +C rSub { size 8{2} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-998">и по решавање на интегралите се добива</para><para id="eip-900"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>2</m:mn><m:msub><m:mi>C</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mfrac><m:mrow><m:msqrt><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:msqrt><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:msub><m:mi>C</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {2}  over  {C rSub { size 8{1} } } }  sqrt {C rSub { size 8{1} } y - 1} =x+C rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math>,</para><para id="eip-524">а по квадрирање се добива општото решение </para><para id="eip-842"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>4</m:mn><m:mo stretchy="false">(</m:mo><m:msub><m:mi>C</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:msubsup><m:mi>C</m:mi><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msubsup></m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:msub><m:mi>C</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{4 \( C rSub { size 8{1} } y - 1 \) =C rSub { size 8{1} }  rSup { size 8{2} }  \( x+C rSub { size 8{2} }  \)  rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>.</para>
+</example><example xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-622"><para id="eip-293">
+ <emphasis effect="bold">Пример 5.</emphasis>
+      
+</para><para id="eip-810">Да се реши диференцијалната равенка <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y { {y}} sup { '' }= \(  { {y}} sup { ' } \)  rSup { size 8{2} }  -  \(  { {y}} sup { ' } \)  rSup { size 8{3} } } {}</m:annotation></m:semantics></m:math>.</para><para id="eip-243"><emphasis effect="bold">Решение.</emphasis></para><para id="eip-713">Се користи смената</para><para id="eip-728"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mtable>
+                  <m:mtr>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>y</m:mi>
+                            <m:mi>'</m:mi>
+                          </m:msup>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mi>p</m:mi>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mrow/>
+                    </m:mrow>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mi>y</m:mi>
+                              <m:mrow>
+                                <m:mi>'</m:mi>
+                                <m:mi>'</m:mi>
+                              </m:mrow>
+                            </m:msup>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mi>p</m:mi>
+                          </m:mrow>
+                          <m:mfrac>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>dp</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>dy</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mrow/>
+                    </m:mrow>
+                  </m:mtr>
+                </m:mtable>
+                <m:mrow/>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{ { {y}} sup { ' }=p}  {} # 
+ size 12{ { {y}} sup { '' }=p {  { ital "dp"}  over  { ital "dy"} } }  {} 
+} } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-35">која дадената диференцијална равенка од втор ред ја сведува на диференцијална равенка од прв ред</para><para id="eip-369"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>yp</m:mtext></m:mrow></m:mstyle><m:mrow><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dp</m:mtext></m:mrow></m:mstyle><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dy</m:mtext></m:mrow></m:mstyle></m:mfrac><m:mo stretchy="false">=</m:mo><m:mrow><m:msup><m:mi>p</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">−</m:mo><m:msup><m:mi>p</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "yp" {  { ital "dp"}  over  { ital "dy"} } =p rSup { size 8{2} }  - p rSup { size 8{3} } } {}</m:annotation></m:semantics></m:math>.</para><para id="eip-674">Со средување, горната рвенка се сведува на диференцијална равенка во која променливите се раздвојуваат</para><para id="eip-855"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mfrac><m:mi>p</m:mi><m:mrow><m:msup><m:mi>p</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">−</m:mo><m:msup><m:mi>p</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:mfrac><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dp</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dy</m:mtext></m:mrow></m:mstyle><m:mi>y</m:mi></m:mfrac></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {p}  over  {p rSup { size 8{2} }  - p rSup { size 8{3} } } }  ital "dp"= {  { ital "dy"}  over  {y} } } {}</m:annotation></m:semantics></m:math>,</para><para id="eip-262"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∫</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">−</m:mo><m:msup><m:mi>p</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dp</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mo stretchy="false">∫</m:mo><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dy</m:mtext></m:mrow></m:mstyle><m:mi>y</m:mi></m:mfrac></m:mrow><m:mo stretchy="false">+</m:mo><m:mtext>ln</m:mtext></m:mrow></m:mrow><m:mo stretchy="false">∣</m:mo><m:msub><m:mi>C</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ Int { {  {1}  over  {p - p rSup { size 8{2} } } }  ital "dp"} = Int { {  { ital "dy"}  over  {y} } } +"ln" \lline C rSub { size 8{1} }  \lline } {}</m:annotation></m:semantics></m:math>.</para><para id="eip-877">Интегралот од левата страна <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∫</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">−</m:mo><m:msup><m:mi>p</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dp</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ Int { {  {1}  over  {p - p rSup { size 8{2} } } }  ital "dp"} } {}</m:annotation></m:semantics></m:math> се решава како интеграл од дробнорационална функција со две реални и различни решенија</para><para id="eip-57"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mrow>
+                      <m:mi>p</m:mi>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:msup>
+                        <m:mi>p</m:mi>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                    </m:mrow>
+                  </m:mfrac>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mrow>
+                      <m:mi>p</m:mi>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mi>p</m:mi>
+                      </m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {p - p rSup { size 8{2} } } } = {  {1}  over  {p \( 1 - p \) } } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-328"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mrow>
+                        <m:mi>p</m:mi>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mi>p</m:mi>
+                        </m:mrow>
+                        <m:mo stretchy="false">)</m:mo>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mo stretchy="false">≡</m:mo>
+                    <m:mrow>
+                      <m:mfrac>
+                        <m:mi>A</m:mi>
+                        <m:mi>p</m:mi>
+                      </m:mfrac>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mfrac>
+                        <m:mi>B</m:mi>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mi>p</m:mi>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mo stretchy="false">⇒</m:mo>
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                    <m:mo stretchy="false">≡</m:mo>
+                    <m:mi>A</m:mi>
+                  </m:mrow>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mi>p</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>Bp</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:mrow>
+                  <m:mo stretchy="false">⇒</m:mo>
+                  <m:mrow>
+                    <m:mi>A</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>1,</m:mn>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi>B</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {p \( 1 - p \) } }  equiv  {  {A}  over  {p} } + {  {B}  over  {1 - p} }  drarrow 1 equiv A \( 1 - p \) + ital "Bp" drarrow A=1,B=1} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-36"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">∫</m:mo>
+                        <m:mrow>
+                          <m:mfrac>
+                            <m:mn>1</m:mn>
+                            <m:mrow>
+                              <m:mi>p</m:mi>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:msup>
+                                <m:mi>p</m:mi>
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:msup>
+                            </m:mrow>
+                          </m:mfrac>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>dp</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mrow>
+                        <m:mo stretchy="false">∫</m:mo>
+                        <m:mrow>
+                          <m:mfrac>
+                            <m:mn>1</m:mn>
+                            <m:mrow>
+                              <m:mi>p</m:mi>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mi>p</m:mi>
+                              </m:mrow>
+                              <m:mo stretchy="false">)</m:mo>
+                            </m:mrow>
+                          </m:mfrac>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>dp</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mo stretchy="false">∫</m:mo>
+                      <m:mfrac>
+                        <m:mn>1</m:mn>
+                        <m:mi>p</m:mi>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>dp</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mrow>
+                      <m:mo stretchy="false">∫</m:mo>
+                      <m:mfrac>
+                        <m:mn>1</m:mn>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mi>p</m:mi>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>dp</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mtext>ln</m:mtext>
+                  </m:mrow>
+                  <m:mo stretchy="false">∣</m:mo>
+                  <m:mi>p</m:mi>
+                  <m:mrow>
+                    <m:mo stretchy="false">∣</m:mo>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mtext>ln</m:mtext>
+                  </m:mrow>
+                  <m:mo stretchy="false">∣</m:mo>
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mi>p</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">∣</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mtext>ln</m:mtext>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">∣</m:mo>
+                    <m:mfrac>
+                      <m:mi>p</m:mi>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mi>p</m:mi>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mo stretchy="false">∣</m:mo>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ Int { {  {1}  over  {p - p rSup { size 8{2} } } }  ital "dp"} = Int { {  {1}  over  {p \( 1 - p \) } }  ital "dp"} = Int { {  {1}  over  {p} } }  ital "dp"+ Int { {  {1}  over  {1 - p} } }  ital "dp"="ln" \lline p \lline  - "ln" \lline 1 - p \lline ="ln" lline  {  {p}  over  {1 - p} }  rline } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-12">и заменето во решението на диференцијалната равенка</para><para id="eip-973"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mtext>ln</m:mtext>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">∣</m:mo>
+                      <m:mfrac>
+                        <m:mi>p</m:mi>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mi>p</m:mi>
+                        </m:mrow>
+                      </m:mfrac>
+                      <m:mo stretchy="false">∣</m:mo>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mtext>ln</m:mtext>
+                  </m:mrow>
+                  <m:mo stretchy="false">∣</m:mo>
+                  <m:mi>y</m:mi>
+                  <m:mrow>
+                    <m:mo stretchy="false">∣</m:mo>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mtext>ln</m:mtext>
+                  </m:mrow>
+                  <m:mo stretchy="false">∣</m:mo>
+                  <m:msub>
+                    <m:mi>C</m:mi>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo stretchy="false">∣</m:mo>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{"ln" lline  {  {p}  over  {1 - p} }  rline ="ln" \lline y \lline +"ln" \lline C rSub { size 8{1} }  \lline } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-38">доведува до</para><para id="eip-300"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mfrac><m:mi>p</m:mi><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:mi>p</m:mi></m:mrow></m:mfrac><m:mo stretchy="false">=</m:mo><m:msub><m:mi>C</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mi>y</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {p}  over  {1 - p} } =C rSub { size 8{1} } y} {}</m:annotation></m:semantics></m:math>,</para><para id="eip-836">а оваа равенка ја средуваме</para><para id="eip-730"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>p</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:msub>
+                      <m:mi>C</m:mi>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                  </m:mrow>
+                  <m:mi>y</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mi>p</m:mi>
+                  </m:mrow>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{p=C rSub { size 8{1} } y \( 1 - p \) } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-642">и добиваме</para><para id="eip-771"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:msub><m:mi>C</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mi>y</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:msub><m:mtext>yC</m:mtext><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{p \( 1+C rSub { size 8{1} } y \) = ital "yC" rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math>.</para><para id="eip-306">Враќајки се на смената <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dy</m:mtext></m:mrow></m:mstyle><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dx</m:mtext></m:mrow></m:mstyle></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{p= { {y}} sup { ' }= {  { ital "dy"}  over  { ital "dx"} } } {}</m:annotation></m:semantics></m:math> се добива диференцијална равенка од прв ред во која променливите се раздвојуваат</para><para id="eip-739"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:msub>
+                          <m:mi>C</m:mi>
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:msub>
+                      </m:mrow>
+                      <m:mi>y</m:mi>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>C</m:mi>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                      </m:msub>
+                      <m:mi>y</m:mi>
+                    </m:mrow>
+                  </m:mfrac>
+                  <m:mrow>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>dy</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>dx</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ {  {1+C rSub { size 8{1} } y}  over  {C rSub { size 8{1} } y} }  ital "dy"= ital "dx"} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-116">чие решение е изаразено преку интегралите</para><para id="eip-817"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∫</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mi>y</m:mi></m:mrow></m:mfrac></m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dy</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">+</m:mo><m:mrow><m:mo stretchy="false">∫</m:mo><m:mfrac><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mi>y</m:mi></m:mrow><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mi>y</m:mi></m:mrow></m:mfrac></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mo stretchy="false">∫</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dx</m:mtext></m:mrow></m:mstyle></m:mrow><m:mo stretchy="false">+</m:mo><m:msub><m:mi>C</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ Int { {  {1}  over  {C rSub { size 8{1} } y} } }  ital "dy"+ Int { {  {C rSub { size 8{1} } y}  over  {C rSub { size 8{1} } y} } } = Int { ital "dx"} +C rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math>,</para><para id="eip-662">а по нивно решавање општото решение на поставенката диференцијална равенка е</para><para id="eip-404"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>C</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mfrac><m:mtext>ln</m:mtext><m:mo stretchy="false">∣</m:mo><m:mi>y</m:mi><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mo stretchy="false">+</m:mo><m:mi>y</m:mi></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:msub><m:mi>C</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {C rSub { size 8{1} } } } "ln" \lline y \lline +y=x+C rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math>.</para></example></section>
+  </content>
+</document>

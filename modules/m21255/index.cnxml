@@ -1,0 +1,171 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>ПОИМ ЗА РЕАЛНА ФУНКЦИЈА ОД ПОВЕЌЕ РЕАЛНИ ПРОМЕНЛИВИ</title>
+  <metadata>
+  <md:content-id>m21255</md:content-id><md:title>ПОИМ ЗА РЕАЛНА ФУНКЦИЈА ОД ПОВЕЌЕ РЕАЛНИ ПРОМЕНЛИВИ</md:title>
+  <md:abstract>Се дефинира реална функција од повеќе реални променливи, со посебен осврт на функциите од две променливи кои воглавно ќе бидат предмет на понатамошното изучување. 
+Real function of two or more real arguments is defined.</md:abstract>
+  <md:uuid>ac018c2b-0ea8-48de-8c36-cfd9246fe3a9</md:uuid>
+</metadata>
+
+<content>
+    <para id="id24019245"><emphasis><emphasis effect="italics">Дефиниција</emphasis></emphasis>. Секое пресликување 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>f</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math>, кое произволно подмножество од множеството 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R rSup { size 8{n} } } {}</m:annotation></m:semantics></m:math> го пресликува во подмножество од 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>R</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math> се нарекува <term>реална функција од </term><term>n</term><term> реални променливи</term>. </para>
+    <para id="id19794457"><emphasis><emphasis effect="italics">Дефиниција</emphasis></emphasis>. Подмножеството кое се пресликува се нарекува <term>домен (дефинициона област)</term><emphasis effect="italics"/> на функцијата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>f</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math>  и се означува со 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>D</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>f</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D rSub { size 8{f} } } {}</m:annotation></m:semantics></m:math>, а неговата слика е <term>кодомен</term> на функцијата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>f</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math>  и се означува со 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msubsup><m:mi>D</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>f</m:mi></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle></m:msubsup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D rSub { size 8{f} }  rSup { size 8{ - 1} } } {}</m:annotation></m:semantics></m:math>.</para>
+    <table id="id23228488" summary="">
+      <tgroup cols="1">
+        <colspec colnum="1" colname="c1"/>
+        <tbody>
+          <row>
+            <entry>
+              <media id="id23478922" alt="">
+                <image mime-type="image/jpg" src="../../media/graphics1-f1c0.jpg"/>
+              </media>
+            </entry>
+          </row>
+          <row>
+            <entry>Слика 1. Функција од <emphasis effect="italics">n</emphasis>-променливи</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id4850009">Функцијата од <emphasis effect="italics">n</emphasis> променливи вообичаено се означува со 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mi>:</m:mi><m:msup><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">→</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>R  </m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f:R rSup { size 8{n} }  rightarrow  ital "R  "} {}</m:annotation></m:semantics></m:math> или 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mi>:</m:mi><m:msub><m:mi>D</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>f</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">→</m:mo><m:msubsup><m:mi>D</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>f</m:mi></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle></m:msubsup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ f:D rSub { size 8{f} }  rightarrow D rSub { size 8{f} }  rSup { size 8{ - 1} } } {}</m:annotation></m:semantics></m:math> , односно со 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>Y</m:mi><m:mo stretchy="false">=</m:mo><m:mi>f</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>X</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mi>f</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mi>,</m:mi><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Y=f \( X \) =f \( x rSub { size 8{1} } ,x rSub { size 8{2} } , "."  "."  "." ,x rSub { size 8{n} }  \) } {}</m:annotation></m:semantics></m:math>. </para>
+    <para id="id26891191"><emphasis><emphasis effect="italics">Дефиниција</emphasis></emphasis>. Функција со две променливи е пресликување на доменот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>D</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xy</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D rSub { size 8{ ital "xy"} } } {}</m:annotation></m:semantics></m:math> во 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>R</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math>,<emphasis effect="bold"/> односно 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mi>:</m:mi><m:msup><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">→</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>R  </m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f:R rSup { size 8{2} }  rightarrow  ital "R  "} {}</m:annotation></m:semantics></m:math>  и се означува со 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>z</m:mi><m:mo stretchy="false">=</m:mo><m:mi>f</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>,</m:mi><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{z=f \( x,y \) } {}</m:annotation></m:semantics></m:math> каде 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>,</m:mi><m:mi>y</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">∈</m:mo><m:msup><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( x,y \)  in R rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>.</para>
+    <para id="id3732217">Функцијата од две променливи графички се претставува како дел од површина во простор, т.е. како множество точки во просторот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>Γ</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">{</m:mo><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>,</m:mi><m:mi>y</m:mi><m:mi>,</m:mi><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>,</m:mi><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">∣</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>,</m:mi><m:mi>y</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">∈</m:mo><m:msub><m:mi>D</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xy</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow><m:mo stretchy="false">}</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Γ= lbrace  \( x,y,f \( x,y \)  \)  \lline  \( x,y \)  in D rSub { size 8{ ital "xy"} }  rbrace } {}</m:annotation></m:semantics></m:math>.</para>
+    <para id="id5414684"><emphasis>Пример 1</emphasis><emphasis>.</emphasis> На Сл. 2. а) е прикажан дел од графикот на функцијата </para>
+    <para id="id3776991"><emphasis effect="italics"/><emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>,</m:mi><m:mi>y</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">+</m:mo><m:msup><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>x</m:mi></m:mrow><m:mo stretchy="false">/</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">−</m:mo><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">/</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow><m:mtext>cos</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mn>2x</m:mn><m:mo stretchy="false">)</m:mo><m:mtext>cos</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mn>4y</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x,y \) =2+e rSup { size 8{ - x/3 - y/4} } "cos" \( 3 "." 2x \) "cos" \( 1 "." 4y \) } {}</m:annotation></m:semantics></m:math></emphasis>,</para>
+    <para id="id4127088">над правоаголниот домен 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>D</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xy</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mo stretchy="false">{</m:mo><m:mrow><m:mn>1,2</m:mn><m:mtext>.</m:mtext><m:mn>5</m:mn></m:mrow><m:mo stretchy="false">}</m:mo></m:mrow><m:mo stretchy="false">×</m:mo><m:mrow><m:mo stretchy="false">{</m:mo><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mn>5,2</m:mn><m:mtext>.</m:mtext><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">}</m:mo></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D rSub { size 8{ ital "xy"} } = lbrace 1,2 "." 5 rbrace  times  lbrace 0 "." 5,2 "." 3 rbrace } {}</m:annotation></m:semantics></m:math>. ◄</para>
+    <table id="id4081841" summary="">
+      <tgroup cols="1">
+        <colspec colnum="1" colname="c1"/>
+        <tbody>
+          <row>
+            <entry><media id="id5465591" alt=""><image mime-type="image/jpg" src="../../media/graphics2-3553.jpg"/></media> а) </entry>
+          </row>
+          <row>
+            <entry>Слика 2. а) График на дел од функција со две променли­ви над правоаголен домен</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id3759400">Освен што функцијата со две променливи графички се прикажува како дел од површина во простор, таа може да се прикаже и во рамнина преку проекција на ниво-линиите на дадената површината. </para>
+    <para id="id23308468"><emphasis><emphasis effect="italics">Дефиниција</emphasis></emphasis>. <term>Ниво линии</term> на една површина над доменот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>D</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xy</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D rSub { size 8{ ital "xy"} } } {}</m:annotation></m:semantics></m:math><emphasis effect="italics"/>е множеството на точки на висина 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>z</m:mi><m:mo stretchy="false">=</m:mo><m:mi>C</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{z=C} {}</m:annotation></m:semantics></m:math>, т.е.</para>
+    <para id="id3913331"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>N</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>c</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">{</m:mo><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>,</m:mi><m:mi>y</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mi>C</m:mi></m:mrow><m:mo stretchy="false">∣</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>,</m:mi><m:mi>y</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">∈</m:mo><m:msub><m:mi>D</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xy</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow><m:mi>,</m:mi><m:mrow><m:mi>C</m:mi><m:mo stretchy="false">∈</m:mo><m:mi>R</m:mi></m:mrow></m:mrow><m:mo stretchy="false">}</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N rSub { size 8{c} } = lbrace f \( x,y \) =C \lline  \( x,y \)  in D rSub { size 8{ ital "xy"} } ,C in R rbrace } {}</m:annotation></m:semantics></m:math>.</para>
+    <para id="id27915803">Најчесто некој дел од површина во простор се претставува со низа од ниво-линии 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>N</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:msub><m:mi>C</m:mi><m:mstyle fontsize="6pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:msub><m:mi>N</m:mi><m:msub><m:mi>C</m:mi><m:mstyle fontsize="6pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:msub><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>,</m:mi><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mi>,</m:mi><m:msub><m:mi>N</m:mi><m:msub><m:mi>C</m:mi><m:mstyle fontsize="6pt"><m:mrow><m:mi>k</m:mi></m:mrow></m:mstyle></m:msub></m:msub></m:mrow></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N rSub { size 8{C rSub { size 6{1} } } } ,N rSub {C rSub { size 6{2} } }  size 12{, "."  "."  "." ,N rSub {C rSub { size 6{k} } } }} {}</m:annotation></m:semantics></m:math> кои одговараат на низата константи 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>C</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">&lt;</m:mo><m:msub><m:mi>C</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">&lt;</m:mo><m:mtext>.</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mtext>.</m:mtext><m:mo stretchy="false">&lt;</m:mo><m:msub><m:mi>C</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>k</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{C rSub { size 8{1} } &lt;C rSub { size 8{2} } &lt; "."  "."  "." &lt;C rSub { size 8{k} } } {}</m:annotation></m:semantics></m:math> кои се бираат така да го покриваат интервалот од минималната до максималната вредност на функцијата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>f</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math><emphasis effect="italics"/>над дадениот домен. На Сл. 2. б) прикажани се 11 ниво-линии на површи­ната од Сл. 2. а). </para>
+    <table id="id27656725" summary="">
+      <tgroup cols="1">
+        <colspec colnum="1" colname="c1"/>
+        <tbody>
+          <row>
+            <entry><media id="id26746330" alt=""><image mime-type="image/jpg" src="../../media/graphics3-cfc0.jpg"/></media>б)</entry>
+          </row>
+          <row>
+            <entry>Слика 2. б) Ниво линии на истата функција.</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id5854599">На Слика 3 а) прикажана е проекцијата на ниво линиите од Слика 2.</para>
+    <table id="id24752639" summary="">
+      <tgroup cols="1">
+        <colspec colnum="1" colname="c1"/>
+        <tbody>
+          <row>
+            <entry>а)<media id="id5431774" alt=""><image mime-type="image/png" src="../../media/graphics4.png"/></media>б)</entry>
+          </row>
+          <row>
+            <entry>Слика 3. Ниво линии-проекција; Изохипси</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <section id="id3971986">
+      <title>Домен на функција од две променливи</title>
+      <para id="id23298427">Доменот на функција од две променливи се определува во дводимензионален простор, односно во 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xOy</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "xOy" - {}} {}</m:annotation></m:semantics></m:math>рамнината. Во најопшт случај тоа е рамнина или некој нејзин дел и се определува според обликот на функцијата и нејзините огранучувања. </para>
+      <para id="id3663684"/>
+      <para id="id3663689"><emphasis>Пример 2</emphasis><emphasis effect="bold">.</emphasis> Да се определи и нацрта доменот на функцијата</para>
+      <para id="id23416999">а)  
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>,</m:mi><m:mi>y</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mrow><m:msqrt><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mi>y</m:mi></m:mrow></m:msqrt><m:mo stretchy="false">+</m:mo><m:msqrt><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mi>y</m:mi></m:mrow></m:msqrt></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x,y \) = sqrt {x+y} + sqrt {x - y} } {}</m:annotation></m:semantics></m:math>;</para>
+      <para id="id3646801">б) 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>,</m:mi><m:mi>y</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mtext>arcsin</m:mtext></m:mrow><m:mrow><m:mfrac><m:mi>y</m:mi><m:mi>x</m:mi></m:mfrac><m:mo stretchy="false">+</m:mo><m:msqrt><m:mrow><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">−</m:mo><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mo stretchy="false">−</m:mo><m:msup><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:msqrt></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x,y \) ="arcsin" {  {y}  over  {x} } + sqrt {2x - x rSup { size 8{2} }  - y rSup { size 8{2} } } } {}</m:annotation></m:semantics></m:math>.</para>
+      <para id="id5321572"><emphasis>Решение</emphasis><emphasis effect="bold">. </emphasis><emphasis>а)</emphasis> Бидејќи функцијата<emphasis effect="italics"/><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>,</m:mi><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x,y \) } {}</m:annotation></m:semantics></m:math> е дефинирана преку збир од две функции, нејзиниот домен ќе биде пресек на домените за секоја поединечна функција од збирот. Доменот на функцијата квадратен корен се определува од условот подкореновата величина да е ненегативна и затоа дадената функција ќе биде дефинирана за 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mi>y</m:mi></m:mrow><m:mo stretchy="false">≥</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x+y &gt;= 0} {}</m:annotation></m:semantics></m:math> и  
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mi>y</m:mi></m:mrow><m:mo stretchy="false">≥</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x - y &gt;= 0} {}</m:annotation></m:semantics></m:math>, односно за 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">≥</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>x</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y &gt;=  - x} {}</m:annotation></m:semantics></m:math>  и  
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">≤</m:mo><m:mi>x</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y &lt;= x} {}</m:annotation></m:semantics></m:math>. </para>
+      <para id="id16948787">Графичкиот приказ на овие неравенства е (Сл. 4):</para>
+      <list id="id4073229" list-type="bulleted"><item>делот од рамнината од I квадрант со правата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mi>x</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=x} {}</m:annotation></m:semantics></m:math> и под неа; </item>
+        <item>делот од IV квадрант со правата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>x</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= - x} {}</m:annotation></m:semantics></m:math><emphasis effect="italics"/> и рамнината над неа.</item>
+      </list>
+      <table id="id24759328" summary="">
+        <tgroup cols="1">
+          <colspec colnum="1" colname="c1"/>
+          <tbody>
+            <row>
+              <entry>
+                <media id="id23375110" alt="">
+                  <image mime-type="image/jpg" src="../../media/graphics5-2dad.jpg"/>
+                </media>
+              </entry>
+            </row>
+            <row>
+              <entry>Слика 4. Домен на функцијата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>z</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msqrt><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mi>y</m:mi></m:mrow></m:msqrt><m:mo stretchy="false">+</m:mo><m:msqrt><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mi>y</m:mi></m:mrow></m:msqrt></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{z= sqrt {x+y} + sqrt {x - y} } {}</m:annotation></m:semantics></m:math></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="id27623279"><emphasis>б)</emphasis> И оваа функција е дефинирана како збир на две функции. Аркус синус е функција дефинирана за вредности на аргументот кои се по апсолутна вредност помали или еднакви на 1, па затоа функцијата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mtext>arcsin</m:mtext><m:mfrac><m:mi>y</m:mi><m:mi>x</m:mi></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"arcsin" {  {y}  over  {x} } } {}</m:annotation></m:semantics></m:math> ќе биде дефинирана за </para>
+      <para id="id25588514"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:mi/><m:mfrac><m:mi>y</m:mi><m:mi>x</m:mi></m:mfrac><m:mi/></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow><m:mo stretchy="false">≤</m:mo><m:mn>1</m:mn></m:mrow><m:mi/><m:mo stretchy="false">⇔</m:mo><m:mrow><m:mrow><m:mrow><m:mi/><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">≤</m:mo><m:mfrac><m:mi>y</m:mi><m:mi>x</m:mi></m:mfrac></m:mrow><m:mo stretchy="false">≤</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline ` {  {y}  over  {x} } ` rline  &lt;= 1~ dlrarrow ~ - 1 &lt;=  {  {y}  over  {x} }  &lt;= 1} {}</m:annotation></m:semantics></m:math> и <emphasis effect="italics">x</emphasis> ≠ 0, </para>
+      <para id="id23316817">додека втората функција од збирот е квадратен корен 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mrow><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">−</m:mo><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mo stretchy="false">−</m:mo><m:msup><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {2x - x rSup { size 8{2} }  - y rSup { size 8{2} } } } {}</m:annotation></m:semantics></m:math>  и е дефинирана за 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">−</m:mo><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mo stretchy="false">−</m:mo><m:msup><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mo stretchy="false">≥</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2x - x rSup { size 8{2} }  - y rSup { size 8{2} }  &gt;= 0} {}</m:annotation></m:semantics></m:math>. На Слика 5 графички е прикажан доменот на функцијата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>f</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math> кој <emphasis effect="italics"/> е реше­ни­е на системот неравенки </para>
+      <para id="id24989438"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mi>y</m:mi><m:mrow><m:mo stretchy="false">∣</m:mo><m:mo stretchy="false">≤</m:mo><m:mo stretchy="false">∣</m:mo></m:mrow><m:mi>x</m:mi><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mo stretchy="false">∧</m:mo><m:mi>x</m:mi></m:mrow><m:mo stretchy="false">≠</m:mo><m:mrow><m:mn>0</m:mn><m:mo stretchy="false">∧</m:mo><m:mo stretchy="false">(</m:mo></m:mrow></m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:msup><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mo stretchy="false">≤</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \lline y \lline  &lt;=  \lline x \lline  and x &lt;&gt; 0 and  \( x - 1 \)  rSup { size 8{2} } +y rSup { size 8{2} }  &lt;= 1} {}</m:annotation></m:semantics></m:math>. </para>
+      <table id="id26979514" summary="">
+        <tgroup cols="2">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <tbody>
+            <row>
+              <entry>
+                <media id="id26987691" alt="">
+                  <image mime-type="image/png" src="../../media/graphics6.png"/>
+                </media>
+              </entry>
+              <entry/>
+            </row>
+            <row>
+              <entry namest="c1" nameend="c2">Слика 5. Домен на функцијата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>,</m:mi><m:mi>y</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mtext>arcsin</m:mtext></m:mrow><m:mrow><m:mfrac><m:mi>y</m:mi><m:mi>x</m:mi></m:mfrac><m:mo stretchy="false">+</m:mo><m:msqrt><m:mrow><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">−</m:mo><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mo stretchy="false">−</m:mo><m:msup><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:msqrt></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x,y \) ="arcsin" {  {y}  over  {x} } + sqrt {2x - x rSup { size 8{2} }  - y rSup { size 8{2} } } } {}</m:annotation></m:semantics></m:math>.</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </content>
+</document>

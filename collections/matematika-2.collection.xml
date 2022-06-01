@@ -1,0 +1,59 @@
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="mk">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+    <md:content-id>col11378</md:content-id>
+    <md:title>Математика 2</md:title>
+    <md:language>mk</md:language>
+    <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</md:license>
+    <md:uuid>82bfd9ee-2850-4e30-a284-7c6932866361</md:uuid>
+<md:slug>matematika-2</md:slug>
+</metadata>
+  <col:content>
+    <col:subcollection>
+      <md:title>ВЕКТОРСКА АЛГЕБРА</md:title>
+      <col:content>
+        <col:module document="m20066"/>
+        <col:module document="m20082"/>
+        <col:module document="m20095"/>
+        <col:module document="m20105"/>
+        <col:module document="m20172"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>АНАЛИТИЧКА ГЕОМЕТРИЈА ВО ПРОСТОР</md:title>
+      <col:content>
+        <col:module document="m20867"/>
+        <col:module document="m20866"/>
+        <col:module document="m20883"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>ФУНКЦИИ ОД ПОВЕЌЕ ПРОМЕНЛИВИ</md:title>
+      <col:content>
+        <col:module document="m21247"/>
+        <col:module document="m21255"/>
+        <col:module document="m21300"/>
+        <col:module document="m21354"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>ПАРЦИЈАЛНИ ИЗВОДИ</md:title>
+      <col:content>
+        <col:module document="m21355"/>
+        <col:module document="m21363"/>
+        <col:module document="m21610"/>
+        <col:module document="m21438"/>
+        <col:module document="m22420"/>
+        <col:module document="m22425"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>ДИФЕРЕНЦИЈАЛНИ РАВНКИ</md:title>
+      <col:content>
+        <col:module document="m43366"/>
+        <col:module document="m43437"/>
+        <col:module document="m43534"/>
+        <col:module document="m43539"/>
+      </col:content>
+    </col:subcollection>
+  </col:content>
+</col:collection>

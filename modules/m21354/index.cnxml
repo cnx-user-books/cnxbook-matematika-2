@@ -1,0 +1,130 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>ГРНИЧНА ВРЕДНОСТ И НЕПРЕКИНАТОСТ НА ФУНКЦИЈА ОД ДВЕ ПРОМЕНЛИВИ</title>
+  <metadata>
+  <md:content-id>m21354</md:content-id><md:title>ГРНИЧНА ВРЕДНОСТ И НЕПРЕКИНАТОСТ НА ФУНКЦИЈА ОД ДВЕ ПРОМЕНЛИВИ</md:title>
+  <md:abstract>Се дефинира гранична вредност (граница) и непрекинатост на функција од две променливи.</md:abstract>
+  <md:uuid>bb142e70-a929-4716-8782-27934875a4c6</md:uuid>
+</metadata>
+
+<content>
+    <para id="id19899488">За функција од две променливи ќе дефинираме гранична вредност. </para>
+    <para id="id24129314"><emphasis><emphasis effect="italics">Дефиниција.</emphasis></emphasis> Функцијата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>,</m:mi><m:mi>y</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mi>f</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>X</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x,y \) =f \( X \) } {} </m:annotation></m:semantics></m:math>  има <term> гранична вредност (граница)</term><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>L</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L} {}</m:annotation></m:semantics></m:math> во точката 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>A</m:mi><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mi>a</m:mi><m:mi>,</m:mi><m:mi>b</m:mi><m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">∈</m:mo><m:msub><m:mi>D</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>f</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">⊂</m:mo><m:msup><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A= \( a,b \)  in D rSub { size 8{f} }  subset R rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>  ако за секој произволен број 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>ε</m:mi><m:mo stretchy="false">&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ε&gt;0} {}</m:annotation></m:semantics></m:math>  постои број 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>δ</m:mi><m:mo stretchy="false">=</m:mo><m:mi>δ</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>ε</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{δ=δ \( ε \) &gt;0} {}</m:annotation></m:semantics></m:math> така што од 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>X</m:mi><m:mo stretchy="false">∈</m:mo><m:mi>K</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>A</m:mi><m:mi>,</m:mi><m:mi>δ</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X in K \( A,δ \) } {}</m:annotation></m:semantics></m:math> следува дека 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>A</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">∈</m:mo><m:mi>K</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>L</m:mi><m:mi>,</m:mi><m:mi>ε</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( A \)  in K \( L,ε \) } {}</m:annotation></m:semantics></m:math> и се означува </para>
+    <para id="id20729248">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:munder>
+                    <m:mtext>lim</m:mtext>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>X</m:mi>
+                          <m:mo stretchy="false">→</m:mo>
+                          <m:mi>A</m:mi>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:munder>
+                  <m:mi>f</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>X</m:mi>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mi>L</m:mi>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{X rightarrow A} } f \( X \) =L} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    <para id="id19273559">при што 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>X</m:mi><m:mo stretchy="false">→</m:mo><m:mi>A</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X rightarrow A} {} </m:annotation></m:semantics></m:math>  означува дека 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mi>a</m:mi><m:mi>,</m:mi><m:mi>y</m:mi><m:mo stretchy="false">→</m:mo><m:mi>b</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rightarrow a,y rightarrow b} {}</m:annotation></m:semantics></m:math> .</para>
+    <para id="id22009395">Значи бројот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>L</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L} {} </m:annotation></m:semantics></m:math> е гранична вредност на функцијата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>,</m:mi><m:mi>y</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mi>f</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>X</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x,y \) =f \( X \) } {}</m:annotation></m:semantics></m:math> во точката 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>A</m:mi><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mi>a</m:mi><m:mi>,</m:mi><m:mi>b</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A= \( a,b \) } {}</m:annotation></m:semantics></m:math> ако функцијата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>X</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">→</m:mo><m:mi>L</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( X \)  rightarrow L} {}</m:annotation></m:semantics></m:math> кога 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>X</m:mi><m:mo stretchy="false">→</m:mo><m:mi>A</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X rightarrow A} {}</m:annotation></m:semantics></m:math>. Приближувањето на точката 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>X</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X} {}</m:annotation></m:semantics></m:math> кон точката 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>A</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math> е произволно, што значи дека точката 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>X</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X} {}</m:annotation></m:semantics></m:math><emphasis effect="italics"/> може да се проближува по било која крива (патека) кон точката 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>A</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math>. <emphasis effect="italics"/></para>
+    <para id="id4025370"><emphasis>Пример 1</emphasis><emphasis effect="bold">.</emphasis> Да се најде граничната вредност на функцијата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>,</m:mi><m:mi>y</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xy</m:mtext></m:mrow></m:mstyle><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:msup><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mfrac></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x,y \) = {  { ital "xy"}  over  {x rSup { size 8{2} } +y rSup { size 8{2} } } } } {}</m:annotation></m:semantics></m:math> во произволна точка 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>A</m:mi><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mi>a</m:mi><m:mi>,</m:mi><m:mi>b</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A= \( a,b \) } {}</m:annotation></m:semantics></m:math>.</para>
+    <para id="id19019168"><emphasis>Решение</emphasis><emphasis effect="bold">.</emphasis> Ако 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mi>,</m:mi><m:mi>b</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">≠</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mn>0,0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( a,b \)  &lt;&gt;  \( 0,0 \) } {}</m:annotation></m:semantics></m:math>, тогаш 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:munder><m:mtext>lim</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mi>a</m:mi><m:mi>,</m:mi><m:mi>y</m:mi><m:mo stretchy="false">→</m:mo><m:mi>b</m:mi></m:mrow></m:mrow></m:mstyle></m:munder><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>,</m:mi><m:mi>y</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ab</m:mtext></m:mrow></m:mstyle><m:mrow><m:msup><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:msup><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mfrac></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{x rightarrow a,y rightarrow b} } f \( x,y \) = {  { ital "ab"}  over  {a rSup { size 8{2} } +b rSup { size 8{2} } } } } {}</m:annotation></m:semantics></m:math>.</para>
+    <para id="id21736090">
+      <table id="id20134339" summary="">
+        <tgroup cols="1">
+          <colspec colnum="1" colname="c1"/>
+          <tbody>
+            <row>
+              <entry>
+                <media id="id20108277" alt="">
+                  <image mime-type="image/png" src="../../media/graphics1-e044.png"/>
+                </media>
+              </entry>
+            </row>
+            <row>
+              <entry>Слика 1. Приближување кон координат­ниот почеток по права</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </para>
+    <para id="id22347577"/>
+    <para id="id22347581">Ако 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mi>,</m:mi><m:mi>b</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mn>0,0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( a,b \) = \( 0,0 \) } {}</m:annotation></m:semantics></m:math>, тогаш 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>,</m:mi><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">→</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0,0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( x,y \)  rightarrow  \( 0,0 \) } {}</m:annotation></m:semantics></m:math> и прибли­­жувањето на точката 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>,</m:mi><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( x,y \) } {}</m:annotation></m:semantics></m:math> кон коорди­натниот почеток може да се одвива на бесконечно многу начини. Ако тоа приближување е на пример по правата <emphasis effect="italics"/><emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kx</m:mtext></m:mrow></m:mstyle></m:mrow><m:mi>,</m:mi><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>k</m:mi><m:mo stretchy="false">∈</m:mo><m:mi>R</m:mi></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= ital "kx", \( k in R \) } {}</m:annotation></m:semantics></m:math></emphasis> (Сл.1), тогаш</para>
+    <para id="id22339944"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:munder><m:mtext>lim</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mn>0,</m:mn><m:mi>y</m:mi><m:mo stretchy="false">→</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kx</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle></m:munder><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>,</m:mi><m:mi>y</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:munder><m:mtext>lim</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mn>0,</m:mn><m:mi>y</m:mi><m:mo stretchy="false">→</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kx</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle></m:munder></m:mrow><m:mrow><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xy</m:mtext></m:mrow></m:mstyle><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:msup><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>k</m:mi><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:msup><m:mi>k</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mfrac></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{x rightarrow 0,y rightarrow  ital "kx"} } f \( x,y \) = {"lim"}  cSub { size 8{x rightarrow 0,y rightarrow  ital "kx"} }  {  { ital "xy"}  over  {x rSup { size 8{2} } +y rSup { size 8{2} } } } = {  {k}  over  {1+k rSup { size 8{2} } } } } {}</m:annotation></m:semantics></m:math>,</para>
+    <para id="id19243868">што значи дека ганичната вредност зависи од коефициентот на правецот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>k</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{k} {}</m:annotation></m:semantics></m:math> од правата по која точката 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>,</m:mi><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( x,y \) } {}</m:annotation></m:semantics></m:math> се приближува кон коорди­на­тниот почеток и означува дека единствена гранична вредност не постои. ◄</para>
+    <para id="id19223929">Аналогно на дефиницијта за непрекинатост на функција од една променлива, се дефинира непрекинатост на функција од две променливи. </para>
+    <para id="id3502869"><emphasis><emphasis effect="italics">Дефиниција</emphasis></emphasis>. Функцијата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>,</m:mi><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x,y \) } {}</m:annotation></m:semantics></m:math> дефинирана во околина на точката 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>A</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math> е <term>непрекината </term> во таа точка ако </para>
+    <para id="id22465959"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:munder><m:mtext>lim</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>X</m:mi><m:mo stretchy="false">→</m:mo><m:mi>A</m:mi></m:mrow></m:mrow></m:mstyle></m:munder><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>X</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mi>f</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>A</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{X rightarrow A} } f \( X \) =f \( A \) } {}</m:annotation></m:semantics></m:math>.</para>
+    <para id="id4215243">Непрекинатоста на функција во точка означува дека постои гранична вредност во таа точка и таа е еднаква со вредноста на функцијата во истата точка. </para>
+    <para id="id4215252">За функцијата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>f</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math>  се вели дека е непрекината во множеството 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>D</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D} {}</m:annotation></m:semantics></m:math><emphasis effect="italics"/> ако таа е непрекината во секоја точка од тоа множество. </para>
+    <para id="id22426542">Ќе наведеме некои основни својства на непрекинатите функции дефинирани во затворено и ограничено множество 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>D</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D} {}</m:annotation></m:semantics></m:math>:</para>
+    <list id="id5170433" list-type="bulleted">
+      <item>Сума и производ на напрекинати функции е непрекината функција. Количник од непрекинати функции е непрекината функција во сите точки во кои именителот е различен од нула. </item>
+    </list>
+    <para id="id5170442"/>
+    <list id="id3836471" list-type="bulleted"><item>Секоја функција 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>f</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math><emphasis effect="italics"/> непрекината во дадено множество<emphasis effect="italics"/><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>D</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D} {}</m:annotation></m:semantics></m:math><emphasis effect="italics"/> е ограничена во тоа множество.</item>
+    </list>
+    <list id="id16884118" list-type="bulleted"><item>Во множеството<emphasis effect="italics"/><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>D</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D} {}</m:annotation></m:semantics></m:math><emphasis effect="italics"/> постои најмалку една точка во која непрекинатата функција<emphasis effect="italics"/><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>f</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math><emphasis effect="italics"/> има најголема вредност и најмалку една точка од множеството<emphasis effect="italics"/><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>D</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D} {}</m:annotation></m:semantics></m:math><emphasis effect="italics"/> во која функцијата има најмала вредност. </item>
+    </list>
+    <list id="id22241582" list-type="bulleted"><item> Ако во две произволни точки 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:mrow><m:msub><m:mi>A</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">∈</m:mo><m:mi>D</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{1} } ,A rSub { size 8{2} }  in D} {}</m:annotation></m:semantics></m:math> за кои 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">=</m:mo><m:mi>f</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>A</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a=f \( A rSub { size 8{1} }  \) } {}</m:annotation></m:semantics></m:math>, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>b</m:mi><m:mo stretchy="false">=</m:mo><m:mi>f</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>A</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{b=f \( A rSub { size 8{2} }  \) } {}</m:annotation></m:semantics></m:math> и ако 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">&lt;</m:mo><m:mi>b</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a&lt;b} {}</m:annotation></m:semantics></m:math>, тогаш функцијата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>f</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math> ги прима сите вредности од интервалот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">[</m:mo><m:mi>a</m:mi><m:mi>,</m:mi><m:mi>b</m:mi><m:mo stretchy="false">]</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \[ a,b \] } {}</m:annotation></m:semantics></m:math>. </item>
+    </list>
+  </content>
+</document>

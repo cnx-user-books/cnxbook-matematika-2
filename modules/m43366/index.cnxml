@@ -1,0 +1,741 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Поим за диференцијална равенка</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m43366</md:content-id>
+  <md:title>Поим за диференцијална равенка</md:title>
+  <md:abstract>Ќе се воведат основните поими сврзани во изучувањето на диференцијалните равенки.</md:abstract>
+  <md:uuid>115daa86-1153-4d7d-a5ce-92d38c7dd727</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1166572518296">
+      <title>ПОИМ ЗА ДИФЕРЕНЦИЈАЛНА РАВНКА</title>
+      <para id="import-auto-id1166570589209">Пред да се започне со проучување на диференцијалните равенки, најпрво ќе се дефинира терминологијата која ќе се користи.</para>
+      <section id="import-auto-id1166575023993">
+        <title>ОСНОВНИ ПОИМИ</title>
+        <para id="import-auto-id1166573734335">Равенка во кои покрај функцијата и независно променливата величина се јавуваат и диференцијали или изводи, се нарекува <term id="import-auto-id1166570703104">диференцијална равенка</term>. Ако функцијата е функција од една поменлива, тогаш диференцијалната равенка се нарекува <term id="import-auto-id1166573849105">обична диференцијална равенка</term>. Ако пак таа е функција од повеќе променливи, равенката која содржи парцијални изводи или диференцијали се нарекува <term id="import-auto-id1166574801555">парцијална диференцијална равенка</term>. Следните примери се обични диференцијални равенки:</para>
+        <para id="import-auto-id1166569710475">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mi>y</m:mi>
+                          <m:mi>'</m:mi>
+                        </m:msup>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mi>y</m:mi>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:msup>
+                        <m:mi>y</m:mi>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{x { {y}} sup { ' }+y=y rSup { size 8{2} } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="import-auto-id1166587011072">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>xy</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mrow>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:msup>
+                        <m:mi>x</m:mi>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                    </m:mrow>
+                    <m:msup>
+                      <m:mi>y</m:mi>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mrow>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>dx</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:msup>
+                        <m:mi>x</m:mi>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                    </m:mrow>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>dy</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ \( 1 -  ital "xy"+x rSup { size 8{2} } y rSup { size 8{2} }  \)  ital "dx"=x rSup { size 8{2} }  ital "dy"} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="import-auto-id1166576481935">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>y</m:mi>
+                      <m:mi>'</m:mi>
+                    </m:msup>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mi>y</m:mi>
+                        <m:mrow>
+                          <m:mi>'</m:mi>
+                          <m:mi>'</m:mi>
+                          <m:mi>'</m:mi>
+                        </m:mrow>
+                      </m:msup>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mn>3</m:mn>
+                    </m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:msup>
+                      <m:mi>y</m:mi>
+                      <m:mrow>
+                        <m:mi>'</m:mi>
+                        <m:mi>'</m:mi>
+                      </m:mrow>
+                    </m:msup>
+                    <m:msup>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' } { {y}} sup { ''' }=3 \(  { {y}} sup { '' } \)  rSup { size 8{2} } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1166579590643"><m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                    <m:mi>y</m:mi>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mfrac>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mi>d</m:mi>
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:msup>
+                            <m:mi>y</m:mi>
+                          </m:mrow>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:msup>
+                                <m:mtext>dx</m:mtext>
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:msup>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mfrac>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:msup>
+                          <m:mfenced open="(" close=")">
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                              <m:mrow>
+                                <m:mfrac>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>dy</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>dx</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:mfrac>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mi>y</m:mi>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mfenced>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{x rSup { size 8{2} } y {  {d rSup { size 8{2} } y}  over  { ital "dx" rSup { size 8{2} } } }  -  left (x {  { ital "dy"}  over  { ital "dx"} }  - y right ) rSup { size 8{2} } =0} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para><para id="import-auto-id1166579423167">додека следните примери се парцијални диференцијални равенки:</para>
+        <para id="import-auto-id1166569968015">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mo stretchy="false">∂</m:mo>
+                        <m:mi>z</m:mi>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">∂</m:mo>
+                        <m:mi>x</m:mi>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>xy</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ {  { partial z}  over  { partial x} } = ital "xy"} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="import-auto-id1166570358438"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mfrac><m:mrow><m:msup><m:mo stretchy="false">∂</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mi>u</m:mi></m:mrow><m:mrow><m:mo stretchy="false">∂</m:mo><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac><m:mo stretchy="false">+</m:mo><m:mfrac><m:mrow><m:msup><m:mo stretchy="false">∂</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mi>u</m:mi></m:mrow><m:mrow><m:mo stretchy="false">∂</m:mo><m:msup><m:mi>y</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">+</m:mo><m:mfrac><m:mrow><m:msup><m:mo stretchy="false">∂</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mi>u</m:mi></m:mrow><m:mrow><m:mo stretchy="false">∂</m:mo><m:msup><m:mi>z</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { partial  rSup { size 8{2} } u}  over  { partial x rSup { size 8{2} } } } + {  { partial  rSup { size 8{2} } u}  over  { partial y rSup { size 8{2} } } } + {  { partial  rSup { size 8{2} } u}  over  { partial z rSup { size 8{2} } } } =0} {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="import-auto-id1166593952581">Во оваа глава предмет на изучување ќе бидат обичните диференцијални равенки. </para>
+        <para id="import-auto-id1166580624152">Диференцијалната равенка се дефинира со следната </para>
+        <para id="import-auto-id1166586536306"><emphasis effect="italics">Дефиниција </emphasis><emphasis>1</emphasis><emphasis effect="italics">.</emphasis><emphasis effect="bold"><emphasis effect="italics"/></emphasis> Равенката </para><para id="import-auto-id4202922"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>,</m:mi><m:mi>y</m:mi><m:mi>,</m:mi><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup><m:mi>,</m:mi><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mi>,</m:mi><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mi>,</m:mi><m:msup><m:mi>y</m:mi><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:msup><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x,y, { {y}} sup { ' }, { {y}} sup { '' }, "."  "."  "." ,y rSup { size 8{ \( n \) } }  \) =0} {}</m:annotation></m:semantics></m:math>,</para>
+        <para id="import-auto-id1166557031913">во која се јавува независната променлива <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>, функцијата <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>y</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math> и нејзините изводи до <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>n</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n} {}</m:annotation></m:semantics></m:math>-ти ред, се нарекува <term id="import-auto-id1166574248482">обична диференцијална равенка од <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>n</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n} {}</m:annotation></m:semantics></m:math>-ти ред</term> или само <term id="import-auto-id1166579061673">диференцијална равенка <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>n</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n} {}</m:annotation></m:semantics></m:math>-ти ред.</term></para>
+        <para id="import-auto-id1166574800928">Со дефиницијата на диференцијална равенка се воведува и поимот за ред на равенката со следната </para>
+        <para id="import-auto-id1166578842968"><emphasis effect="italics">Дефиниција </emphasis><emphasis>2</emphasis><emphasis effect="italics">. </emphasis><term id="import-auto-id1166574796797"> Ред на диференцијална равенка</term> е редот на највисокиот извод кој се јавува во равенката. </para><para id="import-auto-id1166576362266">Затоа, равенка во која се јавува само првиот извод или првиот диференцијал се нарекува диференцијална равенка од прв ред. Таквите равенки имплицитно може да се запишат со општата равенка</para>
+        <para id="import-auto-id1166576558593"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>,</m:mi><m:mi>y</m:mi><m:mi>,</m:mi><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x,y, { {y}} sup { ' } \) =0} {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="import-auto-id1166586988675">Ако равенката содржи втор извод или втор диференцијал, таа се нарекува диференцијална равенка од втор ред и е од облик</para>
+        <para id="import-auto-id1166584323853">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>f</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mi>,</m:mi>
+                    <m:mi>y</m:mi>
+                    <m:mi>,</m:mi>
+                    <m:msup>
+                      <m:mi>y</m:mi>
+                      <m:mi>'</m:mi>
+                    </m:msup>
+                    <m:mi>,</m:mi>
+                    <m:msup>
+                      <m:mi>y</m:mi>
+                      <m:mrow>
+                        <m:mi>'</m:mi>
+                        <m:mi>'</m:mi>
+                      </m:mrow>
+                    </m:msup>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{f \( x,y, { {y}} sup { ' }, { {y}} sup { '' } \) =0} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="import-auto-id1166575127422">и т.н. </para>
+        <para id="import-auto-id1166574819178">Друг основен поим за диференцијалните равенки е поимот за степен.</para>
+        <para id="import-auto-id1166574819686"><emphasis effect="italics">Дефиниција </emphasis><emphasis>3</emphasis><emphasis effect="bold"><emphasis effect="italics">.</emphasis></emphasis><term id="import-auto-id8240214"> Степен на диференцијална равенка</term> е алгебарскиот степен на нејзиниот највисок извод.</para><note xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-128">Забелешка. Да ја нагласиме разликата меѓу 
+<m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mfenced open="(" close=")"><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dy</m:mtext></m:mrow></m:mstyle><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dx</m:mtext></m:mrow></m:mstyle></m:mfrac></m:mfenced><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left ( {  { ital "dy"}  over  { ital "dx"} }  right ) rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>  и  <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>d</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mi>y</m:mi></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:msup><m:mtext>dx</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mstyle></m:mfrac><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {d rSup { size 8{2} } y}  over  { ital "dx" rSup { size 8{2} } } }  "." } {}</m:annotation></m:semantics></m:math>
+Равенка која содржи <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mfenced open="(" close=")"><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dy</m:mtext></m:mrow></m:mstyle><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dx</m:mtext></m:mrow></m:mstyle></m:mfrac></m:mfenced><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left ( {  { ital "dy"}  over  { ital "dx"} }  right ) rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> е диференцијална равенка од прв ред (го содржи првиот извод) и е од втор степен (изводот е на втор степен), додека равенка која содржи  <m:math><m:semantics><m:mrow><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>d</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mi>y</m:mi></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:msup><m:mtext>dx</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mstyle></m:mfrac></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {d rSup { size 8{2} } y}  over  { ital "dx" rSup { size 8{2} } } } } {}</m:annotation></m:semantics></m:math> е диференцијална равенка од втор ред (содржи втор извод) и е од прв степен (изводот е на прв степен).</note><para id="import-auto-id4220549"><emphasis effect="italics">Дефиницијa  </emphasis><emphasis>4</emphasis><emphasis effect="italics">. </emphasis><term id="import-auto-id1166578621116"> Линерна диференцијална равенка</term> е равенката</para><para id="import-auto-id1166578616597">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>a</m:mi>
+                      <m:mrow>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mi>y</m:mi>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mi>n</m:mi>
+                            <m:mo stretchy="false">)</m:mo>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:msup>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:msub>
+                        <m:mi>a</m:mi>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mi>y</m:mi>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mrow>
+                              <m:mi>n</m:mi>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mn>1</m:mn>
+                            </m:mrow>
+                            <m:mo stretchy="false">)</m:mo>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:msup>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mi/>
+                    </m:mrow>
+                    <m:mtext>.</m:mtext>
+                    <m:mi/>
+                    <m:mtext>.</m:mtext>
+                    <m:mi/>
+                    <m:mtext>.</m:mtext>
+                    <m:mrow>
+                      <m:mi/>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:msub>
+                        <m:mi>a</m:mi>
+                        <m:mrow>
+                          <m:mi>n</m:mi>
+                        </m:mrow>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mrow>
+                      <m:mi>y</m:mi>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mi>f</m:mi>
+                    </m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{a rSub { size 8{0} }  \( x \) y rSup { size 8{ \( n \) } } +a rSub { size 8{1} }  \( x \) y rSup { size 8{ \( n - 1 \) } } +` "." ` "." ` "." `+a rSub { size 8{n} }  \( x \) y=f \( x \) } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="import-auto-id1166575218418">во која функцијата <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>y</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math> и сите нејзини изводи се од прв ред.</para>
+        <para id="import-auto-id1166574821627">Во оваа глава ќе се решаваат некои видови обични диференцијални равенки, односно ќе се бара нивното решение. </para>
+        <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1166580403267"><emphasis effect="italics">Дефиниција </emphasis><emphasis>5</emphasis><emphasis effect="italics">.</emphasis><term id="import-auto-id1166570720310"> Решение на обична диференцијална равенка</term> е функцијата <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mi>ϕ</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=ϕ \( x \) } {}</m:annotation></m:semantics></m:math> или нејзин имплицитен облик <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>Φ</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>,</m:mi><m:mi>y</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Φ \( x,y \) =0} {}</m:annotation></m:semantics></m:math> која ја задоволува диференцијалната равенка. </para><para id="import-auto-id1166556457865">Графикот на решението на диференцијалната равенка <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mi>ϕ</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=ϕ \( x \) } {}</m:annotation></m:semantics></m:math> се нарекува <term id="import-auto-id1166586661818">интегрална крива</term>, а постапката за барање решение се нарекува интегрирање на диференцијалната равенка. </para>
+        <para id="import-auto-id4198790">Следуваат примери во кои се покажува кога една функција е решение на диференцијална равенка.</para><example xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-31"><para id="eip-522">
+  Пример 1.
+</para><para id="eip-880">Да се покаже дека функцијата <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mi>x</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=x rSup { size 8{3} } } {}</m:annotation></m:semantics></m:math> е решение на диференцијалната равенка <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mn>6x</m:mn></m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { '' }=6x "." } {}</m:annotation></m:semantics></m:math></para><para id="eip-550">Решение.</para><para id="eip-187"><emphasis effect="bold"/>За функцијата <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mi>x</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=x rSup { size 8{3} } } {}</m:annotation></m:semantics></m:math> се пресметуваат изводите кои се јавуваат во диференцијалната равенка <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">=</m:mo><m:msup><m:mn>3x</m:mn><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }=3x rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> и <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mn>6x</m:mn></m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { '' }=6x "." } {}</m:annotation></m:semantics></m:math> Бидејќи во бараната диференцијална равенка се јавува само вториот извод, со негово заменување во дадената диференцијална равенка се добива идентитетот</para><para id="eip-934"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>6x</m:mn><m:mo stretchy="false">≡</m:mo><m:mn>6x</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{6x equiv 6x} {}</m:annotation></m:semantics></m:math>,</para><para id="eip-13">што значи дека функцијата <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mi>x</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=x rSup { size 8{3} } } {}</m:annotation></m:semantics></m:math> е решение на диференцијалната равенка.◄</para>
+</example><example xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-580"><para id="eip-688">
+  Пример 2.
+</para><para id="eip-740">Да се покаже дека функцијата <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:msup><m:mi>y</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mo stretchy="false">=</m:mo><m:msup><m:mi>R</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rSup { size 8{2} } +y rSup { size 8{2} } =R rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> е решение на  диференци­јал­­ната равенка <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xdx</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">+</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ydy</m:mtext></m:mrow></m:mstyle></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "xdx"+ ital "ydy"=0 "." } {}</m:annotation></m:semantics></m:math></para><para id="eip-161">Решение.</para><para id="eip-366">Диференцијалната равенка <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xdx</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">+</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ydy</m:mtext></m:mrow></m:mstyle></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "xdx"+ ital "ydy"=0} {}</m:annotation></m:semantics></m:math> по делење со <m:math><m:semantics><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dx</m:mtext></m:mrow></m:mstyle></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "dx"} {}</m:annotation></m:semantics></m:math> се запишува како </para><para id="eip-497"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mi>y</m:mi></m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x+y { {y}} sup { ' }=0} {}</m:annotation></m:semantics></m:math>.</para><para id="eip-279">Диференцирајки ја имплицитната функција <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:msup><m:mi>y</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mo stretchy="false">=</m:mo><m:msup><m:mi>R</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rSup { size 8{2} } +y rSup { size 8{2} } =R rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> се добива <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">+</m:mo><m:mn>2y</m:mn></m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2x+2y { {y}} sup { ' }=0} {}</m:annotation></m:semantics></m:math>, а ако оваа равенка се реши по изводот се добива <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:mi>x</m:mi><m:mi>y</m:mi></m:mfrac></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }= -  {  {x}  over  {y} } } {}</m:annotation></m:semantics></m:math> . Заменувајќи го овој извод во диференцијалната равенка се добива</para><para id="eip-11"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mi>y</m:mi></m:mrow><m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:mi>x</m:mi><m:mi>y</m:mi></m:mfrac></m:mrow></m:mfenced><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mi>x</m:mi></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x+y left ( -  {  {x}  over  {y} }  right )=x - x=0} {}</m:annotation></m:semantics></m:math>,</para><para id="eip-203">што значи дека дадената функција ја задоволува диференцијалната равенка и затоа е нејзино решение. ◄</para>
+</example><section id="import-auto-id1166578542764">
+          <para id="import-auto-id1166570077333">Можно е една диференцијална равенка да има повеќе од едно решение. Така, може да се покаже дека ако во решението се вклучи произволна константа <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>C</m:mi><m:mo stretchy="false">∈</m:mo><m:mi>R</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{C in R} {}</m:annotation></m:semantics></m:math>, тоа пак ќе биде решение на диференцијалната равенка. Во Примерот 1, решение ќе биде секоја функција од обликот  <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mi>C</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=x rSup { size 8{3} } +C} {}</m:annotation></m:semantics></m:math>.</para>
+          <para id="import-auto-id7587648">Затоа се воведува поимот за партикуларно и општо решение на диференцијална равенка.</para>
+          <para id="import-auto-id1166578855713"><emphasis effect="italics">Дефиницијa</emphasis><emphasis> 6.</emphasis><term id="import-auto-id1166583796120"> Партикуларно решение</term> е секое решение кое ја задоволува диференцијалната равенка. </para><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1166576368664"><emphasis effect="italics">Дефиницијa  </emphasis><emphasis>7</emphasis><emphasis effect="italics">. </emphasis><term id="import-auto-id4818482"> Општо решение</term> на диференцијална равенка од <m:math><m:semantics><m:mrow><m:mrow><m:mi>n</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n} {}</m:annotation></m:semantics></m:math>-ти ред равенка е решение кое содржи <emphasis effect="italics">n</emphasis> произволни константи. </para><para id="import-auto-id1166575823598">Во Пример 1, општото решение на равенката од втор ред ќе содржи две произволни константи и е од облик  <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:msub><m:mi>C</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:msub><m:mi>C</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=x rSup { size 8{3} } +C rSub { size 8{1} } x+C rSub { size 8{2} }  "." } {}</m:annotation></m:semantics></m:math></para>
+          <para id="import-auto-id1166577930257">Најчесто, од општото решение се добива и партикуларното  решение за определени вредности на произволните константи, но понекогаш постојат и партикуларни решенија кои не се добиваат од општото за ниедна вредност на произволните константи и таквото решение се нарекува <term id="import-auto-id1166553244203">сингуларно решение</term>. Геометриски, општото решение на диференцијална равенка од <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>n</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n} {}</m:annotation></m:semantics></m:math>-ти ред содржи <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>n</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n} {}</m:annotation></m:semantics></m:math>-произволни константи и тоа е фамилија на криви со <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>n</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n} {}</m:annotation></m:semantics></m:math>-параметри. </para>
+          <para id="import-auto-id1166576109648">Иако основна задача во решавањето на диференцијални равенки е да се најде општото решение, обратната задача, формирањето на диференцијална равенка од познато (општо) решение е исто така интересен проблем. Постапката за формирање диференцијална равенка е диференцирање на нејзиното решение се’ додека не се елиминираат  произволните константи.</para>
+        </section>
+        <example xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-936"><para id="eip-332">
+ Пример 3.
+</para><para id="eip-978">Да се формира диференцијална равенка за која </para><para id="eip-372"><m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi>y</m:mi>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:msub>
+                          <m:mi>C</m:mi>
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:msub>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mi>e</m:mi>
+                          <m:mrow>
+                            <m:mi>x</m:mi>
+                          </m:mrow>
+                        </m:msup>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:msub>
+                          <m:mi>C</m:mi>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msub>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mi>e</m:mi>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mi>x</m:mi>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:msup>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mn>2x</m:mn>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{y=C rSub { size 8{1} } e rSup { size 8{x} } +C rSub { size 8{2} } e rSup { size 8{ - x} } +2x} {}</m:annotation>
+              </m:semantics>
+            </m:math></para><para id="eip-310">е општо решение.</para><para id="eip-560">Решение.</para><para id="eip-784"><emphasis effect="bold"/> Диференцирајки го општото решение се добива</para><para id="eip-172"><m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mi>y</m:mi>
+                          <m:mi>'</m:mi>
+                        </m:msup>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:msub>
+                          <m:mi>C</m:mi>
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:msub>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mi>e</m:mi>
+                          <m:mrow>
+                            <m:mi>x</m:mi>
+                          </m:mrow>
+                        </m:msup>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:msub>
+                          <m:mi>C</m:mi>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msub>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mi>e</m:mi>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mi>x</m:mi>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:msup>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }=C rSub { size 8{1} } e rSup { size 8{x} }  - C rSub { size 8{2} } e rSup { size 8{ - x} } +2} {}</m:annotation>
+              </m:semantics>
+            </m:math>
+          </para><para id="eip-591"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:msub><m:mi>C</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:mi>x</m:mi></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:msub><m:mi>C</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>x</m:mi></m:mrow></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { '' }=C rSub { size 8{1} } e rSup { size 8{x} } +C rSub { size 8{2} } e rSup { size 8{ - x} } } {}</m:annotation></m:semantics></m:math>.</para><para id="eip-133">Ако овие две равенки ги разгледуваме како систем од две равенки по произволните константи, решението на системот е </para><para id="eip-195"><m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>C</m:mi>
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:msub>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mfrac>
+                          <m:mn>1</m:mn>
+                          <m:mn>2</m:mn>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>y</m:mi>
+                            <m:mrow>
+                              <m:mi>'</m:mi>
+                              <m:mi>'</m:mi>
+                            </m:mrow>
+                          </m:msup>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mi>y</m:mi>
+                        </m:mrow>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:msup>
+                        <m:mi>e</m:mi>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mi>x</m:mi>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:msup>
+                      <m:mi>,</m:mi>
+                      <m:mi/>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>C</m:mi>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msub>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mfrac>
+                          <m:mn>1</m:mn>
+                          <m:mn>2</m:mn>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>y</m:mi>
+                            <m:mrow>
+                              <m:mi>'</m:mi>
+                              <m:mi>'</m:mi>
+                            </m:mrow>
+                          </m:msup>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mi>y</m:mi>
+                        </m:mrow>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:msup>
+                        <m:mi>e</m:mi>
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                        </m:mrow>
+                      </m:msup>
+                      <m:mtext>.</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{C rSub { size 8{1} } = {  {1}  over  {2} }  \(  { {y}} sup { '' }+y - 2 \) e rSup { size 8{ - x} } ,~C rSub { size 8{2} } = {  {1}  over  {2} }  \(  { {y}} sup { '' } - y+2 \) e rSup { size 8{x} }  "." } {}</m:annotation>
+              </m:semantics>
+            </m:math>
+          </para><para id="eip-841">Заменувајќи ги овие вредности во општото решение</para><para id="eip-995"><m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi>y</m:mi>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:msub>
+                          <m:mi>C</m:mi>
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:msub>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mi>e</m:mi>
+                          <m:mrow>
+                            <m:mi>x</m:mi>
+                          </m:mrow>
+                        </m:msup>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:msub>
+                          <m:mi>C</m:mi>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msub>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>e</m:mi>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mi>x</m:mi>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:msup>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mn>2x</m:mn>
+                        </m:mrow>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{y=C rSub { size 8{1} } e rSup { size 8{x} } +C rSub { size 8{2} } e rSup { size 8{ - x} } +2x={}} {}</m:annotation>
+              </m:semantics>
+            </m:math>
+            <m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mfrac>
+                        <m:mn>1</m:mn>
+                        <m:mn>2</m:mn>
+                      </m:mfrac>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>y</m:mi>
+                            <m:mrow>
+                              <m:mi>'</m:mi>
+                              <m:mi>'</m:mi>
+                            </m:mrow>
+                          </m:msup>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mi>y</m:mi>
+                        </m:mrow>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mfrac>
+                          <m:mn>1</m:mn>
+                          <m:mn>2</m:mn>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>y</m:mi>
+                            <m:mrow>
+                              <m:mi>'</m:mi>
+                              <m:mi>'</m:mi>
+                            </m:mrow>
+                          </m:msup>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mi>y</m:mi>
+                        </m:mrow>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mn>2x</m:mn>
+                        </m:mrow>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>y</m:mi>
+                            <m:mrow>
+                              <m:mi>'</m:mi>
+                              <m:mi>'</m:mi>
+                            </m:mrow>
+                          </m:msup>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mn>2x</m:mn>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {2} }  \(  { {y}} sup { '' }+y - 2 \) + {  {1}  over  {2} }  \(  { {y}} sup { '' } - y+2 \) +2x= { {y}} sup { '' }+2x} {}</m:annotation>
+              </m:semantics>
+            </m:math>
+          </para><para id="eip-842">се формира диференцијалната равенка </para><para id="eip-188"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">−</m:mo><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>2x</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y -  { {y}} sup { '' }=2x} {}</m:annotation></m:semantics></m:math>. ◄</para>
+</example><section id="import-auto-id1166553247530">
+          <title/><para id="import-auto-id1166578717975">Диференцијалните равенки, како еден од основните математички поими, се јавуваат при проучување на разни процеси и појави од физиката, биологијата, хемијата и други науки кои аналитички се опишуваат со некоја променлива и нејзините изводи. </para>
+        </section>
+      </section>
+    </section>
+  </content>
+</document>

@@ -1,0 +1,1448 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Рамнина во простор</title>
+  <metadata>
+  <md:content-id>m20867</md:content-id><md:title>Рамнина во простор</md:title>
+  <md:abstract/>
+  <md:uuid>fd82c5b1-e552-47f6-9ca2-2c1fc5c68eb4</md:uuid>
+</metadata>
+
+<content>
+    <section id="id14263194">
+      <title>ТОЧКА ВО ПРОСТОР </title>
+      <para id="id14263209">Во правоаголен Декартов координатен систем произволна точка <emphasis effect="italics">М </emphasis> се запишува со 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>M</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>,</m:mi><m:mi>y</m:mi><m:mi>,</m:mi><m:mi>z</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{M \( x,y,z \) } {}</m:annotation></m:semantics></m:math>, каде реалните броеви 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mi>,</m:mi><m:mi>y</m:mi><m:mi>,</m:mi><m:mi>z</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x,y,z} {}</m:annotation></m:semantics></m:math> се нејзини координати. </para>
+      <para id="id14263370">Растојанието меѓу точките 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>M</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:msub><m:mi>z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{M rSub { size 8{1} }  \( x rSub { size 8{1} } ,y rSub { size 8{1} } ,z rSub { size 8{1} }  \) } {}</m:annotation></m:semantics></m:math>  и 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>M</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:msub><m:mi>z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{M rSub { size 8{2} }  \( x rSub { size 8{2} } ,y rSub { size 8{2} } ,z rSub { size 8{2} }  \) } {}</m:annotation></m:semantics></m:math>  се пресметува како интензитет на векторот кој минува низ двете точки </para>
+      <para id="id14263586"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mover accent="true"><m:mrow><m:msub><m:mi>M</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:msub><m:mi>M</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mo>¯</m:mo></m:mover><m:mo stretchy="false">=</m:mo><m:mi>d</m:mi></m:mrow><m:mo stretchy="false">=</m:mo><m:msqrt><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:msub><m:mi>z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:msqrt></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {M rSub { size 8{1} } M rSub { size 8{2} } }} =d= sqrt { \( x rSub { size 8{2} }  - x rSub { size 8{1} }  \)  rSup { size 8{2} } + \( y rSub { size 8{2} }  - y rSub { size 8{1} }  \)  rSup { size 8{2} } + \( z rSub { size 8{2} }  - z rSub { size 8{1} }  \)  rSup { size 8{2} } } } {}</m:annotation></m:semantics></m:math> .</para>
+      <para id="id14263824">Нека точката 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>M</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:msub><m:mi>z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{M rSub { size 8{0} }  \( x rSub { size 8{0} } ,y rSub { size 8{0} } ,z rSub { size 8{0} }  \) } {}</m:annotation></m:semantics></m:math> се наоѓа на отсечката 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mrow><m:msub><m:mi>M</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:msub><m:mi>M</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mo>¯</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {M rSub { size 8{1} } M rSub { size 8{2} } }} } {}</m:annotation></m:semantics></m:math> која е ограничена со точките 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>M</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:msub><m:mi>z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{M rSub { size 8{1} }  \( x rSub { size 8{1} } ,y rSub { size 8{1} } ,z rSub { size 8{1} }  \) } {}</m:annotation></m:semantics></m:math>  и 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>M</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:msub><m:mi>z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{M rSub { size 8{2} }  \( x rSub { size 8{2} } ,y rSub { size 8{2} } ,z rSub { size 8{2} }  \) } {}</m:annotation></m:semantics></m:math> . Координатите на точката 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>M</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:msub><m:mi>z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{M rSub { size 8{0} }  \( x rSub { size 8{0} } ,y rSub { size 8{0} } ,z rSub { size 8{0} }  \) } {}</m:annotation></m:semantics></m:math>  која ја дели отсечката во однос 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mover accent="true"><m:mfrac><m:mrow><m:msub><m:mi>M</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:msub><m:mi>M</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mover accent="true"><m:mrow><m:msub><m:mi>M</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:msub><m:mi>M</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mo>¯</m:mo></m:mover></m:mfrac><m:mo>¯</m:mo></m:mover><m:mo stretchy="false">=</m:mo><m:mi>λ</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  { {  {M rSub { size 8{1} } M rSub { size 8{0} } }  over  { {overline  {M rSub { size 8{0} } M rSub { size 8{2} } }} } } }} =λ} {}</m:annotation></m:semantics></m:math>  се определени со </para>
+      <para id="id14291529"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:mi>λ</m:mi></m:mrow><m:mi/><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mi>λ</m:mi></m:mrow></m:mfrac></m:mrow><m:mi>,</m:mi><m:mi/><m:mrow><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mrow><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:mi>λ</m:mi></m:mrow><m:mi/><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mi>λ</m:mi></m:mrow></m:mfrac></m:mrow><m:mi>,</m:mi><m:mi/><m:mrow><m:msub><m:mi>z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mrow><m:msub><m:mi>z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:mi>λ</m:mi></m:mrow><m:mi/><m:msub><m:mi>z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mi>λ</m:mi></m:mrow></m:mfrac></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rSub { size 8{0} } = {  {x rSub { size 8{1} } +λ`x rSub { size 8{2} } }  over  {1+λ} } ,~y rSub { size 8{0} } = {  {y rSub { size 8{1} } +λ`y rSub { size 8{2} } }  over  {1+λ} } ,~z rSub { size 8{0} } = {  {z rSub { size 8{1} } +λ`z rSub { size 8{2} } }  over  {1+λ} } } {}</m:annotation></m:semantics></m:math>.</para>
+      <para id="id14291754">Специјално, ако точката 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>M</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{M rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math> е средина на отсечката 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mrow><m:msub><m:mi>M</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:msub><m:mi>M</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mo>¯</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {M rSub { size 8{1} } M rSub { size 8{2} } }} } {}</m:annotation></m:semantics></m:math>, нејзините координати се </para>
+      <para id="id14291894"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:mi/></m:mrow><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow><m:mi>,</m:mi><m:mi/><m:mrow><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mrow><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:mi/></m:mrow><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow><m:mi>,</m:mi><m:mi/><m:mrow><m:msub><m:mi>z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mrow><m:msub><m:mi>z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:mi/></m:mrow><m:msub><m:mi>z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rSub { size 8{0} } = {  {x rSub { size 8{1} } +`x rSub { size 8{2} } }  over  {2} } ,~y rSub { size 8{0} } = {  {y rSub { size 8{1} } +`y rSub { size 8{2} } }  over  {2} } ,~z rSub { size 8{0} } = {  {z rSub { size 8{1} } +`z rSub { size 8{2} } }  over  {2} } } {}</m:annotation></m:semantics></m:math>.</para>
+      <para id="id14292085"><emphasis>Пример 1</emphasis>.   На апсцисната оска да се определи точка чие растојание до точката </para>
+      <para id="id14292103"><emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>A</m:mi><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mn>3,4,8</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A \(  - 3,4,8 \) } {}</m:annotation></m:semantics></m:math></emphasis> е 12.</para>
+      <para id="id14292174"><emphasis>Решение.</emphasis>  За точката 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>M</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:mn>0,0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{M \( x rSub { size 8{0} } ,0,0 \) } {}</m:annotation></m:semantics></m:math> која е на апсцисната оска зададено е дека 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mover accent="true"><m:mstyle fontstyle="italic"><m:mrow><m:mtext>MA</m:mtext></m:mrow></m:mstyle><m:mo>¯</m:mo></m:mover><m:mo stretchy="false">=</m:mo><m:mtext>12</m:mtext></m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  { ital "MA"}} ="12" "." } {}</m:annotation></m:semantics></m:math> Од формулата за растојание</para>
+      <para id="id14292335"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mover accent="true"><m:mstyle fontstyle="italic"><m:mrow><m:mtext>MA</m:mtext></m:mrow></m:mstyle><m:mo>¯</m:mo></m:mover><m:mo stretchy="false">=</m:mo><m:msqrt><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow><m:mrow><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>8</m:mn></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:msqrt></m:mrow><m:mo stretchy="false">=</m:mo><m:msqrt><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:mtext>80</m:mtext></m:mrow></m:mrow></m:msqrt></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>12</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  { ital "MA"}} = sqrt { \( x rSub { size 8{0} } +3 \)  rSup { size 8{2} } + \(  - 4 \)  rSup { size 8{2} } + \(  - 8 \)  rSup { size 8{2} } } = sqrt { \( x rSub { size 8{0} } +3 \)  rSup { size 8{2} } +"80"} ="12"} {}</m:annotation></m:semantics></m:math>,</para>
+      <para id="id14288150">се определува координатата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math> од равенката </para>
+      <para id="id14288221">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>x</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>0</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mn>3</m:mn>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msup>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mtext>80</m:mtext>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mtext>144</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ \( x rSub { size 8{0} } +3 \)  rSup { size 8{2} } +"80"="144"} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id14288318">или </para>
+      <para id="id14288324"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">=</m:mo><m:mtext>64</m:mtext></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( x rSub { size 8{0} } +3 \)  rSup { size 8{2} } ="64"} {}</m:annotation></m:semantics></m:math>,</para>
+      <para id="id14288410">која се сведува на равенка со апсолутна вредност</para>
+      <para id="id14288424"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:mi/><m:mrow><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:mn>3</m:mn></m:mrow><m:mi/></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>8</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline `x rSub { size 8{0} } +3` rline =8} {}</m:annotation></m:semantics></m:math>.       </para>
+      <para id="id14288544">Од дефиницијата за апсолутната вредност</para>
+      <para id="id14288558"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">∣</m:mo>
+                      <m:mrow>
+                        <m:mi/>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>x</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>0</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mn>3</m:mn>
+                        </m:mrow>
+                        <m:mi/>
+                      </m:mrow>
+                      <m:mo stretchy="false">∣</m:mo>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mo stretchy="true">{</m:mo>
+                      <m:mtable>
+                        <m:mtr>
+                          <m:mtd>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:msub>
+                                  <m:mi>x</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mn>0</m:mn>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msub>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mn>3,</m:mn>
+                              </m:mrow>
+                              <m:mi/>
+                              <m:mtext> за </m:mtext>
+                              <m:mi/>
+                              <m:mrow>
+                                <m:msub>
+                                  <m:mi>x</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mn>0</m:mn>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msub>
+                                <m:mo stretchy="false">≥</m:mo>
+                                <m:mrow>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:mn>3</m:mn>
+                                </m:mrow>
+                              </m:mrow>
+                              <m:mrow/>
+                            </m:mrow>
+                          </m:mtd>
+                        </m:mtr>
+                        <m:mtr>
+                          <m:mtd>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:msub>
+                                    <m:mi>x</m:mi>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mn>0</m:mn>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msub>
+                                </m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mn>3,</m:mn>
+                              </m:mrow>
+                              <m:mi/>
+                              <m:mtext> за </m:mtext>
+                              <m:mi/>
+                              <m:mrow>
+                                <m:msub>
+                                  <m:mi>x</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mn>0</m:mn>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msub>
+                                <m:mo stretchy="false">&lt;</m:mo>
+                                <m:mrow>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:mn>3,</m:mn>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mtd>
+                        </m:mtr>
+                      </m:mtable>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ lline `x rSub { size 8{0} } +3` rline = left lbrace  matrix {
+x rSub { size 8{0} } +3,~`"za"~x rSub { size 8{0} }  &gt;=  - 3 {} ##
+ - x rSub { size 8{0} }  - 3,~"za"~x rSub { size 8{0} } &lt; - 3,
+}  right none } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id14288757">равенката со апсолутна вредност не доведува до следните две равенки со решенија:</para>
+      <para id="id14288775"> за 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">≥</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow><m:mo stretchy="false">⇒</m:mo><m:mi/><m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>8</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mn>5</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rSub { size 8{0} }  &gt;=  - 3 drarrow `x rSub { size 8{0} } +3=8 drarrow x rSub { size 8{0} } =5} {}</m:annotation></m:semantics></m:math><sub/><sub>,</sub></para>
+      <para id="id14288914">и</para>
+      <para id="id14288919">за 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">&lt;</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow><m:mo stretchy="false">⇒</m:mo><m:mrow><m:mrow><m:mrow><m:mi/><m:mo stretchy="false">−</m:mo><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>8</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>11</m:mtext></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rSub { size 8{0} } &lt; - 3 drarrow ` - x rSub { size 8{0} }  - 3=8 drarrow x rSub { size 8{0} } = - "11"} {}</m:annotation></m:semantics></m:math>.</para>
+      <para id="id14289069">Се заклучува дека постојат две точки на апсцисната оска чие растојание до точката <emphasis effect="italics">А</emphasis> е 12, а тоа се точките </para>
+      <para id="id14289096"><emphasis effect="italics"/><emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>M</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">(</m:mo><m:mn>5,0,0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{M rSub { size 8{1} }  \( 5,0,0 \) } {}</m:annotation></m:semantics></m:math></emphasis> и <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>M</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mtext>11</m:mtext></m:mrow><m:mi>,</m:mi><m:mn>0,0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{M rSub { size 8{2} }  \(  - "11",0,0 \) } {}</m:annotation></m:semantics></m:math></emphasis>. ◄</para>
+    </section>
+    <section id="id14289270">
+      <title>РАМНИНА ВО ПРОСТОР</title>
+      <para id="id14289277">Рамнина во простор може да се определи на повеќе начини и да се претстави со неколку видови равенки кои подолу ќе се прикажат.</para>
+      <section id="id14289292">
+        <title>Рамнина зададена со точка и нормален вектор </title>
+        <para id="id14289311">Еден од начините на определување рамнина во простор е со задавање точка која лежи на рамнината и вектор нормален на рамнината. Нека 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>M</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:msub><m:mi>z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{M rSub { size 8{0} }  \( x rSub { size 8{0} } ,y rSub { size 8{0} } ,z rSub { size 8{0} }  \) } {}</m:annotation></m:semantics></m:math> е точката која лежи на рамнината, а векторот нормален на рамнината е 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>n</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {n}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> = {<emphasis effect="italics">A</emphasis>, <emphasis effect="italics">B</emphasis>, <emphasis effect="italics">C</emphasis>}. За да се добие равенката на рамнината, се поаѓа од фактот дека векторот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mover><m:mrow><m:msub><m:mi>M</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mi>M</m:mi></m:mrow><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">{</m:mo><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mi>,</m:mi><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">−</m:mo><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mi>,</m:mi><m:mrow><m:mi>z</m:mi><m:mo stretchy="false">−</m:mo><m:msub><m:mi>z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow><m:mo stretchy="false">}</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {M rSub { size 8{0} } M}  cSup { size 8{ rightarrow } } = lbrace x - x rSub { size 8{0} } ,y - y rSub { size 8{0} } ,z - z rSub { size 8{0} }  rbrace } {}</m:annotation></m:semantics></m:math>  меѓу произволна точка 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>M</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>,</m:mi><m:mi>y</m:mi><m:mi>,</m:mi><m:mi>z</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{M \( x,y,z \) } {}</m:annotation></m:semantics></m:math> од бараната рамнина и дадената точка 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>M</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:msub><m:mi>z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{M rSub { size 8{0} }  \( x rSub { size 8{0} } ,y rSub { size 8{0} } ,z rSub { size 8{0} }  \) } {}</m:annotation></m:semantics></m:math>   исто така лежи во рамни­ната, а со тоа е нормален на векторот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>n</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {n}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math>. Користејќи го условот скаларниот производ на нормални вектори да е нула се добива </para>
+        <para id="id14289970"><emphasis effect="italics"/><emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mover><m:mi>n</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">⋅</m:mo><m:mover><m:mrow><m:msub><m:mi>M</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mi>M</m:mi></m:mrow><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {n}  cSup { size 8{ rightarrow } }  cdot  {M rSub { size 8{0} } M}  cSup { size 8{ rightarrow } } =0} {}</m:annotation></m:semantics></m:math></emphasis><emphasis effect="italics"/>,</para>
+        <para id="id14290079">или запишано по координати ја дава равенката </para>
+        <para id="id14290098"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>A</m:mi><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">+</m:mo><m:mi>B</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">−</m:mo><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">+</m:mo><m:mi>C</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>z</m:mi><m:mo stretchy="false">−</m:mo><m:msub><m:mi>z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A \( x - x rSub { size 8{0} }  \) +B \( y - y rSub { size 8{0} }  \) +C \( z - z rSub { size 8{0} }  \) =0} {}</m:annotation></m:semantics></m:math>, </para>
+        <para id="id14290253">која претставува таканаречен <term>точка-нормала облик</term> равенка на рамнина. </para>
+        <para id="id14290283"><emphasis>Пример 2</emphasis>.  Да се напише равенка на рамнина која поминува низ точката 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>M</m:mi><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>2,</m:mn><m:mo stretchy="false">−</m:mo><m:mn>3,1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{M \( 2, - 3,1 \) } {}</m:annotation></m:semantics></m:math> и е нормална на векторот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>n</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {n}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math><emphasis effect="bold"/>= {4, 2, –3}.</para>
+        <para id="id14290440"><emphasis>Решение.</emphasis>  Бараната рамнина ќе има равенка</para>
+        <para id="id14290456">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mn>4</m:mn>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>y</m:mi>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mo stretchy="false">(</m:mo>
+                        </m:mrow>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mn>3</m:mn>
+                      </m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mrow>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mn>3</m:mn>
+                      </m:mrow>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mrow>
+                        <m:mi>z</m:mi>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{4 \( x - 2 \) +2 \( y -  \(  - 3 \)  \)  - 3 \( z - 1 \) =0} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id14290605"> или</para>
+        <para id="id14290611"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>4x</m:mn><m:mo stretchy="false">+</m:mo><m:mn>2y</m:mn></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3z</m:mn></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{4x+2y - 3z+1=0} {}</m:annotation></m:semantics></m:math>.◄</para>
+      </section>
+      <section id="id14290700">
+        <title>Општ вид равенка на рамнина</title>
+        <para id="id14290709">Ако во равенката на рамнина (2) се ослободиме од заградите се добива равенката</para>
+        <para id="id14290733"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Ax</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">+</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>By</m:mtext></m:mrow></m:mstyle></m:mrow><m:mo stretchy="false">+</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Cz</m:mtext></m:mrow></m:mstyle></m:mrow><m:mo stretchy="false">−</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:msub><m:mtext>Ax</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle></m:mrow><m:mo stretchy="false">−</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:msub><m:mtext>By</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle></m:mrow><m:mo stretchy="false">−</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:msub><m:mtext>Cz</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "Ax"+ ital "By"+ ital "Cz" -  ital "Ax" rSub { size 8{0} }  -  ital "By" rSub { size 8{0} }  -  ital "Cz" rSub { size 8{0} } =0} {}</m:annotation></m:semantics></m:math>,</para>
+        <para id="id14255235">или општо </para>
+        <equation id="id14255240">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>Ax</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>By</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mrow>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>Cz</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mrow>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mi>D</m:mi>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ ital "Ax"+ ital "By"+ ital "Cz"+D=0} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+        <para id="id14255329">и претставува <term>општ вид</term> равенка на рамнина во простор. Како што се гледа од равенката, општиот вид равенка на рамнина е линеарна равенка со три непознати. Коефициентите 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>A</m:mi><m:mi>,</m:mi><m:mi>B</m:mi><m:mi>,</m:mi><m:mi>C</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A,B,C} {}</m:annotation></m:semantics></m:math> пред променливите се координатите на нормалниот вектор. </para>
+        <para id="id14255424">Понатаму ќе се прикажe општиот вид на равенка на некои <term>специјални рамнин</term><term>и</term> кои се добиваат кога некој од коефициентите во равенката е нула. </para>
+        <list id="id14255463" list-type="bulleted">
+          <item>Ако слободниот член е нула, т.е. 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>D</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D=0} {}</m:annotation></m:semantics></m:math>, рамнината минува низ координатниот почеток и општата равенка на таквата рамнина е</item>
+        </list>
+        <para id="id14255542"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Ax</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">+</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>By</m:mtext></m:mrow></m:mstyle></m:mrow><m:mo stretchy="false">+</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Cz</m:mtext></m:mrow></m:mstyle></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "Ax"+ ital "By"+ ital "Cz"=0} {}</m:annotation></m:semantics></m:math>;</para>
+        <list id="id14255627" list-type="bulleted"><item>Ако некој од коефициентите пред променливите 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mi>,</m:mi><m:mi>y</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x,y} {}</m:annotation></m:semantics></m:math> или 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>z</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{z} {}</m:annotation></m:semantics></m:math>  е нула, тогаш рамнината е паралелна со соодветната оска (онаа координатна оска чија променлива не се јавува во равенката). На пр. ако 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>C</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{C=0} {}</m:annotation></m:semantics></m:math>, рамнината е паралелна со 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>z</m:mi><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{z - {}} {}</m:annotation></m:semantics></m:math> оската и има равенка</item>
+        </list>
+        <para id="id14255866"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Ax</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">+</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>By</m:mtext></m:mrow></m:mstyle></m:mrow><m:mo stretchy="false">+</m:mo><m:mi>D</m:mi></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "Ax"+ ital "By"+D=0} {}</m:annotation></m:semantics></m:math>;</para>
+        <list id="id14255951" list-type="bulleted">
+          <item>Ако два коефициенти се нула од кои едниот е слободниот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>D</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D=0} {}</m:annotation></m:semantics></m:math> а вториот е еден од коефициентите 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>A</m:mi><m:mi>,</m:mi><m:mi>B</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A,B} {}</m:annotation></m:semantics></m:math> или 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>C</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{C} {}</m:annotation></m:semantics></m:math>, на пр. нека 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>C</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{C=0} {}</m:annotation></m:semantics></m:math>, тогаш рамнината минува низ 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>z</m:mi><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{z - {}} {}</m:annotation></m:semantics></m:math>оската и е со равенка</item>
+        </list>
+        <para id="id14256250"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Ax</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">+</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>By</m:mtext></m:mrow></m:mstyle></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "Ax"+ ital "By"=0} {}</m:annotation></m:semantics></m:math>;</para>
+        <list id="id14256326" list-type="bulleted">
+          <item>Ако два коефициенти (различни од слободниот) се нула, рамнината е паралелна со координатната рамнина определена со оските пред кои коефициентите се нула. На пр. ако 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>A</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A=0} {}</m:annotation></m:semantics></m:math> и 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>C</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{C=0} {}</m:annotation></m:semantics></m:math>, тогаш рамнината е паралелна со 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xOz</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "xOz"} {}</m:annotation></m:semantics></m:math> координатната рамнина и има равенка</item>
+        </list>
+        <para id="id14256519"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>By</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">+</m:mo><m:mi>D</m:mi></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "By"+D=0} {}</m:annotation></m:semantics></m:math>;</para>
+        <para id="id14256594"/>
+        <list id="id14256598" list-type="bulleted">
+          <item>Ако три коефициенти се нула од кои едниот мора да е 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>D</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D=0} {}</m:annotation></m:semantics></m:math>, се добиваат равенките на координатните рамнини:</item>
+        </list>
+        <para id="id14256671"><emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=0} {}</m:annotation></m:semantics></m:math></emphasis>  е   
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>yOz</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "yOz"} {}</m:annotation></m:semantics></m:math> координатна рамнина;</para>
+        <para id="id14256793"><emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=0} {}</m:annotation></m:semantics></m:math></emphasis>  е  
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xOz</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "xOz"} {}</m:annotation></m:semantics></m:math> координатна рамнина;</para>
+        <para id="id14256916"><emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>z</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{z=0} {}</m:annotation></m:semantics></m:math></emphasis>  е  
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xOy</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "xOy"} {}</m:annotation></m:semantics></m:math> координатна рамнина.</para>
+        <para id="id14257039"><emphasis>Пример </emphasis><emphasis>3</emphasis>.  Да се напише равенка на рамнина која поминува низ 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y - {}} {}</m:annotation></m:semantics></m:math>оската и низ точката 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>M</m:mi><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>1,4,</m:mn><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{M \( 1,4, - 3 \) } {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="id14257186"><emphasis>Решение</emphasis><emphasis effect="bold">.</emphasis>  За бараната рамнина коефициентите 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>B</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B=0} {}</m:annotation></m:semantics></m:math> и 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>D</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D=0} {}</m:annotation></m:semantics></m:math> и равенката на рамнината ќе има облик 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Ax</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">+</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Cz</m:mtext></m:mrow></m:mstyle></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "Ax"+ ital "Cz"=0} {}</m:annotation></m:semantics></m:math>. Точката 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>M</m:mi><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>1,4,</m:mn><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{M \( 1,4, - 3 \) } {}</m:annotation></m:semantics></m:math> лежи на рамнината што значи дека ја задоволува нејзината равенка, односно 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>A</m:mi><m:mo stretchy="false">−</m:mo><m:mn>3C</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A - 3C=0} {}</m:annotation></m:semantics></m:math> или 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>A</m:mi><m:mo stretchy="false">=</m:mo><m:mn>3C</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A=3C} {}</m:annotation></m:semantics></m:math><emphasis effect="italics">.</emphasis> Со замена на оваа вредност во равенката на рамнината се добива 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>3</m:mn><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Cx</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">+</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Cz</m:mtext></m:mrow></m:mstyle></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3 ital "Cx"+ ital "Cz"=0} {}</m:annotation></m:semantics></m:math><emphasis effect="italics"/> и по кратење со 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>C</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{C} {}</m:annotation></m:semantics></m:math> се добива дека бараната рамнина има равенка</para>
+        <para id="id14257776"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mn>3x</m:mn><m:mo stretchy="false">+</m:mo><m:mi>z</m:mi></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3x+z=0} {}</m:annotation></m:semantics></m:math>. ◄</para>
+      </section>
+      <section id="id14257844">
+        <title>Сегментен вид равенка на рамнина</title>
+        <para id="id14257860">Општиот вид равенка на рамнина (3) може да се подели со слободниот член (
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>D</m:mi><m:mo stretchy="false">≠</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D &lt;&gt; 0} {}</m:annotation></m:semantics></m:math>) и да се сведе на обликот </para>
+        <para id="id14257937">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mfrac>
+                            <m:mi>x</m:mi>
+                            <m:mrow>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mfrac>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mi>D</m:mi>
+                                  </m:mrow>
+                                </m:mstyle>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mi>A</m:mi>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mfrac>
+                            </m:mrow>
+                          </m:mfrac>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mfrac>
+                            <m:mi>y</m:mi>
+                            <m:mrow>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mfrac>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mi>D</m:mi>
+                                  </m:mrow>
+                                </m:mstyle>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mi>B</m:mi>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mfrac>
+                            </m:mrow>
+                          </m:mfrac>
+                        </m:mrow>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mfrac>
+                          <m:mi>z</m:mi>
+                          <m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mfrac>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>D</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>C</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mfrac>
+                          </m:mrow>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ {  {x}  over  { -  {  { size 8{D} }  over  { size 8{A} } } } } + {  {y}  over  { -  {  { size 8{D} }  over  { size 8{B} } } } } + {  {z}  over  { -  {  { size 8{D} }  over  { size 8{C} } } } } =1} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id14258073">или </para>
+        <para id="id14258077">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mfrac>
+                            <m:mi>x</m:mi>
+                            <m:mi>a</m:mi>
+                          </m:mfrac>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mfrac>
+                            <m:mi>y</m:mi>
+                            <m:mi>b</m:mi>
+                          </m:mfrac>
+                        </m:mrow>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mfrac>
+                          <m:mi>z</m:mi>
+                          <m:mi>c</m:mi>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ {  {x}  over  {a} } + {  {y}  over  {b} } + {  {z}  over  {c} } =1} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id14258165">кој се нарекува <term>сегментен вид</term> равенка на рамнина, а сегментите кои рамнината ги отсекува на координатните оски 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mi>,</m:mi><m:mi>y</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x,y} {}</m:annotation></m:semantics></m:math><emphasis effect="italics"/> и  
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>z</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{z} {}</m:annotation></m:semantics></m:math><emphasis effect="italics"/> се соодветно 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>a</m:mi><m:mi>,</m:mi><m:mi>b</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a,b} {}</m:annotation></m:semantics></m:math><emphasis effect="italics"/> и  
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>c</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{c} {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="id14258415"><emphasis>Пример </emphasis><emphasis>4</emphasis>.  Да се напише равенка на рамнина која минува низ точката 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>M</m:mi><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>2,1,</m:mn><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{M \( 2,1, - 1 \) } {}</m:annotation></m:semantics></m:math> и отсекува на 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Ox</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "Ox"} {}</m:annotation></m:semantics></m:math> и 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Oy</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "Oy"} {}</m:annotation></m:semantics></m:math> оските сегменти соодветно 2 и 1.</para>
+        <para id="id14258627"><emphasis>Решение</emphasis><emphasis effect="bold">.</emphasis>  Бидејќи се зададени сементи кои правата ги отсекува на координатните оски, се бара равенка на рамнина во сегментен вид. Од условот на задачата познато е дека 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>a</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math><emphasis effect="italics"/>= 2 и 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>b</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{b} {}</m:annotation></m:semantics></m:math><emphasis effect="italics"/>= 1. Затоа равенката на рамнината ќе биде </para>
+        <para id="id14258767"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mfrac><m:mi>x</m:mi><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">+</m:mo><m:mfrac><m:mi>y</m:mi><m:mn>1</m:mn></m:mfrac></m:mrow><m:mo stretchy="false">+</m:mo><m:mfrac><m:mi>z</m:mi><m:mi>c</m:mi></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {x}  over  {2} } + {  {y}  over  {1} } + {  {z}  over  {c} } =1} {}</m:annotation></m:semantics></m:math>,</para>
+        <para id="id14309247">во која треба да се определи сегментот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>c</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{c} {}</m:annotation></m:semantics></m:math>. Познат е уште еден услов, а тоа е дека точката 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>M</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{M} {}</m:annotation></m:semantics></m:math> лежи во рамнината, што значи дека нејзините координати ја задоволуваат равенката на рамнината, т.е. </para>
+        <para id="id14309370">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mfrac>
+                            <m:mn>2</m:mn>
+                            <m:mn>2</m:mn>
+                          </m:mfrac>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mfrac>
+                            <m:mn>1</m:mn>
+                            <m:mn>1</m:mn>
+                          </m:mfrac>
+                        </m:mrow>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mfrac>
+                          <m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                          <m:mi>c</m:mi>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ {  {2}  over  {2} } + {  {1}  over  {1} } + {  { - 1}  over  {c} } =1} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id14309458">од каде следува дека 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>c</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{c=1} {}</m:annotation></m:semantics></m:math>. Равенката на бараната рамнината е </para>
+        <para id="id14309531"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mfrac><m:mi>x</m:mi><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">+</m:mo><m:mfrac><m:mi>y</m:mi><m:mn>1</m:mn></m:mfrac></m:mrow><m:mo stretchy="false">+</m:mo><m:mfrac><m:mi>z</m:mi><m:mn>1</m:mn></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {x}  over  {2} } + {  {y}  over  {1} } + {  {z}  over  {1} } =1} {}</m:annotation></m:semantics></m:math>,</para>
+        <para id="id14309611">или по ослободување од именителот се добива општиот вид на равенка</para>
+        <para id="id14309624"><emphasis effect="italics"/><emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mn>2y</m:mn></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>2z</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x+2y+2z=2 "." } {}</m:annotation></m:semantics></m:math></emphasis> ◄</para>
+      </section>
+      <section id="id14309712">
+        <title>Равенка на рамнина низ три точки</title>
+        <para id="id14309727">Рамнина може еднозначно да се зададе и со три нејзини точки 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>M</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:msub><m:mi>z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{M rSub { size 8{1} }  \( x rSub { size 8{1} } ,y rSub { size 8{1} } ,z rSub { size 8{1} }  \) } {}</m:annotation></m:semantics></m:math>, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>M</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:msub><m:mi>z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{M rSub { size 8{2} }  \( x rSub { size 8{2} } ,y rSub { size 8{2} } ,z rSub { size 8{2} }  \) } {}</m:annotation></m:semantics></m:math> и 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>M</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:msub><m:mi>z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{M rSub { size 8{3} }  \( x rSub { size 8{3} } ,y rSub { size 8{3} } ,z rSub { size 8{3} }  \) } {}</m:annotation></m:semantics></m:math>. Со трите точки и произволна четврта точка 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>M</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>,</m:mi><m:mi>y</m:mi><m:mi>,</m:mi><m:mi>z</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{M \( x,y,z \) } {}</m:annotation></m:semantics></m:math> која лежи во рамнината се определуваат три вектори кои го исполнуваат условот за компланарност (мешаниот производ да е нула). Затоа равенката </para>
+        <para id="id14310128">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">∣</m:mo>
+                        <m:mtable>
+                          <m:mtr>
+                            <m:mtd>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:msub>
+                                    <m:mi>x</m:mi>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mn>1</m:mn>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msub>
+                                </m:mrow>
+                                <m:mrow/>
+                              </m:mrow>
+                            </m:mtd>
+                            <m:mtd>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mi>y</m:mi>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:msub>
+                                    <m:mi>y</m:mi>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mn>1</m:mn>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msub>
+                                </m:mrow>
+                                <m:mrow/>
+                              </m:mrow>
+                            </m:mtd>
+                            <m:mtd>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mi>z</m:mi>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:msub>
+                                    <m:mi>z</m:mi>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mn>1</m:mn>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msub>
+                                </m:mrow>
+                                <m:mrow/>
+                              </m:mrow>
+                            </m:mtd>
+                          </m:mtr>
+                          <m:mtr>
+                            <m:mtd>
+                              <m:mrow>
+                                <m:mi/>
+                                <m:mrow>
+                                  <m:msub>
+                                    <m:mi>x</m:mi>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mn>2</m:mn>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msub>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:msub>
+                                    <m:mi>x</m:mi>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mn>1</m:mn>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msub>
+                                </m:mrow>
+                                <m:mrow/>
+                              </m:mrow>
+                            </m:mtd>
+                            <m:mtd>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:msub>
+                                    <m:mi>y</m:mi>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mn>2</m:mn>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msub>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:msub>
+                                    <m:mi>y</m:mi>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mn>1</m:mn>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msub>
+                                </m:mrow>
+                                <m:mrow/>
+                              </m:mrow>
+                            </m:mtd>
+                            <m:mtd>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:msub>
+                                    <m:mi>z</m:mi>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mn>2</m:mn>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msub>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:msub>
+                                    <m:mi>z</m:mi>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mn>1</m:mn>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msub>
+                                </m:mrow>
+                                <m:mi/>
+                                <m:mrow/>
+                              </m:mrow>
+                            </m:mtd>
+                          </m:mtr>
+                          <m:mtr>
+                            <m:mtd>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:msub>
+                                    <m:mi>x</m:mi>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mn>3</m:mn>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msub>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:msub>
+                                    <m:mi>x</m:mi>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mn>1</m:mn>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msub>
+                                </m:mrow>
+                                <m:mrow/>
+                              </m:mrow>
+                            </m:mtd>
+                            <m:mtd>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:msub>
+                                    <m:mi>y</m:mi>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mn>3</m:mn>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msub>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:msub>
+                                    <m:mi>y</m:mi>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mn>1</m:mn>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msub>
+                                </m:mrow>
+                                <m:mrow/>
+                              </m:mrow>
+                            </m:mtd>
+                            <m:mtd>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:msub>
+                                    <m:mi>z</m:mi>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mn>3</m:mn>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msub>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:msub>
+                                    <m:mi>z</m:mi>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mn>1</m:mn>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msub>
+                                </m:mrow>
+                                <m:mrow/>
+                              </m:mrow>
+                            </m:mtd>
+                          </m:mtr>
+                        </m:mtable>
+                        <m:mo stretchy="false">∣</m:mo>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ lline  matrix {
+x - x rSub { size 8{1} }  {} # y - y rSub { size 8{1} }  {} # z - z rSub { size 8{1} }  {} ##
+`x rSub { size 8{2} }  - x rSub { size 8{1} }  {} # y rSub { size 8{2} }  - y rSub { size 8{1} }  {} # z rSub { size 8{2} }  - z rSub { size 8{1} } ` {} ##
+x rSub { size 8{3} }  - x rSub { size 8{1} }  {} # y rSub { size 8{3} }  - y rSub { size 8{1} }  {} # z rSub { size 8{3} }  - z rSub { size 8{1} } {}
+}  rline =0} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id14310439">претставува <term>равенка на рамнина низ три точки</term>.</para>
+      </section>
+      <section id="id14310458">
+        <title>Сноп рамнини</title>
+        <para id="id14310465">Две рамнини што се сечат образуваат сноп рамнини. Ако се рамнините се зададено со равнките 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:msub><m:mi>B</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">+</m:mo><m:msub><m:mi>C</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:mrow><m:mi>z</m:mi><m:mo stretchy="false">+</m:mo><m:msub><m:mi>D</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{1} } x+B rSub { size 8{1} } y+C rSub { size 8{1} } z+D rSub { size 8{1} } =0} {}</m:annotation></m:semantics></m:math> и 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:msub><m:mi>B</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">+</m:mo><m:msub><m:mi>C</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:mrow><m:mi>z</m:mi><m:mo stretchy="false">+</m:mo><m:msub><m:mi>D</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{2} } x+B rSub { size 8{2} } y+C rSub { size 8{2} } z+D rSub { size 8{2} } =0} {}</m:annotation></m:semantics></m:math>, равенката на <term>снопот рамнини</term> е </para>
+        <para id="id14310727">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>A</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:msub>
+                          <m:mi>B</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mi>y</m:mi>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:msub>
+                          <m:mi>C</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>z</m:mi>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:msub>
+                            <m:mi>D</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mi>λ</m:mi>
+                      </m:mrow>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:msub>
+                        <m:mi>A</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:msub>
+                          <m:mi>B</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mi>y</m:mi>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:msub>
+                          <m:mi>C</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mi>z</m:mi>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mi>D</m:mi>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mn>0,</m:mn>
+                      </m:mrow>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mrow>
+                        <m:mi>λ</m:mi>
+                        <m:mo stretchy="false">∈</m:mo>
+                        <m:mi>R</m:mi>
+                      </m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mtext>.</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{1} } x+B rSub { size 8{1} } y+C rSub { size 8{1} } z+D rSub { size 8{1} } +λ \( A rSub { size 8{2} } x+B rSub { size 8{2} } y+C rSub { size 8{2} } z+D \) =0, \( λ in R \)  "." } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id14310946">За секоја вредност на параметарот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>λ</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{λ} {}</m:annotation></m:semantics></m:math> се определува рамнина од снопот. </para>
+        <para id="id14311005"><emphasis>Пример </emphasis><emphasis>5</emphasis>.  Низ пресечната права на рамнините </para>
+        <para id="id14311028">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mn>4x</m:mn>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mi>y</m:mi>
+                          </m:mrow>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mn>3z</m:mn>
+                        </m:mrow>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{4x - y+3z - 1=0} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id14311110">и </para>
+        <para id="id14311114"><emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mn>5y</m:mn></m:mrow><m:mo stretchy="false">−</m:mo><m:mi>z</m:mi></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>2</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x+5y - z+2=0} {}</m:annotation></m:semantics></m:math></emphasis>,</para>
+        <para id="id14311199">да се напише равенка на рамнина која е паралелна со 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y - {}} {}</m:annotation></m:semantics></m:math>оската.</para>
+        <para id="id14311271"><emphasis>Решение</emphasis><emphasis effect="bold">.</emphasis>  Од дадените рамнини се формира снопот рамнини </para>
+        <para id="id14311295">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mn>4x</m:mn>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mi>y</m:mi>
+                            </m:mrow>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:mn>3z</m:mn>
+                          </m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mi>λ</m:mi>
+                      </m:mrow>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mi>x</m:mi>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:mn>5y</m:mn>
+                          </m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mi>z</m:mi>
+                        </m:mrow>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{4x - y+3z - 1+λ \( x+5y - z+2 \) =0} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id14311424">или </para>
+        <para id="id14311437"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>4</m:mn><m:mo stretchy="false">+</m:mo><m:mi>λ</m:mi></m:mrow><m:mo stretchy="false">)</m:mo><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>5λ</m:mn></m:mrow><m:mo stretchy="false">)</m:mo><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">−</m:mo><m:mi>λ</m:mi></m:mrow><m:mo stretchy="false">)</m:mo><m:mrow><m:mrow><m:mrow><m:mi>z</m:mi><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>2λ</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( 4+λ \) x+ \(  - 1+5λ \) y+ \( 3 - λ \) z - 1+2λ=0} {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="id14311595">Бидејќи рамнината треба да е паралелна со 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y - {}} {}</m:annotation></m:semantics></m:math>оската, тоа значи дека </para>
+        <para id="id14311662">коефициентот пред променливата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>y</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math><emphasis effect="italics"/>треба да е нула т.е. </para>
+        <para id="id14311733"><emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>5λ</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - 1+5λ=0} {}</m:annotation></m:semantics></m:math></emphasis>,</para>
+        <para id="id14311809">од каде 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>λ</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{λ= {  {1}  over  {5} } } {}</m:annotation></m:semantics></m:math> и заменувајќи ја оваа вредност во равенката на снопот се добива бараната равенка на рамнина </para>
+        <para id="id14311887"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mtext>21</m:mtext><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mtext>14</m:mtext></m:mrow><m:mrow><m:mrow><m:mi>z</m:mi><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"21"x+"14"z - 3=0} {}</m:annotation></m:semantics></m:math>. ◄</para>
+      </section>
+      <section id="id14311976">
+        <title>Агол меѓу две рамнини</title>
+        <para id="id14311982">
+          <term>Аголот </term>
+          <term>
+            <m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mi>ϕ</m:mi>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{ϕ} {}</m:annotation>
+              </m:semantics>
+            </m:math>
+          </term>
+          <term> меѓу двете рамнини </term>
+        </para>
+        <para id="id14312054"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:msub><m:mi>B</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">+</m:mo><m:msub><m:mi>C</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:mrow><m:mi>z</m:mi><m:mo stretchy="false">+</m:mo><m:msub><m:mi>D</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{1} } x+B rSub { size 8{1} } y+C rSub { size 8{1} } z+D rSub { size 8{1} } =0} {}</m:annotation></m:semantics></m:math> и 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:msub><m:mi>B</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">+</m:mo><m:msub><m:mi>C</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:mrow><m:mi>z</m:mi><m:mo stretchy="false">+</m:mo><m:msub><m:mi>D</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{2} } x+B rSub { size 8{2} } y+C rSub { size 8{2} } z+D rSub { size 8{2} } =0} {}</m:annotation></m:semantics></m:math></para>
+        <para id="id14312292">се определува како агол меѓу нивните нормални вектори 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mover><m:msub><m:mi>n</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">{</m:mo><m:mrow><m:msub><m:mi>A</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:msub><m:mi>B</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:msub><m:mi>C</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">}</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {n rSub { size 8{1} } }  cSup { size 8{ rightarrow } } = lbrace A rSub { size 8{1} } ,B rSub { size 8{1} } ,C rSub { size 8{1} }  rbrace } {}</m:annotation></m:semantics></m:math> и 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mover><m:msub><m:mi>n</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">{</m:mo><m:mrow><m:msub><m:mi>A</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:msub><m:mi>B</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:msub><m:mi>C</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">}</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {n rSub { size 8{2} } }  cSup { size 8{ rightarrow } } = lbrace A rSub { size 8{2} } ,B rSub { size 8{2} } ,C rSub { size 8{2} }  rbrace } {}</m:annotation></m:semantics></m:math> и се пресметува со равенката</para>
+        <para id="id14312553"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mtext>cos</m:mtext><m:mrow><m:mi>ϕ</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>A</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mrow><m:msub><m:mi>A</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>B</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:msub><m:mi>B</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>C</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:msub><m:mi>C</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:msqrt><m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:msup><m:mn>1</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>B</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:msup><m:mn>1</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">+</m:mo><m:msub><m:mi>C</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:msup><m:mn>1</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle></m:msub></m:mrow></m:msqrt><m:msqrt><m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:msup><m:mn>2</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>B</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:msup><m:mn>2</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">+</m:mo><m:msub><m:mi>C</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:msup><m:mn>2</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle></m:msub></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"cos"ϕ= {  {A rSub { size 8{1} } A rSub { size 8{2} } +B rSub { size 8{1} } B rSub { size 8{2} } +C rSub { size 8{1} } C rSub { size 8{2} } }  over  { sqrt {A rSub { size 8{1}   rSup { size 8{2} } } +B rSub { size 8{1}   rSup { size 8{2} } } +C rSub { size 8{1}   rSup { size 8{2} } } }  sqrt {A rSub { size 8{2}   rSup { size 8{2} } } +B rSub { size 8{2}   rSup { size 8{2} } } +C rSub { size 8{2}   rSup { size 8{2} } } } } } } {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="id14312822">Од формулата за агол меѓу две рамнини следува дека двете рамнини ќе бидат паралелни ако</para>
+        <para id="id14312839"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mfrac><m:msub><m:mi>A</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:msub><m:mi>A</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>B</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:msub><m:mi>B</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>C</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:msub><m:mi>C</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {A rSub { size 8{1} } }  over  {A rSub { size 8{2} } } } = {  {B rSub { size 8{1} } }  over  {B rSub { size 8{2} } } } = {  {C rSub { size 8{1} } }  over  {C rSub { size 8{2} } } } } {}</m:annotation></m:semantics></m:math>,</para>
+        <para id="id14312962">а ќе бидат нормални ако </para>
+        <para id="id14312966"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mrow><m:msub><m:mi>A</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>B</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:msub><m:mi>B</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>C</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:msub><m:mi>C</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{1} } A rSub { size 8{2} } +B rSub { size 8{1} } B rSub { size 8{2} } +C rSub { size 8{1} } C rSub { size 8{2} } =0} {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="id14313094"><emphasis>Пример </emphasis><emphasis>6</emphasis><emphasis effect="bold">. </emphasis>Да се пресмета аголот меѓу рамнините</para>
+        <para id="id14313121">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mn>3x</m:mn>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mi>y</m:mi>
+                          </m:mrow>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mn>2z</m:mn>
+                        </m:mrow>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mtext>15</m:mtext>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{3x - y+2z+"15"=0} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id14313206">и </para>
+        <para id="id14313210"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>5x</m:mn><m:mo stretchy="false">+</m:mo><m:mn>9y</m:mn></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3z</m:mn></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>2</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{5x+9y - 3z+2=0} {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="id14313295"><emphasis>Решение</emphasis><emphasis effect="bold">.</emphasis>  Применувајќи ја формулата за агол меѓу две рамнини 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mtext>cos</m:mtext><m:mrow><m:mrow><m:mi>ϕ</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">⋅</m:mo><m:mn>5</m:mn></m:mrow><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">⋅</m:mo><m:mn>9</m:mn></m:mrow><m:mo stretchy="false">+</m:mo><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">⋅</m:mo><m:mo stretchy="false">(</m:mo></m:mrow></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:msqrt><m:mrow><m:mrow><m:mrow><m:msup><m:mn>3</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:msup><m:mn>2</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:msqrt><m:msqrt><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mn>5</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:msup><m:mn>9</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"cos"ϕ= {  {3 cdot 5+ \(  - 1 \)  cdot 9+2 cdot  \(  - 3 \) }  over  { sqrt {3 rSup { size 8{2} } + \(  - 1 \)  rSup { size 8{2} } +2 rSup { size 8{2} } }  sqrt {5 rSup { size 8{2} } +9 rSup { size 8{2} } + \(  - 3 \)  rSup { size 8{2} } } } } =0} {}</m:annotation></m:semantics></m:math> следува дека 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>ϕ</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>π</m:mi><m:mn>2</m:mn></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ϕ= {  {π}  over  {2} } } {}</m:annotation></m:semantics></m:math>. ◄</para>
+        <para id="id14313649"><emphasis>Пример 7</emphasis><emphasis effect="bold">. </emphasis>Да се состави равенка на рамнина која минува низ точката 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>O</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0,0,0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{O \( 0,0,0 \) } {}</m:annotation></m:semantics></m:math> и е нормална на двете рамнини 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">−</m:mo><m:mi>y</m:mi></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>2z</m:mn></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2x - y+2z+3=0} {}</m:annotation></m:semantics></m:math> и 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mn>3y</m:mn></m:mrow><m:mo stretchy="false">−</m:mo><m:mi>z</m:mi></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>6</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x+3y - z - 6=0} {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="id14313910"><emphasis>Решение</emphasis><emphasis effect="bold">.</emphasis>  Бидејки бараната рамнина минува низ координатниот почеток, нејзината равенка е</para>
+        <para id="id14313930"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Ax</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">+</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>By</m:mtext></m:mrow></m:mstyle></m:mrow><m:mo stretchy="false">+</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Cz</m:mtext></m:mrow></m:mstyle></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "Ax"+ ital "By"+ ital "Cz"=0} {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="id14314027">Двете рамнини 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">−</m:mo><m:mi>y</m:mi></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>2z</m:mn></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2x - y+2z+3=0} {}</m:annotation></m:semantics></m:math> и <emphasis effect="italics"/><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mn>3y</m:mn></m:mrow><m:mo stretchy="false">−</m:mo><m:mi>z</m:mi></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>6</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x+3y - z - 6=0} {}</m:annotation></m:semantics></m:math> имаат нормални вектори 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mover><m:msub><m:mi>n</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">{</m:mo><m:mrow><m:mn>2,</m:mn><m:mo stretchy="false">−</m:mo><m:mn>1,2</m:mn></m:mrow><m:mo stretchy="false">}</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {n rSub { size 8{1} } }  cSup { size 8{ rightarrow } } = lbrace 2, - 1,2 rbrace } {}</m:annotation></m:semantics></m:math> и 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mover><m:msub><m:mi>n</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">{</m:mo><m:mrow><m:mn>1,3,</m:mn><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">}</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {n rSub { size 8{2} } }  cSup { size 8{ rightarrow } } = lbrace 1,3, - 1 rbrace } {}</m:annotation></m:semantics></m:math>. Бараната рамнина за да е нормална на двете рамнини треба да има нормален вектор 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>n</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {n}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> кој ќе биде нормален на векторите 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:msub><m:mi>n</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {n rSub { size 8{1} } }  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> и 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:msub><m:mi>n</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {n rSub { size 8{2} } }  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math>, односно 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mover><m:mi>n</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">=</m:mo><m:mrow><m:mover><m:msub><m:mi>n</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">×</m:mo><m:mover><m:msub><m:mi>n</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {n}  cSup { size 8{ rightarrow } } = {n rSub { size 8{1} } }  cSup { size 8{ rightarrow } }  times  {n rSub { size 8{2} } }  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math>. Пресметувајќи го векторот </para>
+        <para id="id14314724"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mover><m:mi>n</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">=</m:mo><m:mrow><m:mover><m:msub><m:mi>n</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">×</m:mo><m:mover><m:msub><m:mi>n</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">∣</m:mo><m:mtable><m:mtr><m:mtd><m:mrow><m:mover><m:mi>i</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mover><m:mi>j</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mover><m:mi>j</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow><m:mn>2</m:mn><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mn>2</m:mn><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow><m:mn>1</m:mn><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mn>3</m:mn><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow/></m:mrow></m:mtd></m:mtr></m:mtable><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">{</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>5,4,7</m:mn></m:mrow><m:mo stretchy="false">}</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {n}  cSup { size 8{ rightarrow } } = {n rSub { size 8{1} } }  cSup { size 8{ rightarrow } }  times  {n rSub { size 8{2} } }  cSup { size 8{ rightarrow } } = lline  matrix {
+ {i}  cSup { size 8{ rightarrow } }  {} #  {j}  cSup { size 8{ rightarrow } }  {} #  {j}  cSup { size 8{ rightarrow } }  {} ##
+2 {} #  - 1 {} # 2 {} ##
+1 {} # 3 {} #  - 1{}
+}  rline = lbrace  - 5,4,7 rbrace } {}</m:annotation></m:semantics></m:math>,</para>
+        <para id="id14314977">равенката на бараната рамнината е</para>
+        <para id="id14314982"><emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>5x</m:mn></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>4y</m:mn></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>7z</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - 5x+4y+7z=0} {}</m:annotation></m:semantics></m:math></emphasis>. ◄    </para>
+      </section>
+      <section id="id14315070">
+        <title>Растојание од точка до рамнина</title>
+        <para id="id14315086">Под растојание од точката 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>M</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:msub><m:mi>z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{M rSub { size 8{0} }  \( x rSub { size 8{0} } ,y rSub { size 8{0} } ,z rSub { size 8{0} }  \) } {}</m:annotation></m:semantics></m:math> до рамнина 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Ax</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">+</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>By</m:mtext></m:mrow></m:mstyle></m:mrow><m:mo stretchy="false">+</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Cz</m:mtext></m:mrow></m:mstyle></m:mrow><m:mo stretchy="false">+</m:mo><m:mi>D</m:mi></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "Ax"+ ital "By"+ ital "Cz"+D=0} {}</m:annotation></m:semantics></m:math> се подразбира најкраткото растојание (нормалното) од точката до тамнината. <term>Растојанието</term> се пресме­ту­ва преку релацијата </para>
+        <para id="id14315320"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>d</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:mi/><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:msub><m:mtext>Ax</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mo stretchy="false">+</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:msub><m:mtext>By</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle></m:mrow><m:mo stretchy="false">+</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:msub><m:mtext>Cz</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle></m:mrow><m:mo stretchy="false">+</m:mo><m:mi>D</m:mi></m:mrow><m:mi/></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow><m:msqrt><m:mrow><m:mrow><m:msup><m:mi>A</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:msup><m:mi>B</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mo stretchy="false">+</m:mo><m:msup><m:mi>C</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:msqrt></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d= {  { lline ` ital "Ax" rSub { size 8{0} }  +  ital "By" rSub { size 8{0} }  + ital "Cz" rSub { size 8{0} }  + D` rline  }  over  { sqrt {A rSup { size 8{2} } +B rSup { size 8{2} } +C rSup { size 8{2} } } } } } {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="id14315503"><emphasis>Пример 8</emphasis><emphasis effect="bold">.</emphasis> Да се пресмета растојанието од точката 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>A</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0,1,5</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A \( 0,1,5 \) } {}</m:annotation></m:semantics></m:math> до рамнината </para>
+        <para id="id14315591"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>3x</m:mn><m:mo stretchy="false">+</m:mo><m:mn>6y</m:mn></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2z</m:mn></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>5</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3x+6y - 2z - 5=0} {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="id14315677"><emphasis>Решение</emphasis><emphasis effect="bold">. </emphasis>Со едноставно применување на формулатa за растојание од точка до рамнина се добива дека растојанието </para>
+        <para id="id14315701"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>d</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:mi/><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">⋅</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">+</m:mo><m:mrow><m:mn>6</m:mn><m:mo stretchy="false">⋅</m:mo><m:mn>1</m:mn></m:mrow></m:mrow><m:mo stretchy="false">−</m:mo><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">⋅</m:mo><m:mn>5</m:mn></m:mrow></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>5</m:mn></m:mrow><m:mi/></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow><m:msqrt><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mn>3</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:msup><m:mn>6</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:msqrt></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>9</m:mn></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow><m:mn>7</m:mn></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>9</m:mn><m:mn>7</m:mn></m:mfrac></m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d= {  { lline `3 cdot 0 + 6 cdot 1 - 2 cdot 5 - 5 ` rline  }  over  { sqrt {3 rSup { size 8{2} } +6 rSup { size 8{2} } + \(  - 2 \)  rSup { size 8{2} } } } } = {  { lline  - 9 rline }  over  {7} } = {  {9}  over  {7} }  "." } {}</m:annotation></m:semantics></m:math> ◄</para>
+        <para id="id14315925"><emphasis>Пример </emphasis><emphasis>9</emphasis><emphasis effect="bold">.</emphasis> Да се определи пресечната точка на рамнините</para>
+        <para id="id14315955"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mi>y</m:mi></m:mrow><m:mo stretchy="false">+</m:mo><m:mi>z</m:mi></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>6</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0,</m:mn></m:mrow><m:mi/><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">−</m:mo><m:mi>y</m:mi></m:mrow><m:mo stretchy="false">+</m:mo><m:mi>z</m:mi></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0,</m:mn></m:mrow><m:mi/><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mn>2y</m:mn></m:mrow><m:mo stretchy="false">−</m:mo><m:mi>z</m:mi></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x+y+z - 6=0,`2x - y+z - 3=0,`x+2y - z - 2=0} {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="id14316106"><emphasis>Решение</emphasis><emphasis effect="bold">. </emphasis>Пресечната точка 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>M</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{M} {}</m:annotation></m:semantics></m:math> на трите рамнини е нивната заедничка точка и нејзините координати ја задоволуваат равенката на секоја рамнина. Затоа се бара решението на системот равенки формиран од равенките на рамнините </para>
+        <para id="id14316187">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mtable>
+                    <m:mtr>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                  <m:mo stretchy="false">+</m:mo>
+                                  <m:mi>y</m:mi>
+                                </m:mrow>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mi>z</m:mi>
+                              </m:mrow>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mn>6</m:mn>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mn>2x</m:mn>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:mi>y</m:mi>
+                                </m:mrow>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mi>z</m:mi>
+                              </m:mrow>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mn>3</m:mn>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                  <m:mo stretchy="false">+</m:mo>
+                                  <m:mn>2y</m:mn>
+                                </m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mi>z</m:mi>
+                              </m:mrow>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                  </m:mtable>
+                  <m:mrow/>
+                </m:mrow>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{x+y+z=6}  {} # 
+ size 12{2x - y+z=3}  {} # 
+ size 12{x+2y - z=2}  {} 
+} } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id14316333">преку Крамеровите формули. Детерминантите на системот се </para>
+        <para id="id14316348"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>D</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">∣</m:mo><m:mtable><m:mtr><m:mtd><m:mrow><m:mn>1</m:mn><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mn>1</m:mn><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mn>1</m:mn><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow><m:mi/><m:mn>2</m:mn><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mn>1</m:mn><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow><m:mn>1</m:mn><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mn>2</m:mn><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mi/><m:mrow/></m:mrow></m:mtd></m:mtr></m:mtable><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D= lline  matrix {
+1 {} # 1 {} # 1 {} ##
+`2 {} #  - 1 {} # 1 {} ##
+1 {} # 2 {} #  - 1`{}
+}  rline ={}} {}</m:annotation></m:semantics></m:math>7, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>D</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">∣</m:mo><m:mtable><m:mtr><m:mtd><m:mrow><m:mn>6</m:mn><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mn>1</m:mn><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mn>1</m:mn><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow><m:mi/><m:mn>3</m:mn><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mn>1</m:mn><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow><m:mn>2</m:mn><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mn>2</m:mn><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mi/><m:mrow/></m:mrow></m:mtd></m:mtr></m:mtable><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D rSub { size 8{x} } = lline  matrix {
+6 {} # 1 {} # 1 {} ##
+`3 {} #  - 1 {} # 1 {} ##
+2 {} # 2 {} #  - 1`{}
+}  rline ={}} {}</m:annotation></m:semantics></m:math>7,</para>
+        <para id="id14316647">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>D</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>y</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mrow>
+                            <m:mo stretchy="false">∣</m:mo>
+                            <m:mtable>
+                              <m:mtr>
+                                <m:mtd>
+                                  <m:mrow>
+                                    <m:mn>1</m:mn>
+                                    <m:mrow/>
+                                  </m:mrow>
+                                </m:mtd>
+                                <m:mtd>
+                                  <m:mrow>
+                                    <m:mn>6</m:mn>
+                                    <m:mrow/>
+                                  </m:mrow>
+                                </m:mtd>
+                                <m:mtd>
+                                  <m:mrow>
+                                    <m:mn>1</m:mn>
+                                    <m:mrow/>
+                                  </m:mrow>
+                                </m:mtd>
+                              </m:mtr>
+                              <m:mtr>
+                                <m:mtd>
+                                  <m:mrow>
+                                    <m:mi/>
+                                    <m:mn>2</m:mn>
+                                    <m:mrow/>
+                                  </m:mrow>
+                                </m:mtd>
+                                <m:mtd>
+                                  <m:mrow>
+                                    <m:mn>3</m:mn>
+                                    <m:mrow/>
+                                  </m:mrow>
+                                </m:mtd>
+                                <m:mtd>
+                                  <m:mrow>
+                                    <m:mn>1</m:mn>
+                                    <m:mrow/>
+                                  </m:mrow>
+                                </m:mtd>
+                              </m:mtr>
+                              <m:mtr>
+                                <m:mtd>
+                                  <m:mrow>
+                                    <m:mn>1</m:mn>
+                                    <m:mrow/>
+                                  </m:mrow>
+                                </m:mtd>
+                                <m:mtd>
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                    <m:mrow/>
+                                  </m:mrow>
+                                </m:mtd>
+                                <m:mtd>
+                                  <m:mrow>
+                                    <m:mrow>
+                                      <m:mo stretchy="false">−</m:mo>
+                                      <m:mn>1</m:mn>
+                                    </m:mrow>
+                                    <m:mi/>
+                                    <m:mrow/>
+                                  </m:mrow>
+                                </m:mtd>
+                              </m:mtr>
+                            </m:mtable>
+                            <m:mo stretchy="false">∣</m:mo>
+                          </m:mrow>
+                        </m:mrow>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mtext>14</m:mtext>
+                      </m:mrow>
+                      <m:mi>,</m:mi>
+                      <m:mi/>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>D</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>z</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mrow>
+                            <m:mo stretchy="false">∣</m:mo>
+                            <m:mtable>
+                              <m:mtr>
+                                <m:mtd>
+                                  <m:mrow>
+                                    <m:mn>1</m:mn>
+                                    <m:mrow/>
+                                  </m:mrow>
+                                </m:mtd>
+                                <m:mtd>
+                                  <m:mrow>
+                                    <m:mn>1</m:mn>
+                                    <m:mrow/>
+                                  </m:mrow>
+                                </m:mtd>
+                                <m:mtd>
+                                  <m:mrow>
+                                    <m:mn>6</m:mn>
+                                    <m:mrow/>
+                                  </m:mrow>
+                                </m:mtd>
+                              </m:mtr>
+                              <m:mtr>
+                                <m:mtd>
+                                  <m:mrow>
+                                    <m:mi/>
+                                    <m:mn>2</m:mn>
+                                    <m:mrow/>
+                                  </m:mrow>
+                                </m:mtd>
+                                <m:mtd>
+                                  <m:mrow>
+                                    <m:mrow>
+                                      <m:mo stretchy="false">−</m:mo>
+                                      <m:mn>1</m:mn>
+                                    </m:mrow>
+                                    <m:mrow/>
+                                  </m:mrow>
+                                </m:mtd>
+                                <m:mtd>
+                                  <m:mrow>
+                                    <m:mn>3</m:mn>
+                                    <m:mrow/>
+                                  </m:mrow>
+                                </m:mtd>
+                              </m:mtr>
+                              <m:mtr>
+                                <m:mtd>
+                                  <m:mrow>
+                                    <m:mn>1</m:mn>
+                                    <m:mrow/>
+                                  </m:mrow>
+                                </m:mtd>
+                                <m:mtd>
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                    <m:mrow/>
+                                  </m:mrow>
+                                </m:mtd>
+                                <m:mtd>
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                    <m:mi/>
+                                    <m:mrow/>
+                                  </m:mrow>
+                                </m:mtd>
+                              </m:mtr>
+                            </m:mtable>
+                            <m:mo stretchy="false">∣</m:mo>
+                          </m:mrow>
+                        </m:mrow>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mtext>21</m:mtext>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{D rSub { size 8{y} } = lline  matrix {
+1 {} # 6 {} # 1 {} ##
+`2 {} # 3 {} # 1 {} ##
+1 {} # 2 {} #  - 1`{}
+}  rline ="14",~D rSub { size 8{z} } = lline  matrix {
+1 {} # 1 {} # 6 {} ##
+`2 {} #  - 1 {} # 3 {} ##
+1 {} # 2 {} # 2`{}
+}  rline ="21"} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id14316899">и бидејки 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>D</m:mi><m:mo stretchy="false">=</m:mo><m:mn>7</m:mn></m:mrow><m:mo stretchy="false">≠</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D=7 &lt;&gt; 0} {}</m:annotation></m:semantics></m:math> системот има единствено решение 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>D</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msub><m:mi>D</m:mi></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>1,</m:mn></m:mrow><m:mi/><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>D</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>y</m:mi></m:mrow></m:mstyle></m:msub><m:mi>D</m:mi></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>2,</m:mn></m:mrow><m:mi/><m:mrow><m:mrow><m:mi>z</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>D</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>z</m:mi></m:mrow></m:mstyle></m:msub><m:mi>D</m:mi></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x= {  {D rSub { size 8{x} } }  over  {D} } =1,~y= {  {D rSub { size 8{y} } }  over  {D} } =2,~z= {  {D rSub { size 8{z} } }  over  {D} } =3} {}</m:annotation></m:semantics></m:math></para>
+        <para id="id14317113">и тоа се координатите на пресечната точка, односно 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>M</m:mi><m:mo stretchy="false">(</m:mo><m:mn>1,2,3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{M \( 1,2,3 \) } {}</m:annotation></m:semantics></m:math>. ◄</para>
+      </section>
+    </section>
+  </content>
+</document>

@@ -1,0 +1,362 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Еден практичен пример за диференцијална равенка од прв ред: Експонецијален раст</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m43534</md:content-id>
+  <md:title>Еден практичен пример за диференцијална равенка од прв ред: Експонецијален раст</md:title>
+  <md:abstract>Преку моделот на експонцијален раст на популација, во кој промената на бројноста на популација (брзината на растење) во дадено време се зема да е пропорционална само на моменталната бројност, а се изразува преку диференцијална равенка од прв ред, се решаваат некои конкретни проблеми сврзани со растот на една популација како што се пресметување на коефициентот на растење и оценување на бројноста во определен временски период.</md:abstract>
+  <md:uuid>345706f4-01c9-4d8f-a7df-5a86119451e6</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1169972295671">
+      <title>Експонецијален раст на популација</title>
+      <para id="import-auto-id1169976180945">Интересено е да се разгледа проблемот на промена на бројноста на една популација во различни временски интервали или бројноста на популацијата во одредено време да се споредува со некоја почетна или сегашна бројност. Диференцијалните равенки ни даваат математичка алатка со која се овозможува проучување на растењето или опаѓањето (намалувањето) на популација како процес кој континуирано се одвива. </para>
+      <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1169975448270">Нека бројноста на една популација во даден момент е <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y \( t \) } {}</m:annotation></m:semantics></m:math>, каде <m:math><m:semantics><m:mrow><m:mrow><m:mi>t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation></m:semantics></m:math> е времето. Еден од моделите кои го опишуваат растот на популацијата е претставен преку т.н. <emphasis effect="bold">екпоненцијално растење (опаѓање)</emphasis> кога во произволен временски интервал брзината на растењето (опаѓањето) е пропорционална само со нејзината бројност. Ова е доста груб модел на раст на популација, но е многу едноставен за брзи проценки на растот. Брзината <m:math><m:semantics><m:mrow><m:mrow><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dy</m:mtext></m:mrow></m:mstyle><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dt</m:mtext></m:mrow></m:mstyle></m:mfrac></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { ital "dy"}  over  { ital "dt"} } } {}</m:annotation></m:semantics></m:math> на промената на бројноста на популацијата се изразува со </para><para id="import-auto-id1169996700335">
+        <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>dy</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>dt</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:mfrac>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mstyle fontstyle="italic">
+                    <m:mrow>
+                      <m:mtext>ky</m:mtext>
+                    </m:mrow>
+                  </m:mstyle>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ {  { ital "dy"}  over  { ital "dt"} } = ital "ky"} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="import-auto-id1170004424812">т.е. брзината е пропорционална со бројноста на популацијата <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y \( t \) } {}</m:annotation></m:semantics></m:math>, каде <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>k</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{k} {}</m:annotation></m:semantics></m:math> е коефициент на пропорционалност. Во оваа диференцијална равенка од прв ред ако коефициентот <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>k</m:mi><m:mo stretchy="false">&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{k&gt;0} {}</m:annotation></m:semantics></m:math>, тој се нарекува <emphasis effect="bold">константа на растење</emphasis> бидејќи од <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>k</m:mi><m:mo stretchy="false">&gt;</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo><m:mrow><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dy</m:mtext></m:mrow></m:mstyle><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dt</m:mtext></m:mrow></m:mstyle></m:mfrac><m:mo stretchy="false">&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{k&gt;0 drarrow  {  { ital "dy"}  over  { ital "dt"} } &gt;0} {}</m:annotation></m:semantics></m:math>, што значи дека бројноста на популацијата се зголемува. Ако пак <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>k</m:mi><m:mo stretchy="false">&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{k&lt;0} {}</m:annotation></m:semantics></m:math>, коефициентот <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>k</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{k} {}</m:annotation></m:semantics></m:math> се нарекува <emphasis effect="bold">константа на опѓање (намалување) на растењето</emphasis> бидејќи од <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>k</m:mi><m:mo stretchy="false">&lt;</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo><m:mrow><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dy</m:mtext></m:mrow></m:mstyle><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dt</m:mtext></m:mrow></m:mstyle></m:mfrac><m:mo stretchy="false">&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{k&lt;0 drarrow  {  { ital "dy"}  over  { ital "dt"} } &lt;0} {}</m:annotation></m:semantics></m:math> и следува дека бројноста на популацијата се намалува.  Затоа коефициентот <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>k</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{k} {}</m:annotation></m:semantics></m:math> се нарекува и <emphasis effect="bold">брзина на растење/опаѓање</emphasis> на популацијата и обично се изразува во проценти. </para>
+      <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1169977735148">Така на пример, ако брзината на растење е <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2%</m:mn><m:mtext/></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2%} {}</m:annotation></m:semantics></m:math>, тоа означува дека <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>k</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0,</m:mn></m:mrow><m:mtext>02</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{k=0,"02"} {}</m:annotation></m:semantics></m:math>, а ако пак брзината на растење е <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>500%</m:mtext></m:mrow><m:mtext/></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - "500"%} {}</m:annotation></m:semantics></m:math>, тогаш <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>k</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>5</m:mn></m:mrow></m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{k= - 5 "." } {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id1169990498780">Нека сега го решаваме проблемот на експоненцијален модел на растење  во кој бројноста на популацијата во даден момент <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t=0} {}</m:annotation></m:semantics></m:math> е <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:msub><m:mi>y</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math>, т.е. нека е зададено растење со почетен услов</para>
+      <para id="import-auto-id1169999792898"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dy</m:mtext></m:mrow></m:mstyle><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dt</m:mtext></m:mrow></m:mstyle></m:mfrac><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ky</m:mtext></m:mrow></m:mstyle></m:mrow><m:mi>,</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { ital "dy"}  over  { ital "dt"} } = ital "ky",} {}</m:annotation></m:semantics></m:math><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:msub><m:mi>y</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y \( 0 \) =y rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math>.</para>
+      <para id="import-auto-id1170013643430">Најпрво ја решаваме диференцијалната равенка </para>
+      <para id="import-auto-id1170002090208"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dy</m:mtext></m:mrow></m:mstyle><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dt</m:mtext></m:mrow></m:mstyle></m:mfrac><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ky</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { ital "dy"}  over  { ital "dt"} } = ital "ky"} {}</m:annotation></m:semantics></m:math>.</para>
+      <para id="import-auto-id1169978258485">Тоа е диференцијална равенка во која променливите се раздвојуваат</para>
+      <para id="import-auto-id1169978257615">
+        <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>dy</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mi>y</m:mi>
+                  </m:mfrac>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mstyle fontstyle="italic">
+                    <m:mrow>
+                      <m:mtext>kdt</m:mtext>
+                    </m:mrow>
+                  </m:mstyle>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ {  { ital "dy"}  over  {y} } = ital "kdt"} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="import-auto-id1169978259355">
+        <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">∫</m:mo>
+                    <m:mfrac>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>dy</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mi>y</m:mi>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">∫</m:mo>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>kdt</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:mrow>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mi>C</m:mi>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ Int { {  { ital "dy"}  over  {y} } } = Int { ital "kdt"} +C} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="import-auto-id1169978438675">
+        <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mtext>ln</m:mtext>
+                  <m:mo stretchy="false">∣</m:mo>
+                  <m:mi>y</m:mi>
+                  <m:mrow>
+                    <m:mo stretchy="false">∣</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>kt</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mi>C</m:mi>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{"ln" \lline y \lline = ital "kt"+C} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="import-auto-id1169978267649">
+        <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>y</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:msup>
+                    <m:mi>e</m:mi>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>kt</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mi>C</m:mi>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:msup>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{y=e rSup { size 8{ ital "kt"+C} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="import-auto-id1169978288703">и општото решение е</para>
+      <para id="import-auto-id1169978223101"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:msup><m:mtext>Ce</m:mtext><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kt</m:mtext></m:mrow></m:mstyle></m:mrow></m:msup></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= ital "Ce" rSup { size 8{ ital "kt"} } } {}</m:annotation></m:semantics></m:math>.</para>
+      <para id="import-auto-id1169978233251">Во општото решение се заменува почетниот услов <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:msub><m:mi>y</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y \( 0 \) =y rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math> и се добива</para>
+      <para id="import-auto-id1169978241143">
+        <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>y</m:mi>
+                      <m:mrow>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>Ce</m:mtext>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mi>k</m:mi>
+                              <m:mo stretchy="false">⋅</m:mo>
+                              <m:mn>0</m:mn>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:msup>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:mrow>
+                  <m:mo stretchy="false">⇒</m:mo>
+                  <m:mrow>
+                    <m:mi>C</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:msub>
+                      <m:mi>y</m:mi>
+                      <m:mrow>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{y rSub { size 8{0} } = ital "Ce" rSup { size 8{k cdot 0} }  drarrow C=y rSub { size 8{0} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="import-auto-id1169978761927">и партикуларно решение на експонецијален раст на популација со почетна бројност <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:msub><m:mi>y</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math> е </para>
+      <para id="import-auto-id1169978759802"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:msub><m:mi>y</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kt</m:mtext></m:mrow></m:mstyle></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y \( t \) =y rSub { size 8{0} } e rSup { size 8{ ital "kt"} } } {}</m:annotation></m:semantics></m:math>.</para>
+      <para id="import-auto-id1169978414397">Моделот на експоненцијален раст се користи за грубо оценување на растот и ако <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>k</m:mi><m:mo stretchy="false">&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{k&gt;0} {}</m:annotation></m:semantics></m:math> популацијата расте, а ако <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>k</m:mi><m:mo stretchy="false">&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{k&lt;0} {}</m:annotation></m:semantics></m:math>, популацијата опаѓа.</para>
+      <para id="import-auto-id1169978430748">Обично во пракса, за растот на популација се добиваат вредности мерени во дискретни чекори, а добиените вредности за бројност на популацијата може да се апроксимираат со непрекината крива.</para>
+      <para id="import-auto-id1169978435427">Сега ќе наведеме два примера во кои се користи моделот на експоненцијален раст на популација. </para>
+      <example xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-25"><para id="eip-343"><emphasis effect="bold">Пример 1. Бројност на население на Земјата</emphasis>
+
+      </para><para id="eip-47">Според податоците на Обединетите Нации, бројот на население на Земјата во почетокот на 1990 год изнесувал приближно 5,3 милијарди луѓе, а на крајот на 2011 год имало 7 милијарди. Од овие податоци, да се пресмета константата на раст на населението користејќи го моделот на експонецијален раст.</para><para id="eip-602"><emphasis effect="bold">Решение.</emphasis></para><para id="eip-384">Од зададените два податока, ја пресметуваме константата екпонецијалениот раст <m:math><m:semantics><m:mrow><m:mrow><m:mi>k</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{k} {}</m:annotation></m:semantics></m:math> од равенката <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:msub><m:mi>y</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kt</m:mtext></m:mrow></m:mstyle></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y \( t \) =y rSub { size 8{0} } e rSup { size 8{ ital "kt"} } } {}</m:annotation></m:semantics></m:math>. </para><para id="eip-625">Во ова партикуларно решение за раст на населението, почетната бројност на луѓе изразена во милијарди од 1990 год е <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>y</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>5,3</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y rSub { size 8{0} } =5,3} {}</m:annotation></m:semantics></m:math> , а за време <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>21</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t="21"} {}</m:annotation></m:semantics></m:math> година  (2011-1990 =21) населението броело 7 милијарди и затоа <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">(</m:mo><m:mtext>21</m:mtext><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mn>7</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y \( "21" \) =7} {}</m:annotation></m:semantics></m:math>.  Од партикуларното решение</para><para id="eip-437"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mn>7</m:mn>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>5,3</m:mn>
+                  </m:mrow>
+                  <m:msup>
+                    <m:mi>e</m:mi>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mtext>21</m:mtext>
+                        <m:mi>k</m:mi>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:msup>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{7=5,3e rSup { size 8{"21"k} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-21">се изразува коефициентот <m:math><m:semantics><m:mrow><m:mrow><m:mi>k</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{k} {}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow/><m:annotation encoding="StarMath 5.0">{}</m:annotation></m:semantics></m:math></para><para id="eip-976"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mtext>ln</m:mtext>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>7</m:mn>
+                      <m:mn>5,3</m:mn>
+                    </m:mfrac>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mtext>21</m:mtext>
+                  </m:mrow>
+                  <m:mi>k</m:mi>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{"ln" {  {7}  over  {5,3} } ="21"k} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-652">или</para><para id="eip-137"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mtext>21</m:mtext>
+                  </m:mfrac>
+                  <m:mtext>ln</m:mtext>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>7</m:mn>
+                      <m:mn>5,3</m:mn>
+                    </m:mfrac>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mi>k</m:mi>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {"21"} } "ln" {  {7}  over  {5,3} } =k} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-573">од каде се пресметува дека</para><para id="eip-162"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>k</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0,</m:mn></m:mrow><m:mtext>01325</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{k=0,"01325"} {}</m:annotation></m:semantics></m:math> или <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>k</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1,</m:mn></m:mrow><m:mtext>325%</m:mtext><m:mtext/></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{k=1,"325"%} {}</m:annotation></m:semantics></m:math>.</para></example><example xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-313"><para id="eip-314"><emphasis effect="bold">Пример 2. Удвојување на населението</emphasis>
+</para><para id="eip-540">Користејќи го моделот на експонцијален раст на популација, да се оцени кога населението на Земјата двојно ќе се зголеми, ако <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>k</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0,</m:mn></m:mrow><m:mtext>01325</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{k=0,"01325"} {}</m:annotation></m:semantics></m:math> и ако во 2011 год на Земјата имало 7 милијарди жители.</para><para id="eip-590"><emphasis effect="bold">Решение. </emphasis>
+      </para><para id="eip-840">Во моделот на експонецијален раст, непозната големина е времето <m:math><m:semantics><m:mrow><m:mrow><m:mi>t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation></m:semantics></m:math>, додека <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>14</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y="14"} {}</m:annotation></m:semantics></m:math>, затоа </para><para id="eip-953"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>14</m:mtext><m:mo stretchy="false">=</m:mo><m:mn>7</m:mn></m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kt</m:mtext></m:mrow></m:mstyle></m:mrow></m:msup><m:mo stretchy="false">⇒</m:mo><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">=</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kt</m:mtext></m:mrow></m:mstyle></m:mrow></m:msup></m:mrow><m:mo stretchy="false">⇒</m:mo><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mtext>ln</m:mtext><m:mn>2</m:mn></m:mrow><m:mi>k</m:mi></m:mfrac></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"14"=7e rSup { size 8{ ital "kt"} }  drarrow 2=e rSup { size 8{ ital "kt"} }  drarrow t= {  {"ln"2}  over  {k} } } {}</m:annotation></m:semantics></m:math>.</para><para id="eip-954">За <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>k</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0,</m:mn></m:mrow><m:mtext>01325</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{k=0,"01325"} {}</m:annotation></m:semantics></m:math>, се добива </para><para id="eip-631"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>t</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mtext>ln</m:mtext>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mn>0,</m:mn>
+                        <m:mtext>01325</m:mtext>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mo stretchy="false">⇒</m:mo>
+                  <m:mrow>
+                    <m:mi>t</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mn>0,</m:mn>
+                        <m:mtext>6931</m:mtext>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mn>0,</m:mn>
+                        <m:mtext>01325</m:mtext>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mo stretchy="false">⇒</m:mo>
+                  <m:mrow>
+                    <m:mi>t</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mtext>52</m:mtext>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>309</m:mtext>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{t= {  {"ln"2}  over  {0,"01325"} }  drarrow t= {  {0,"6931"}  over  {0,"01325"} }  drarrow t="52" "." "309"} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-208">што значи дека населението (при дадениот коерициен на растење) ќе се удвостручува приближно на секои 52 години.</para></example></section>
+  </content>
+</document>
