@@ -1,15 +1,16 @@
-<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="mk">
+<?xml version="1.0"?>
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="mk" authors="Liljana Stefanovska">
   <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
     <md:content-id>col11378</md:content-id>
-    <md:title>Математика 2</md:title>
+    <md:title>&#x41C;&#x430;&#x442;&#x435;&#x43C;&#x430;&#x442;&#x438;&#x43A;&#x430; 2</md:title>
     <md:language>mk</md:language>
     <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</md:license>
     <md:uuid>82bfd9ee-2850-4e30-a284-7c6932866361</md:uuid>
-<md:slug>matematika-2</md:slug>
-</metadata>
+    <md:slug>matematika-2</md:slug>
+  </metadata>
   <col:content>
     <col:subcollection>
-      <md:title>ВЕКТОРСКА АЛГЕБРА</md:title>
+      <md:title>&#x412;&#x415;&#x41A;&#x422;&#x41E;&#x420;&#x421;&#x41A;&#x410; &#x410;&#x41B;&#x413;&#x415;&#x411;&#x420;&#x410;</md:title>
       <col:content>
         <col:module document="m20066"/>
         <col:module document="m20082"/>
@@ -19,7 +20,7 @@
       </col:content>
     </col:subcollection>
     <col:subcollection>
-      <md:title>АНАЛИТИЧКА ГЕОМЕТРИЈА ВО ПРОСТОР</md:title>
+      <md:title>&#x410;&#x41D;&#x410;&#x41B;&#x418;&#x422;&#x418;&#x427;&#x41A;&#x410; &#x413;&#x415;&#x41E;&#x41C;&#x415;&#x422;&#x420;&#x418;&#x408;&#x410; &#x412;&#x41E; &#x41F;&#x420;&#x41E;&#x421;&#x422;&#x41E;&#x420;</md:title>
       <col:content>
         <col:module document="m20867"/>
         <col:module document="m20866"/>
@@ -27,7 +28,7 @@
       </col:content>
     </col:subcollection>
     <col:subcollection>
-      <md:title>ФУНКЦИИ ОД ПОВЕЌЕ ПРОМЕНЛИВИ</md:title>
+      <md:title>&#x424;&#x423;&#x41D;&#x41A;&#x426;&#x418;&#x418; &#x41E;&#x414; &#x41F;&#x41E;&#x412;&#x415;&#x40C;&#x415; &#x41F;&#x420;&#x41E;&#x41C;&#x415;&#x41D;&#x41B;&#x418;&#x412;&#x418;</md:title>
       <col:content>
         <col:module document="m21247"/>
         <col:module document="m21255"/>
@@ -36,7 +37,7 @@
       </col:content>
     </col:subcollection>
     <col:subcollection>
-      <md:title>ПАРЦИЈАЛНИ ИЗВОДИ</md:title>
+      <md:title>&#x41F;&#x410;&#x420;&#x426;&#x418;&#x408;&#x410;&#x41B;&#x41D;&#x418; &#x418;&#x417;&#x412;&#x41E;&#x414;&#x418;</md:title>
       <col:content>
         <col:module document="m21355"/>
         <col:module document="m21363"/>
@@ -47,7 +48,7 @@
       </col:content>
     </col:subcollection>
     <col:subcollection>
-      <md:title>ДИФЕРЕНЦИЈАЛНИ РАВНКИ</md:title>
+      <md:title>&#x414;&#x418;&#x424;&#x415;&#x420;&#x415;&#x41D;&#x426;&#x418;&#x408;&#x410;&#x41B;&#x41D;&#x418; &#x420;&#x410;&#x412;&#x41D;&#x41A;&#x418;</md:title>
       <col:content>
         <col:module document="m43366"/>
         <col:module document="m43437"/>
