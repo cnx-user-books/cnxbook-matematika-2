@@ -60,7 +60,7 @@
               <m:mrow>
                 <m:mtable>
                   <m:mtr>
-                    <m:mrow>
+                    <m:mtd>
                       <m:mrow>
                         <m:mrow>
                           <m:mi>y</m:mi>
@@ -84,10 +84,10 @@
                         </m:mrow>
                       </m:mrow>
                       <m:mrow/>
-                    </m:mrow>
+                    </m:mtd>
                   </m:mtr>
                   <m:mtr>
-                    <m:mrow>
+                    <m:mtd>
                       <m:msup>
                         <m:mi>y</m:mi>
                         <m:mi>'</m:mi>
@@ -112,7 +112,7 @@
                       </m:mrow>
                       <m:mtext>.</m:mtext>
                       <m:mrow/>
-                    </m:mrow>
+                    </m:mtd>
                   </m:mtr>
                 </m:mtable>
                 <m:mrow/>
@@ -392,7 +392,7 @@
               <m:mrow>
                 <m:mtable>
                   <m:mtr>
-                    <m:mrow>
+                    <m:mtd>
                       <m:mrow>
                         <m:mrow>
                           <m:msup>
@@ -404,10 +404,10 @@
                         </m:mrow>
                       </m:mrow>
                       <m:mrow/>
-                    </m:mrow>
+                    </m:mtd>
                   </m:mtr>
                   <m:mtr>
-                    <m:mrow>
+                    <m:mtd>
                       <m:mrow>
                         <m:mrow>
                           <m:msup>
@@ -425,7 +425,7 @@
                         </m:mrow>
                       </m:mrow>
                       <m:mrow/>
-                    </m:mrow>
+                    </m:mtd>
                   </m:mtr>
                 </m:mtable>
                 <m:mrow/>
@@ -514,7 +514,7 @@
               <m:mrow>
                 <m:mtable>
                   <m:mtr>
-                    <m:mrow>
+                    <m:mtd>
                       <m:mrow>
                         <m:mrow>
                           <m:msup>
@@ -526,10 +526,10 @@
                         </m:mrow>
                       </m:mrow>
                       <m:mrow/>
-                    </m:mrow>
+                    </m:mtd>
                   </m:mtr>
                   <m:mtr>
-                    <m:mrow>
+                    <m:mtd>
                       <m:mrow>
                         <m:mrow>
                           <m:msup>
@@ -547,7 +547,7 @@
                         </m:mrow>
                       </m:mrow>
                       <m:mrow/>
-                    </m:mrow>
+                    </m:mtd>
                   </m:mtr>
                 </m:mtable>
                 <m:mrow/>
@@ -885,7 +885,7 @@
               <m:mrow>
                 <m:mtable>
                   <m:mtr>
-                    <m:mrow>
+                    <m:mtd>
                       <m:mrow>
                         <m:mrow>
                           <m:msup>
@@ -897,10 +897,10 @@
                         </m:mrow>
                       </m:mrow>
                       <m:mrow/>
-                    </m:mrow>
+                    </m:mtd>
                   </m:mtr>
                   <m:mtr>
-                    <m:mrow>
+                    <m:mtd>
                       <m:mrow>
                         <m:mrow>
                           <m:msup>
@@ -918,7 +918,7 @@
                         </m:mrow>
                       </m:mrow>
                       <m:mrow/>
-                    </m:mrow>
+                    </m:mtd>
                   </m:mtr>
                 </m:mtable>
                 <m:mrow/>
@@ -1262,7 +1262,7 @@
             <m:annotation encoding="StarMath 5.0"> size 12{y=C rSub { size 8{1} }  Int { {  {1 - "cos"2x}  over  {2} } }  ital "dx" -  Int {"sin" rSup { size 8{2} } x"cos" ital "xdx"+C rSub { size 8{2} } } } {}</m:annotation>
           </m:semantics>
         </m:math>
-      </para><para id="eip-372">и по решавање на интегралите се добива општото решение</para><para id="eip-746"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mi>C</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mfrac><m:mi>x</m:mi><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">−</m:mo><m:mfrac><m:mrow><m:mtext>sin</m:mtext><m:mn>2x</m:mn></m:mrow><m:mn>4</m:mn></m:mfrac></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow><m:mtext>sin</m:mtext><m:mmultiscripts><m:mtext/><m:mprescripts/><m:none/><m:mrow><m:mn>3</m:mn></m:mrow></m:mmultiscripts><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:msub><m:mi>C</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=C rSub { size 8{1} }  \(  {  {x}  over  {2} }  -  {  {"sin"2x}  over  {4} }  \)  -  {  {1}  over  {3} } "sin""" lSup { size 8{3} } x+C rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math>.</para></example><para id="import-auto-id1170498110849">
+      </para><para id="eip-372">и по решавање на интегралите се добива општото решение</para><para id="eip-746"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mi>C</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mfrac><m:mi>x</m:mi><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">−</m:mo><m:mfrac><m:mrow><m:mtext>sin</m:mtext><m:mn>2x</m:mn></m:mrow><m:mn>4</m:mn></m:mfrac></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow><m:mtext>sin</m:mtext><m:mmultiscripts><m:mtext/><m:none/><m:none/><m:mprescripts/><m:none/><m:mrow><m:mn>3</m:mn></m:mrow></m:mmultiscripts><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:msub><m:mi>C</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=C rSub { size 8{1} }  \(  {  {x}  over  {2} }  -  {  {"sin"2x}  over  {4} }  \)  -  {  {1}  over  {3} } "sin""" lSup { size 8{3} } x+C rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math>.</para></example><para id="import-auto-id1170498110849">
         <emphasis effect="bold">3. Диференцијална равенка од обликот <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mi>f</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>y</m:mi><m:mi>,</m:mi><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { '' }=f \( y, { {y}} sup { ' } \) } {}</m:annotation></m:semantics></m:math>.</emphasis>
       </para>
       <para id="import-auto-id1170498548163">Во овој тип диференцијална равнка од втор ред не се појавува независната променлива <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>. За нејзино решавање се користи смената</para>
@@ -1277,7 +1277,7 @@
               <m:mrow>
                 <m:mtable>
                   <m:mtr>
-                    <m:mrow>
+                    <m:mtd>
                       <m:mrow>
                         <m:mrow>
                           <m:msup>
@@ -1289,10 +1289,10 @@
                         </m:mrow>
                       </m:mrow>
                       <m:mrow/>
-                    </m:mrow>
+                    </m:mtd>
                   </m:mtr>
                   <m:mtr>
-                    <m:mrow>
+                    <m:mtd>
                       <m:mrow>
                         <m:mrow>
                           <m:mrow>
@@ -1321,7 +1321,7 @@
                         </m:mrow>
                       </m:mrow>
                       <m:mrow/>
-                    </m:mrow>
+                    </m:mtd>
                   </m:mtr>
                 </m:mtable>
                 <m:mrow/>
@@ -1343,7 +1343,7 @@
               <m:mrow>
                 <m:mtable>
                   <m:mtr>
-                    <m:mrow>
+                    <m:mtd>
                       <m:mrow>
                         <m:mrow>
                           <m:msup>
@@ -1355,10 +1355,10 @@
                         </m:mrow>
                       </m:mrow>
                       <m:mrow/>
-                    </m:mrow>
+                    </m:mtd>
                   </m:mtr>
                   <m:mtr>
-                    <m:mrow>
+                    <m:mtd>
                       <m:mrow>
                         <m:mrow>
                           <m:mrow>
@@ -1387,7 +1387,7 @@
                         </m:mrow>
                       </m:mrow>
                       <m:mrow/>
-                    </m:mrow>
+                    </m:mtd>
                   </m:mtr>
                 </m:mtable>
                 <m:mrow/>
@@ -1850,7 +1850,7 @@
               <m:mrow>
                 <m:mtable>
                   <m:mtr>
-                    <m:mrow>
+                    <m:mtd>
                       <m:mrow>
                         <m:mrow>
                           <m:msup>
@@ -1862,10 +1862,10 @@
                         </m:mrow>
                       </m:mrow>
                       <m:mrow/>
-                    </m:mrow>
+                    </m:mtd>
                   </m:mtr>
                   <m:mtr>
-                    <m:mrow>
+                    <m:mtd>
                       <m:mrow>
                         <m:mrow>
                           <m:mrow>
@@ -1894,7 +1894,7 @@
                         </m:mrow>
                       </m:mrow>
                       <m:mrow/>
-                    </m:mrow>
+                    </m:mtd>
                   </m:mtr>
                 </m:mtable>
                 <m:mrow/>
